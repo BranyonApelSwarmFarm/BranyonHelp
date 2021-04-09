@@ -1,0 +1,31 @@
+# To launch RVIZ/RVIS
+rosron rviz rviz
+
+# To launch RQT
+rosron rqt_reconfigure rqt_reconfigure
+
+# To search for anything useful when stuck
+grep -r -e 'SOMETHING' ~/swarmbotCommon/
+
+# To list ROS nodes
+rosnode list -a
+
+# To configure terminal for ros connection to robot
+# The IP can be grabbed from windows with ipconfig and its the VPN one
+ros-access-client -f IP_OF_HOST_COMPUTER_NOT_VM ROBOT NAME
+ros-access-client -f 172.22.111.213 lima
+
+# To access new robots via SSH
+sshbot lima -u branyon.apel
+
+# Bad way to access robot via SSH (requires changing v- etc)
+ssh branyon.apel@ROBOT.swarmfarm.com
+
+# To search a file or log
+cat FILE | grep 'SEARCH'
+
+# To grab file or log from robot
+rsync --progress 'branyon.apel@ROBOT.swarmfarm.com:/var/log/swarmfarm/swarmbot/can_logs/FILENAME' .
+
+# To create new file
+touch FILE
