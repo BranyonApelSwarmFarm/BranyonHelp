@@ -29,3 +29,11 @@ rsync --progress 'branyon.apel@ROBOT.swarmfarm.com:/var/log/swarmfarm/swarmbot/c
 
 # To create new file
 touch FILE
+
+# To RTX you need to be in the virtual machine first
+rtx TOPIC TO SEARCH
+rtx nmea
+
+# To open the firewall up for internet
+sudo firewall -e
+
