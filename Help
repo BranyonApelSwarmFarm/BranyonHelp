@@ -1,8 +1,11 @@
 # To launch RVIZ/RVIS
 rosron rviz rviz
 
-# To launch RQT
+# To launch RQT reconfigure to change parameters
 rosron rqt_reconfigure rqt_reconfigure
+
+# To launch RQT graph to plot data
+rosrun rqt_graph rqt_graph
 
 # To search for anything useful when stuck
 grep -r -e 'SOMETHING' ~/swarmbotCommon/
