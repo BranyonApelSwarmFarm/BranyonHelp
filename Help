@@ -35,5 +35,27 @@ rtx TOPIC TO SEARCH
 rtx nmea
 
 # To open the firewall up for internet
-sudo firewall -e
+sudo firewall-access -e
+
+# To add new files to git repo (literally just so git can track them)
+git add .
+
+# To make changes you "commit" the changes you have made
+git commit -m "A MESSAGE DESCRIBING THE CHANGES"
+
+# To download repo initially
+git clone REPO address
+
+# To update the repo to repo current
+git pull
+
+# To save changes to remote repo
+git push
+
+# To change branch
+git checkout BRANCH TO CHANGE TO
+
+# To see if anything has changed
+git status
+
 
