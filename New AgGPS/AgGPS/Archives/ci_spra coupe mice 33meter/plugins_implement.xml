@@ -1,0 +1,73 @@
+<configuration name="plugins_implement">
+    <item name="Kato">
+        <item name="active" type="boolean">false</item>
+    </item>
+    <item name="Implement">
+        <item name="active" type="boolean">false</item>
+    </item>
+    <item name="Implement Monitoring">
+        <item name="active" type="boolean">false</item>
+        <item name="gps" />
+    </item>
+    <item name="TrueGuide">
+        <item name="active" type="boolean">false</item>
+        <item name="gps" />
+    </item>
+    <item name="TrueTracker">
+        <item name="active" type="boolean">false</item>
+        <item name="gps" />
+    </item>
+    <item name="FieldLevel II">
+        <item name="active" type="boolean">false</item>
+        <item name="gps" />
+    </item>
+    <item name="FieldLevel II Tandem/Dual">
+        <item name="active" type="boolean">false</item>
+        <item name="gps" />
+    </item>
+    <item name="Field-IQ">
+        <item name="active" type="boolean">true</item>
+        <item name="config_version" type="integer">10001</item>
+        <item name="implement_lift_sensors" />
+        <item name="channels" />
+        <item name="implement_lift" type="boolean">false</item>
+        <item name="implement_lift_calibrated" type="boolean">false</item>
+        <item name="implement_polarity_reversed" type="boolean">false</item>
+        <item name="implement_number_of_switches" type="integer">0</item>
+        <item name="implement_minimum_changed_switches" type="integer">0</item>
+        <item name="auxiliary_remote_master_switch_enabled" type="boolean">false</item>
+        <item name="use_material_coefficients" type="boolean">false</item>
+    </item>
+    <item name="EZ-Boom">
+        <item name="active" type="boolean">false</item>
+    </item>
+    <item name="Tru Application Control">
+        <item name="active" type="boolean">false</item>
+    </item>
+    <item name="Serial Rate Control">
+        <item name="active" type="boolean">false</item>
+    </item>
+    <item name="GreenSeeker">
+        <item name="active" type="boolean">false</item>
+    </item>
+    <item name="Yield Monitoring">
+        <item name="active" type="boolean">false</item>
+    </item>
+    <item name="Remote Output">
+        <item name="active" type="boolean">false</item>
+    </item>
+    <item name="Serial Data Input">
+        <item name="active" type="boolean">false</item>
+    </item>
+    <item name="Productivity Monitoring">
+        <item name="active" type="boolean">false</item>
+    </item>
+    <item name="WM-Drain">
+        <item name="active" type="boolean">false</item>
+        <item name="gps" />
+        <item name="boot_length" type="float">19.6850395203</item>
+    </item>
+    <item name="Row Guidance">
+        <item name="active" type="boolean">false</item>
+    </item>
+</configuration>

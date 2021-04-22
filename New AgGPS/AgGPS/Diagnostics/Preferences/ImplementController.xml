@@ -1,0 +1,5 @@
+<configuration name="ImplementController">
+    <item name="Vehicle Model" type="string">Not Available</item>
+    <item name="Steering Aggressiveness" type="float">0.5000000000</item>
+    <item name="Two Stage Engage" type="boolean">false</item>
+</configuration>

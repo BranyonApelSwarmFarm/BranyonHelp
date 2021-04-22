@@ -1,0 +1,2 @@
+umount: /dev/sda1: not mounted
+umount: /dev/null: not mounted

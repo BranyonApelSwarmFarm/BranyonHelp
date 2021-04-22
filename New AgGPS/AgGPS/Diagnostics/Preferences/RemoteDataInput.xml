@@ -1,0 +1,5 @@
+<configuration name="RemoteDataInput">
+    <item name="Remote Input Prefix" type="string"></item>
+    <item name="Remote Input Suffix" type="string">\0D\0A</item>
+    <item name="Remote Input Interval" type="integer">60</item>
+</configuration>

@@ -1,0 +1,12 @@
+<field>
+    <access_paths>
+        <width>0.000000</width>
+        <offset>0</offset>
+        <period>0</period>
+        <ABOrdinal>0</ABOrdinal>
+        <GuideTo>0</GuideTo>
+    </access_paths>
+    <gps_rtk_setting>
+        <RTKNetId>10</RTKNetId>
+    </gps_rtk_setting>
+</field>

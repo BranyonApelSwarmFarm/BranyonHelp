@@ -1,0 +1,25 @@
+<configuration name="EngineeringPreferences">
+    <item name="TrackLoggingDistance" type="float">50.0000000000</item>
+    <item name="TrackLoggingTime" type="float">5.0000000000</item>
+    <item name="PlotSwathPoints" type="boolean">false</item>
+    <item name="SocketSerial0Address" type="string">127.0.0.1:2020</item>
+    <item name="SocketSerial1Address" type="string">127.0.0.1:2021</item>
+    <item name="SnapNumber" type="integer">5</item>
+    <item name="CanBusATermination" type="boolean">false</item>
+    <item name="CanBusBTermination" type="boolean">false</item>
+    <item name="CanBusDTermination" type="boolean">false</item>
+    <item name="CanBusSlopeControl" type="integer">0</item>
+    <item name="BatteryCheckEnabled" type="boolean">true</item>
+    <item name="Serial0Logging" type="boolean">false</item>
+    <item name="Serial1Logging" type="boolean">false</item>
+    <item name="Serial2Logging" type="boolean">false</item>
+    <item name="Serial3Logging" type="boolean">false</item>
+    <item name="CanBusALogging" type="boolean">false</item>
+    <item name="CanBusBLogging" type="boolean">false</item>
+    <item name="LastLoadNumber" type="integer">0</item>
+    <item name="LastCalibrationNumber" type="integer">0</item>
+    <item name="AutopilotGPSLog" type="boolean">false</item>
+    <item name="EZSteerGPSLog" type="boolean">false</item>
+    <item name="ManualGPSLog" type="boolean">false</item>
+    <item name="FieldLevelGPSLog" type="boolean">false</item>
+</configuration>

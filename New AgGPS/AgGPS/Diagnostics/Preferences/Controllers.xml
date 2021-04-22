@@ -1,0 +1,3 @@
+<configuration name="Controllers">
+    <item name="AuxController" type="string">None</item>
+</configuration>

@@ -1,0 +1,837 @@
+Jan  1 00:00:04 Castor syslog.info syslogd started: BusyBox v1.1.3
+Jan  1 00:00:04 Castor user.notice kernel: klogd started: BusyBox v1.1.3 (2012.01.18-02:59+0000)
+Jan  1 00:00:04 Castor user.info kernel: [    0.000000] Using lite5200 machine description
+Jan  1 00:00:04 Castor user.notice kernel: [    0.000000] Linux version 2.6.24-CASTOR_2_0_0 (cboardm@gordon) (gcc version 3.4.3) #1 Tue Jan 17 18:58:05 PST 2012
+Jan  1 00:00:04 Castor user.debug kernel: [    0.000000] Entering add_active_range(0, 0, 30517) 0 entries of 256 used
+Jan  1 00:00:04 Castor user.debug kernel: [    0.000000] Top of RAM: 0x7735940, Total RAM: 0x7735940
+Jan  1 00:00:04 Castor user.debug kernel: [    0.000000] Memory hole size: 0MB
+Jan  1 00:00:04 Castor user.warn kernel: [    0.000000] Zone PFN ranges:
+Jan  1 00:00:04 Castor user.warn kernel: [    0.000000]   DMA             0 ->    30517
+Jan  1 00:00:04 Castor user.warn kernel: [    0.000000]   Normal      30517 ->    30517
+Jan  1 00:00:04 Castor user.warn kernel: [    0.000000] Movable zone start PFN for each node
+Jan  1 00:00:04 Castor user.warn kernel: [    0.000000] early_node_map[1] active PFN ranges
+Jan  1 00:00:04 Castor user.warn kernel: [    0.000000]     0:        0 ->    30517
+Jan  1 00:00:04 Castor user.debug kernel: [    0.000000] On node 0 totalpages: 30517
+Jan  1 00:00:04 Castor user.debug kernel: [    0.000000]   DMA zone: 238 pages used for memmap
+Jan  1 00:00:04 Castor user.debug kernel: [    0.000000]   DMA zone: 0 pages reserved
+Jan  1 00:00:04 Castor user.debug kernel: [    0.000000]   DMA zone: 30279 pages, LIFO batch:7
+Jan  1 00:00:04 Castor user.debug kernel: [    0.000000]   Normal zone: 0 pages used for memmap
+Jan  1 00:00:04 Castor user.debug kernel: [    0.000000]   Movable zone: 0 pages used for memmap
+Jan  1 00:00:04 Castor user.warn kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 30279
+Jan  1 00:00:04 Castor user.notice kernel: [    0.000000] Kernel command line: root=/dev/sda3 rw ip=10.1.148.250:10.1.148.149:10.1.148.1:255.255.254.0:castor:eth1:on panic= console= filesystem=pri batt=fail post= monVer=U-Boot-castor:1.3.1.12
+Jan  1 00:00:04 Castor user.info kernel: [    0.000000] MPC52xx PIC is up and running!
+Jan  1 00:00:04 Castor user.warn kernel: [    0.000000] PID hash table entries: 512 (order: 9, 2048 bytes)
+Jan  1 00:00:04 Castor user.debug kernel: [    0.000000] time_init: decrementer frequency = 33.000000 MHz
+Jan  1 00:00:04 Castor user.debug kernel: [    0.000000] time_init: processor frequency   = 396.000000 MHz
+Jan  1 00:00:04 Castor user.info kernel: [    0.000014] clocksource: timebase mult[79364d9] shift[22] registered
+Jan  1 00:00:04 Castor user.debug kernel: [    0.000037] clockevent: decrementer mult[872] shift[16] cpu[0]
+Jan  1 00:00:04 Castor user.warn kernel: [    0.000196] Console: colour dummy device 80x25
+Jan  1 00:00:04 Castor user.info kernel: [    0.000854] Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jan  1 00:00:04 Castor user.info kernel: [    0.001780] Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Jan  1 00:00:04 Castor user.info kernel: [    0.016747] Memory: 116792k/122068k available (3616k kernel code, 5120k reserved, 144k data, 199k bss, 596k init)
+Jan  1 00:00:04 Castor user.debug kernel: [    0.017356] Calibrating delay loop... 66.80 BogoMIPS (lpj=110080)
+Jan  1 00:00:04 Castor user.warn kernel: [    0.074046] Mount-cache hash table entries: 512
+Jan  1 00:00:04 Castor user.info kernel: [    0.077746] net_namespace: 64 bytes
+Jan  1 00:00:04 Castor user.info kernel: [    0.079707] NET: Registered protocol family 16
+Jan  1 00:00:04 Castor user.info kernel: [    0.102019] PCI: Probing PCI hardware
+Jan  1 00:00:04 Castor user.info kernel: [    0.104596] DMA: MPC52xx BestComm driver
+Jan  1 00:00:04 Castor user.info kernel: [    0.104807] DMA: MPC52xx BestComm engine @f0001200 ok !
+Jan  1 00:00:04 Castor user.notice kernel: [    0.120756] SCSI subsystem initialized
+Jan  1 00:00:04 Castor user.debug kernel: [    0.121169] libata version 3.00 loaded.
+Jan  1 00:00:04 Castor user.info kernel: [    0.123458] usbcore: registered new interface driver usbfs
+Jan  1 00:00:04 Castor user.info kernel: [    0.124020] usbcore: registered new interface driver hub
+Jan  1 00:00:04 Castor user.info kernel: [    0.124859] usbcore: registered new device driver usb
+Jan  1 00:00:04 Castor user.info kernel: [    0.151350] Time: timebase clocksource has been installed.
+Jan  1 00:00:04 Castor user.info kernel: [    0.154166] NET: Registered protocol family 2
+Jan  1 00:00:04 Castor user.info kernel: [    0.185090] IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jan  1 00:00:04 Castor user.info kernel: [    0.186490] TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Jan  1 00:00:04 Castor user.info kernel: [    0.186805] TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Jan  1 00:00:04 Castor user.info kernel: [    0.186982] TCP: Hash tables configured (established 4096 bind 4096)
+Jan  1 00:00:04 Castor user.info kernel: [    0.187002] TCP reno registered
+Jan  1 00:00:04 Castor user.info kernel: [    0.198503] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Jan  1 00:00:04 Castor user.warn kernel: [    0.199348] fuse init (API version 7.9)
+Jan  1 00:00:04 Castor user.info kernel: [    0.201191] io scheduler noop registered
+Jan  1 00:00:04 Castor user.info kernel: [    0.201217] io scheduler anticipatory registered (default)
+Jan  1 00:00:04 Castor user.info kernel: [    0.201232] io scheduler deadline registered
+Jan  1 00:00:04 Castor user.info kernel: [    0.201342] io scheduler cfq registered
+Jan  1 00:00:04 Castor user.info kernel: [    0.709885] Serial: MPC52xx PSC UART driver
+Jan  1 00:00:04 Castor user.info kernel: [    0.710672] f0002000.serial: ttyPSC0 at MMIO 0xf0002000 (irq = 129) is a MPC52xx PSC
+Jan  1 00:00:04 Castor user.info kernel: [    0.711902] f0002400.serial: ttyPSC1 at MMIO 0xf0002400 (irq = 131) is a MPC52xx PSC
+Jan  1 00:00:04 Castor user.info kernel: [    0.713017] f0002c00.serial: ttyPSC2 at MMIO 0xf0002c00 (irq = 132) is a MPC52xx PSC
+Jan  1 00:00:04 Castor user.warn kernel: [    0.722664] RAMDISK driver initialized: 16 RAM disks of 4096K size 1024 blocksize
+Jan  1 00:00:04 Castor user.info kernel: [    0.726152] mpc52xx MII bus: probed
+Jan  1 00:00:04 Castor user.info kernel: [    0.729414] usbcore: registered new interface driver asix
+Jan  1 00:00:04 Castor user.info kernel: [    0.729979] usbcore: registered new interface driver zd1201
+Jan  1 00:00:04 Castor user.info kernel: [    0.730466] usbcore: registered new interface driver rtl8187
+Jan  1 00:00:04 Castor user.info kernel: >[    0.730963] usbcore: registered new interface driver rt2500usb
+Jan  1 00:00:04 Castor user.info kernel: [    0.731589] usbcore: registered new interface driver rt73usb
+Jan  1 00:00:04 Castor user.info kernel: [    0.732102] usbcore: registered new interface driver prism54usb
+Jan  1 00:00:04 Castor user.warn kernel: [    0.732595] Driver 'sd' needs updating - please use bus_type methods
+Jan  1 00:00:04 Castor user.info kernel: [    0.733067] ata: MPC52xx IDE/ATA libata driver
+Jan  1 00:00:04 Castor user.info kernel: [    0.734321] scsi0 : mpc52xx_ata
+Jan  1 00:00:04 Castor user.info kernel: [    0.735076] ata1: PATA max PIO4 ata_regs 0xf0003a00 irq 135
+Jan  1 00:00:04 Castor user.info kernel: [    0.895409] ata1.00: ATA-5: SFCF4096H4BK2SA-I-QT-553-SMA, 100511, max UDMA/66
+Jan  1 00:00:04 Castor user.info kernel: [    0.895438] ata1.00: 8027712 sectors, multi 0: LBA 
+Jan  1 00:00:04 Castor user.info kernel: [    0.908633] ata1.00: configured for PIO4
+Jan  1 00:00:04 Castor user.notice kernel: [    0.909376] scsi 0:0:0:0: Direct-Access     ATA      SFCF4096H4BK2SA- 1005 PQ: 0 ANSI: 5
+Jan  1 00:00:04 Castor user.notice kernel: [    0.910848] sd 0:0:0:0: [sda] 8027712 512-byte hardware sectors (4110 MB)
+Jan  1 00:00:04 Castor user.notice kernel: [    0.911042] sd 0:0:0:0: [sda] Write Protect is off
+Jan  1 00:00:04 Castor user.debug kernel: [    0.911073] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jan  1 00:00:04 Castor user.notice kernel: [    0.911403] sd 0:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+Jan  1 00:00:04 Castor user.notice kernel: [    0.912013] sd 0:0:0:0: [sda] 8027712 512-byte hardware sectors (4110 MB)
+Jan  1 00:00:04 Castor user.notice kernel: [    0.912207] sd 0:0:0:0: [sda] Write Protect is off
+Jan  1 00:00:04 Castor user.debug kernel: [    0.912237] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jan  1 00:00:04 Castor user.notice kernel: [    0.912568] sd 0:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+Jan  1 00:00:04 Castor user.info kernel: [    0.912605]  sda: sda1 sda2 sda3 sda4
+Jan  1 00:00:04 Castor user.notice kernel: [    0.916425] sd 0:0:0:0: [sda] Attached SCSI disk
+Jan  1 00:00:04 Castor user.debug kernel: [    0.917109] ohci_hcd: 2006 August 04 USB 1.1 'Open' Host Controller (OHCI) Driver
+Jan  1 00:00:04 Castor user.info kernel: [    0.918429] ppc-of-ohci f0001000.usb: OF OHCI
+Jan  1 00:00:04 Castor user.info kernel: [    0.919057] ppc-of-ohci f0001000.usb: new USB bus registered, assigned bus number 1
+Jan  1 00:00:04 Castor user.info kernel: [    0.919137] ppc-of-ohci f0001000.usb: irq 134, io mem 0xf0001000
+Jan  1 00:00:04 Castor user.info kernel: [    0.977429] usb usb1: configuration #1 chosen from 1 choice
+Jan  1 00:00:04 Castor user.info kernel: [    0.978035] hub 1-0:1.0: USB hub found
+Jan  1 00:00:04 Castor user.info kernel: [    0.978202] hub 1-0:1.0: 2 ports detected
+Jan  1 00:00:04 Castor user.info kernel: [    1.321530] usb 1-1: new full speed USB device using ppc-of-ohci and address 2
+Jan  1 00:00:04 Castor user.info kernel: [    1.471978] usb 1-1: configuration #1 chosen from 1 choice
+Jan  1 00:00:04 Castor user.info kernel: [    1.474624] usbcore: registered new interface driver cdc_acm
+Jan  1 00:00:04 Castor user.info kernel: [    1.474665] drivers/usb/class/cdc-acm.c: v0.25:USB Abstract Control Model driver for USB modems and ISDN adapters
+Jan  1 00:00:04 Castor user.info kernel: [    1.474690] Initializing USB Mass Storage driver...
+Jan  1 00:00:04 Castor user.info kernel: [    1.475736] scsi1 : SCSI emulation for USB Mass Storage devices
+Jan  1 00:00:04 Castor user.info kernel: [    1.476649] usbcore: registered new interface driver usb-storage
+Jan  1 00:00:04 Castor user.info kernel: [    1.476688] USB Mass Storage support registered.
+Jan  1 00:00:04 Castor user.debug kernel: [    1.476851] usb-storage: device found at 2
+Jan  1 00:00:04 Castor user.debug kernel: [    1.476871] usb-storage: waiting for device to settle before scanning
+Jan  1 00:00:04 Castor user.info kernel: [    1.477317] usbcore: registered new interface driver libusual
+Jan  1 00:00:04 Castor user.info kernel: [    1.477828] mice: PS/2 mouse device common for all mice
+Jan  1 00:00:04 Castor user.info kernel: [    1.478478] i2c /dev entries driver
+Jan  1 00:00:04 Castor user.info kernel: [    1.482692] usbcore: registered new interface driver usbhid
+Jan  1 00:00:04 Castor user.info kernel: [    1.482730] drivers/hid/usbhid/hid-core.c: v2.6:USB HID core driver
+Jan  1 00:00:04 Castor user.info kernel: [    1.482896] TCP cubic registered
+Jan  1 00:00:04 Castor user.info kernel: [    1.482978] NET: Registered protocol family 1
+Jan  1 00:00:04 Castor user.info kernel: [    1.483061] NET: Registered protocol family 17
+Jan  1 00:00:04 Castor user.info kernel: [    1.483647] RPC: Registered udp transport module.
+Jan  1 00:00:04 Castor user.info kernel: [    1.483673] RPC: Registered tcp transport module.
+Jan  1 00:00:04 Castor user.err kernel: [    1.985321] IP-Config: Device `eth1' not found.
+Jan  1 00:00:04 Castor user.warn kernel: [    1.991091] EXT2-fs warning: mounting unchecked fs, running e2fsck is recommended
+Jan  1 00:00:04 Castor user.warn kernel: [    1.991199] VFS: Mounted root (ext2 filesystem).
+Jan  1 00:00:04 Castor user.warn kernel: [    1.991417] Freeing unused kernel memory: 596k init
+Jan  1 00:00:04 Castor user.warn kernel: [    3.133769] pwr_mgr_init 1.6
+Jan  1 00:00:04 Castor user.warn kernel: [    3.133793] pwr_mgr_init: mapping gpio registers
+Jan  1 00:00:04 Castor user.warn kernel: [    3.133885] pwr_register_driver
+Jan  1 00:00:04 Castor user.warn kernel: [    3.225241] pwr_mgr_probe 1.6
+Jan  1 00:00:04 Castor user.warn kernel: [    3.225267] pwr_mgr_gpio_setup: Enabling GPIO
+Jan  1 00:00:04 Castor user.warn kernel: [    3.225282] pwr_mgr_gpio_setup: simple_gpioe = 0x00003050 => 0x00003050
+Jan  1 00:00:04 Castor user.warn kernel: [    3.225301] pwr_mgr_gpio_setup: simple_ddr = 0x00002050 => 0x00002050
+Jan  1 00:00:04 Castor user.warn kernel: [    3.225320] pwr_mgr_gpio_setup: sint_gpioe = 0x03 => 0x07
+Jan  1 00:00:04 Castor user.warn kernel: [    3.225337] pwr_mgr_gpio_setup: sint_ddr = 0x03 => 0x03
+Jan  1 00:00:04 Castor user.warn kernel: [    3.280980] pwr_mgr_open
+Jan  1 00:00:04 Castor user.warn kernel: [    3.793042] EXT2-fs warning (device sda4): ext2_fill_super: mounting ext3 filesystem as ext2
+Jan  1 00:00:04 Castor user.warn kernel: unchecked fs, running e2fsck is recommended
+Jan  1 00:00:06 Castor user.notice kernel: [    6.481703] scsi 1:0:0:0: Direct-Access     SanDisk  Cruzer Glide     1.27 PQ: 0 ANSI: 6
+Jan  1 00:00:06 Castor user.notice kernel: [    6.564699] sd 1:0:0:0: [sdb] 30529536 512-byte hardware sectors (15631 MB)
+Jan  1 00:00:06 Castor user.notice kernel: [    6.574674] sd 1:0:0:0: [sdb] Write Protect is off
+Jan  1 00:00:06 Castor user.debug kernel: [    6.574719] sd 1:0:0:0: [sdb] Mode Sense: 43 00 00 00
+Jan  1 00:00:06 Castor user.err kernel: [    6.574735] sd 1:0:0:0: [sdb] Assuming drive cache: write through
+Jan  1 00:00:06 Castor user.notice kernel: [    6.600690] sd 1:0:0:0: [sdb] 30529536 512-byte hardware sectors (15631 MB)
+Jan  1 00:00:06 Castor user.notice kernel: [    6.610684] sd 1:0:0:0: [sdb] Write Protect is off
+Jan  1 00:00:06 Castor user.debug kernel: [    6.610730] sd 1:0:0:0: [sdb] Mode Sense: 43 00 00 00
+Jan  1 00:00:06 Castor user.err kernel: [    6.610746] sd 1:0:0:0: [sdb] Assuming drive cache: write through
+Jan  1 00:00:06 Castor user.info kernel:  sdb1
+Jan  1 00:00:06 Castor user.notice kernel: [    6.685567] sd 1:0:0:0: [sdb] Attached SCSI removable disk
+Jan  1 00:00:06 Castor user.debug kernel: [    6.714766] usb-storage: device scan complete
+Jan  1 00:00:06 Castor user.warn kernel: [    6.952379] mpc5200_spi_init
+Jan  1 00:00:06 Castor user.warn kernel: [    6.975677] mpc5200_spi_probe port->speed_hz=0
+Jan  1 00:00:06 Castor user.warn kernel: [    6.975716] mpc5200_spi_probe port->irq=0
+Jan  1 00:00:07 Castor user.debug kernel: [    7.071616] mpc5200-spi f0000f00.spi: registered master spi0
+Jan  1 00:00:07 Castor user.warn kernel: [    7.072727] mpc5200_spi_setup:spi->bits_per_word=0
+Jan  1 00:00:07 Castor user.warn kernel: [    7.072772] mpc5200_spi_setupxfer: bpw=8, 8  hz=20000, 20000
+Jan  1 00:00:07 Castor user.warn kernel: [    7.072787] ipb_freq 132000000
+Jan  1 00:00:07 Castor user.warn kernel: [    7.072801] mpc5200_spi_setupxfer speed wanted: 20000 speed: 32226
+Jan  1 00:00:07 Castor user.debug kernel: [    7.112182] mpc5200-spi f0000f00.spi: registered child spi0.0
+Jan  1 00:00:07 Castor user.warn kernel: [    7.112237] mpc5200_spi_setup:spi->bits_per_word=0
+Jan  1 00:00:07 Castor user.warn kernel: [    7.112254] mpc5200_spi_setupxfer: bpw=8, 8  hz=20000, 20000
+Jan  1 00:00:07 Castor user.warn kernel: [    7.112269] ipb_freq 132000000
+Jan  1 00:00:07 Castor user.warn kernel: [    7.112283] mpc5200_spi_setupxfer speed wanted: 20000 speed: 32226
+Jan  1 00:00:07 Castor user.debug kernel: [    7.155646] mpc5200-spi f0000f00.spi: registered child spi0.1
+Jan  1 00:00:07 Castor user.info kernel: [    7.492536] CAN netdevice library
+Jan  1 00:00:07 Castor user.notice scsi.agent[872]: bogus sysfs DEVPATH=/devices/f0000000.soc5200/f0001000.usb/usb1/1-1/1-1:1.0/host1/target1:0:0/1:0:0:0
+Jan  1 00:00:07 Castor user.info kernel: [    7.993554] mpc52xx-mscan mpc52xx-mscan.0: probe for port 0xC803C900 done (irq=145)
+Jan  1 00:00:08 Castor user.info kernel: [    8.067842] mpc52xx-mscan mpc52xx-mscan.1: probe for port 0xC803E980 done (irq=146)
+Jan  1 00:00:08 Castor authpriv.warn dropbear[972]: Failed reading '/etc/dropbear/dropbear_dss_host_key', disabling DSS
+Jan  1 00:00:08 Castor authpriv.info dropbear[972]: Running in background
+Jan  1 00:00:09 Castor user.info kernel: [    9.134991] net eth0: attached phy 1 to driver Generic PHY
+Jan  1 00:00:09 Castor user.crit kernel: [    9.272671] SocketUart Socket UART driver
+Jan  1 00:00:09 Castor user.info kernel: [    9.272765] SocketUart: initializing socketUart0
+Jan  1 00:00:09 Castor user.info kernel: [    9.272822] socketUart0 at MMIO 0x1 (irq = 0) is a Socket Uart
+Jan  1 00:00:09 Castor user.info kernel: [    9.289069] SocketUart: initializing socketUart1
+Jan  1 00:00:09 Castor user.info kernel: [    9.289152] socketUart1 at MMIO 0x1 (irq = 0) is a Socket Uart
+Jan  1 00:00:09 Castor user.info kernel: [    9.299948] SocketUart: initializing socketUart2
+Jan  1 00:00:09 Castor user.info kernel: [    9.300030] socketUart2 at MMIO 0x1 (irq = 0) is a Socket Uart
+Jan  1 00:00:09 Castor user.info kernel: [    9.315735] SocketUart: initializing socketUart3
+Jan  1 00:00:09 Castor user.info kernel: [    9.315818] socketUart3 at MMIO 0x1 (irq = 0) is a Socket Uart
+Jan  1 00:00:09 Castor user.info kernel: [    9.329071] SocketUart: initializing socketUart4
+Jan  1 00:00:09 Castor user.info kernel: [    9.329163] socketUart4 at MMIO 0x1 (irq = 0) is a Socket Uart
+Jan  1 00:00:09 Castor user.info kernel: [    9.349256] SocketUart: initializing socketUart5
+Jan  1 00:00:09 Castor user.info kernel: [    9.349338] socketUart5 at MMIO 0x1 (irq = 0) is a Socket Uart
+Jan  1 00:00:09 Castor user.info kernel: [    9.372399] SocketUart: initializing socketUart6
+Jan  1 00:00:09 Castor user.info kernel: [    9.372484] socketUart6 at MMIO 0x1 (irq = 0) is a Socket Uart
+Jan  1 00:00:09 Castor user.info kernel: [    9.411681] SocketUart: initializing socketUart7
+Jan  1 00:00:09 Castor user.info kernel: [    9.411767] socketUart7 at MMIO 0x1 (irq = 0) is a Socket Uart
+Jan  1 00:00:09 Castor user.info kernel: [    9.445745] SocketUart: initializing socketUart8
+Jan  1 00:00:09 Castor user.info kernel: [    9.445828] socketUart8 at MMIO 0x1 (irq = 0) is a Socket Uart
+Jan  1 00:00:09 Castor user.info kernel: [    9.480996] SocketUart: initializing socketUart9
+Jan  1 00:00:09 Castor user.info kernel: [    9.481083] socketUart9 at MMIO 0x1 (irq = 0) is a Socket Uart
+Jan  1 00:00:10 Castor user.info kernel: [   10.650768] can: controller area network core (rev 20071116 abi 8)
+Jan  1 00:00:10 Castor user.info kernel: [   10.651961] NET: Registered protocol family 29
+Jan  1 00:00:10 Castor user.info kernel: [   10.753813] can: raw protocol (rev 20071116)
+Jan  1 00:00:10 Castor user.info kernel: [   10.862791] can: broadcast manager protocol (rev 20080415)
+Jan  1 00:00:11 Castor user.warn kernel: [   11.159590] claim IRQ: index: 2; value: 67
+Jan  1 00:00:11 Castor user.info kernel: [   11.182627] input: Castor TouchScreen as /devices/f0000000.soc5200/f0000f00.spi/spi0.1/input/input0
+Jan  1 00:00:11 Castor user.debug kernel: [   11.269260] evbug.c: Connected device: "Castor TouchScreen", castor/input0
+Jan  1 00:00:11 Castor user.debug kernel: [   11.289894] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Jan  1 00:00:11 Castor user.info kernel: [   11.616171] bsl_init: Setting mux for interboard uart
+Jan  1 00:00:12 Castor user.info kernel: [   12.132746] PHY: f0003000:01 - Link is Up - 100/Full
+Jan  1 00:00:13 Castor user.warn kernel: [   13.993655] EXT2-fs warning: mounting unchecked fs, running e2fsck is recommended
+Jan  1 00:00:15 Castor user.warn kernel: [   15.633813] socket_uart_startup:  
+Jan  1 00:00:15 Castor user.warn kernel: [   15.633827] port=0xC80903EC
+Jan  1 00:00:15 Castor user.warn kernel: [   15.633833] pTTY=0xC7354000
+Jan  1 00:00:15 Castor user.crit kernel: [   15.633877] SocktUart socket_uart_set_termios
+Jan  1 00:00:15 Castor user.crit kernel: [   15.634148] SocktUart socket_uart_set_termios
+Apr 13 21:33:33 Castor user.crit kernel: [   15.646505] SocktUart socket_uart_shutdown
+Apr 13 21:33:33 Castor user.info kernel: [   15.886827] PPP generic driver version 2.4.2
+Apr 13 21:33:33 Castor user.info kernel: [   16.533417] ip_tables: (C) 2000-2006 Netfilter Core Team
+Apr 13 21:33:34 Castor user.warn kernel: [   17.257307] nf_conntrack version 0.5.0 (2048 buckets, 8192 max)
+Apr 13 21:33:37 Castor user.debug kernel: [   20.168842] usb 1-1: usbfs: USBDEVFS_CONTROL failed cmd lsusb rqt 128 rq 6 len 4 ret -110
+Apr 13 21:33:41 Castor user.warn kernel: [   23.935386] rtusb init --->
+Apr 13 21:33:41 Castor user.info kernel: [   23.964436] usbcore: registered new interface driver rt2870
+Apr 13 21:33:42 Castor user.warn kernel: [   25.606855] **** + up
+Apr 13 21:33:42 Castor user.warn kernel: [   25.606888] **** - up
+Apr 13 21:33:43 Castor user.warn kernel: [   25.810375] **** + up
+Apr 13 21:33:43 Castor user.warn kernel: [   25.810408] **** - up
+Apr 13 21:33:43 Castor user.notice logger: Starting Puma
+Apr 13 21:33:55 Castor user.warn kernel: [   37.733050] socket_uart_startup:  
+Apr 13 21:33:55 Castor user.warn kernel: [   37.733064] port=0xC80903EC
+Apr 13 21:33:55 Castor user.warn kernel: [   37.733070] pTTY=0xC73E4C00
+Apr 13 21:33:55 Castor user.crit kernel: [   37.733113] SocktUart socket_uart_set_termios
+Apr 13 21:33:55 Castor user.crit kernel: [   37.748032] SocktUart socket_uart_shutdown
+Apr 13 21:33:55 Castor user.warn kernel: [   37.769977] socket_uart_startup:  
+Apr 13 21:33:55 Castor user.warn kernel: [   37.769992] port=0xC809021C
+Apr 13 21:33:55 Castor user.warn kernel: [   37.769998] pTTY=0xC7312C00
+Apr 13 21:33:55 Castor user.crit kernel: [   37.770041] SocktUart socket_uart_set_termios
+Apr 13 21:33:55 Castor user.warn kernel: [   37.776115] socket_uart_startup:  
+Apr 13 21:33:55 Castor user.warn kernel: [   37.776129] port=0xC8090304
+Apr 13 21:33:55 Castor user.warn kernel: [   37.776135] pTTY=0xC72DB000
+Apr 13 21:33:55 Castor user.crit kernel: [   37.776179] SocktUart socket_uart_set_termios
+Apr 13 21:33:55 Castor user.warn kernel: [   37.857844] dump calibration matrix
+Apr 13 21:33:55 Castor user.warn kernel: [   37.857893] Divider: -633687
+Apr 13 21:33:55 Castor user.warn kernel: [   37.857902] An: -504960
+Apr 13 21:33:55 Castor user.warn kernel: [   37.857911] Bn: 7680
+Apr 13 21:33:55 Castor user.warn kernel: [   37.857920] Cn: 1458000
+Apr 13 21:33:55 Castor user.warn kernel: [   37.857929] Dn: 4800
+Apr 13 21:33:55 Castor user.warn kernel: [   37.857937] En: 385440
+Apr 13 21:33:55 Castor user.warn kernel: [   37.857946] Fn: -386249700
+Apr 13 21:34:20 Castor user.debug kernel: [   63.009703] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 764
+Apr 13 21:34:20 Castor user.debug kernel: [   63.009746] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 75
+Apr 13 21:34:20 Castor user.debug kernel: [   63.009771] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:34:20 Castor user.debug kernel: [   63.009793] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:20 Castor user.warn kernel: [   63.009810] **** touch (764, 75)
+Apr 13 21:34:20 Castor user.debug kernel: [   63.173066] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:34:20 Castor user.debug kernel: [   63.173105] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:20 Castor user.warn kernel: [   63.173123] **** touch (764, 75)
+Apr 13 21:34:29 Castor user.debug kernel: [   72.280720] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 685
+Apr 13 21:34:29 Castor user.debug kernel: [   72.280763] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 71
+Apr 13 21:34:29 Castor user.debug kernel: [   72.280789] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:34:29 Castor user.debug kernel: [   72.280811] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:29 Castor user.warn kernel: [   72.280828] **** touch (685, 71)
+Apr 13 21:34:29 Castor user.debug kernel: [   72.410248] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:34:29 Castor user.debug kernel: [   72.410287] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:29 Castor user.warn kernel: [   72.410305] **** touch (685, 71)
+Apr 13 21:34:31 Castor user.debug kernel: [   74.614692] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 115
+Apr 13 21:34:31 Castor user.debug kernel: [   74.614736] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 543
+Apr 13 21:34:31 Castor user.debug kernel: [   74.614762] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:34:31 Castor user.debug kernel: [   74.614784] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:31 Castor user.warn kernel: [   74.614801] **** touch (115, 543)
+Apr 13 21:34:31 Castor user.debug kernel: [   74.646386] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:34:31 Castor user.debug kernel: [   74.646424] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:31 Castor user.warn kernel: [   74.646442] **** touch (115, 543)
+Apr 13 21:34:33 Castor user.debug kernel: [   76.412274] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 692
+Apr 13 21:34:33 Castor user.debug kernel: [   76.412319] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 515
+Apr 13 21:34:33 Castor user.debug kernel: [   76.412345] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:34:33 Castor user.debug kernel: [   76.412367] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:33 Castor user.warn kernel: [   76.412385] **** touch (692, 515)
+Apr 13 21:34:33 Castor user.debug kernel: [   76.469275] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:34:33 Castor user.debug kernel: [   76.469314] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:33 Castor user.warn kernel: [   76.469332] **** touch (692, 515)
+Apr 13 21:34:36 Castor user.debug kernel: [   78.855152] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 709
+Apr 13 21:34:36 Castor user.debug kernel: [   78.855196] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 548
+Apr 13 21:34:36 Castor user.debug kernel: [   78.855222] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:34:36 Castor user.debug kernel: [   78.855243] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:36 Castor user.warn kernel: [   78.855260] **** touch (709, 548)
+Apr 13 21:34:36 Castor user.debug kernel: [   78.898226] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:34:36 Castor user.debug kernel: [   78.898264] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:36 Castor user.warn kernel: [   78.898281] **** touch (709, 548)
+Apr 13 21:34:39 Castor user.debug kernel: [   81.767992] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 744
+Apr 13 21:34:39 Castor user.debug kernel: [   81.768036] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 239
+Apr 13 21:34:39 Castor user.debug kernel: [   81.768062] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:34:39 Castor user.debug kernel: [   81.768083] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:39 Castor user.warn kernel: [   81.768100] **** touch (744, 239)
+Apr 13 21:34:39 Castor user.debug kernel: [   81.815735] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:34:39 Castor user.debug kernel: [   81.815774] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:39 Castor user.warn kernel: [   81.815791] **** touch (744, 239)
+Apr 13 21:34:42 Castor user.debug kernel: [   85.541625] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 384
+Apr 13 21:34:42 Castor user.debug kernel: [   85.541668] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 408
+Apr 13 21:34:42 Castor user.debug kernel: [   85.541694] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:34:42 Castor user.debug kernel: [   85.541715] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:42 Castor user.warn kernel: [   85.541732] **** touch (384, 408)
+Apr 13 21:34:42 Castor user.debug kernel: [   85.583509] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:34:42 Castor user.debug kernel: [   85.583547] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:42 Castor user.warn kernel: [   85.583565] **** touch (384, 408)
+Apr 13 21:34:47 Castor user.debug kernel: [   90.314145] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 572
+Apr 13 21:34:47 Castor user.debug kernel: [   90.314189] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 228
+Apr 13 21:34:47 Castor user.debug kernel: [   90.314215] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:34:47 Castor user.debug kernel: [   90.314237] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:47 Castor user.warn kernel: [   90.314254] **** touch (572, 228)
+Apr 13 21:34:47 Castor user.debug kernel: [   90.372606] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:34:47 Castor user.debug kernel: [   90.372649] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:47 Castor user.warn kernel: [   90.372666] **** touch (572, 228)
+Apr 13 21:34:51 Castor user.debug kernel: [   94.109986] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 415
+Apr 13 21:34:51 Castor user.debug kernel: [   94.110030] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 298
+Apr 13 21:34:51 Castor user.debug kernel: [   94.110055] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:34:51 Castor user.debug kernel: [   94.110077] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:51 Castor user.warn kernel: [   94.110093] **** touch (415, 298)
+Apr 13 21:34:51 Castor user.debug kernel: [   94.135901] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:34:51 Castor user.debug kernel: [   94.135939] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:51 Castor user.warn kernel: [   94.135956] **** touch (415, 298)
+Apr 13 21:34:55 Castor user.debug kernel: [   98.419398] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 412
+Apr 13 21:34:55 Castor user.debug kernel: [   98.419441] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 410
+Apr 13 21:34:55 Castor user.debug kernel: [   98.419467] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:34:55 Castor user.debug kernel: [   98.419488] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:55 Castor user.warn kernel: [   98.419505] **** touch (412, 410)
+Apr 13 21:34:55 Castor user.debug kernel: [   98.458886] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:34:55 Castor user.debug kernel: [   98.458926] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:55 Castor user.warn kernel: [   98.458943] **** touch (412, 410)
+Apr 13 21:34:56 Castor user.debug kernel: [   99.608782] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 477
+Apr 13 21:34:56 Castor user.debug kernel: [   99.608830] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 260
+Apr 13 21:34:56 Castor user.debug kernel: [   99.608854] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:34:56 Castor user.debug kernel: [   99.608876] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:56 Castor user.warn kernel: [   99.608893] **** touch (477, 260)
+Apr 13 21:34:57 Castor user.debug kernel: [   99.673935] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:34:57 Castor user.debug kernel: [   99.673978] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:34:57 Castor user.warn kernel: [   99.673995] **** touch (477, 260)
+Apr 13 21:35:00 Castor user.debug kernel: [  103.264182] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 762
+Apr 13 21:35:00 Castor user.debug kernel: [  103.264226] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 491
+Apr 13 21:35:00 Castor user.debug kernel: [  103.264251] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:00 Castor user.debug kernel: [  103.264273] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:00 Castor user.warn kernel: [  103.264289] **** touch (762, 491)
+Apr 13 21:35:00 Castor user.debug kernel: [  103.337069] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:00 Castor user.debug kernel: [  103.337113] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:00 Castor user.warn kernel: [  103.337130] **** touch (762, 491)
+Apr 13 21:35:01 Castor user.debug kernel: [  103.697977] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 764
+Apr 13 21:35:01 Castor user.debug kernel: [  103.698021] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 475
+Apr 13 21:35:01 Castor user.debug kernel: [  103.698046] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:01 Castor user.debug kernel: [  103.698068] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:01 Castor user.warn kernel: [  103.698085] **** touch (764, 475)
+Apr 13 21:35:01 Castor user.debug kernel: [  103.733239] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:01 Castor user.debug kernel: [  103.733287] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:01 Castor user.warn kernel: [  103.733305] **** touch (764, 475)
+Apr 13 21:35:01 Castor user.debug kernel: [  103.964578] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 765
+Apr 13 21:35:01 Castor user.debug kernel: [  103.964621] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 486
+Apr 13 21:35:01 Castor user.debug kernel: [  103.964646] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:01 Castor user.debug kernel: [  103.964668] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:01 Castor user.warn kernel: [  103.964684] **** touch (765, 486)
+Apr 13 21:35:01 Castor user.debug kernel: [  104.014560] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:01 Castor user.debug kernel: [  104.014601] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:01 Castor user.warn kernel: [  104.014618] **** touch (765, 486)
+Apr 13 21:35:01 Castor user.debug kernel: [  104.567976] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 763
+Apr 13 21:35:01 Castor user.debug kernel: [  104.568019] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 481
+Apr 13 21:35:01 Castor user.debug kernel: [  104.568044] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:01 Castor user.debug kernel: [  104.568066] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:01 Castor user.warn kernel: [  104.568083] **** touch (763, 481)
+Apr 13 21:35:01 Castor user.debug kernel: [  104.611295] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:01 Castor user.debug kernel: [  104.611338] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:01 Castor user.warn kernel: [  104.611356] **** touch (763, 481)
+Apr 13 21:35:02 Castor user.debug kernel: [  104.770282] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 490
+Apr 13 21:35:02 Castor user.debug kernel: [  104.770326] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:02 Castor user.debug kernel: [  104.770350] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:02 Castor user.warn kernel: [  104.770366] **** touch (763, 490)
+Apr 13 21:35:02 Castor user.debug kernel: [  104.790983] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:02 Castor user.debug kernel: [  104.791026] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:02 Castor user.warn kernel: [  104.791044] **** touch (763, 490)
+Apr 13 21:35:02 Castor user.debug kernel: [  104.930469] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 764
+Apr 13 21:35:02 Castor user.debug kernel: [  104.930513] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 485
+Apr 13 21:35:02 Castor user.debug kernel: [  104.930538] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:02 Castor user.debug kernel: [  104.930560] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:02 Castor user.warn kernel: [  104.930577] **** touch (764, 485)
+Apr 13 21:35:02 Castor user.debug kernel: [  104.954656] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:02 Castor user.debug kernel: [  104.954699] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:02 Castor user.warn kernel: [  104.954717] **** touch (764, 485)
+Apr 13 21:35:02 Castor user.debug kernel: [  105.088593] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 760
+Apr 13 21:35:02 Castor user.debug kernel: [  105.088635] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 483
+Apr 13 21:35:02 Castor user.debug kernel: [  105.088659] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:02 Castor user.debug kernel: [  105.088681] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:02 Castor user.warn kernel: [  105.088698] **** touch (760, 483)
+Apr 13 21:35:02 Castor user.debug kernel: [  105.116689] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:02 Castor user.debug kernel: [  105.116737] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:02 Castor user.warn kernel: [  105.116754] **** touch (760, 483)
+Apr 13 21:35:02 Castor user.debug kernel: [  105.247426] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 757
+Apr 13 21:35:02 Castor user.debug kernel: [  105.247480] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 478
+Apr 13 21:35:02 Castor user.debug kernel: [  105.247505] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:02 Castor user.debug kernel: [  105.247526] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:02 Castor user.warn kernel: [  105.247544] **** touch (757, 478)
+Apr 13 21:35:02 Castor user.debug kernel: [  105.267257] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:02 Castor user.debug kernel: [  105.267300] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:02 Castor user.warn kernel: [  105.267318] **** touch (757, 478)
+Apr 13 21:35:03 Castor user.debug kernel: [  105.656816] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 768
+Apr 13 21:35:03 Castor user.debug kernel: [  105.656860] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 471
+Apr 13 21:35:03 Castor user.debug kernel: [  105.656885] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:03 Castor user.debug kernel: [  105.656906] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:03 Castor user.warn kernel: [  105.656923] **** touch (768, 471)
+Apr 13 21:35:03 Castor user.debug kernel: [  105.690643] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:03 Castor user.debug kernel: [  105.690686] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:03 Castor user.warn kernel: [  105.690703] **** touch (768, 471)
+Apr 13 21:35:04 Castor user.debug kernel: [  106.930039] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 760
+Apr 13 21:35:04 Castor user.debug kernel: [  106.930082] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 475
+Apr 13 21:35:04 Castor user.debug kernel: [  106.930108] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:04 Castor user.debug kernel: [  106.930129] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:04 Castor user.warn kernel: [  106.930146] **** touch (760, 475)
+Apr 13 21:35:04 Castor user.debug kernel: [  106.975622] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:04 Castor user.debug kernel: [  106.975665] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:04 Castor user.warn kernel: [  106.975682] **** touch (760, 475)
+Apr 13 21:35:04 Castor user.debug kernel: [  107.120609] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 765
+Apr 13 21:35:04 Castor user.debug kernel: [  107.120653] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 487
+Apr 13 21:35:04 Castor user.debug kernel: [  107.120678] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:04 Castor user.debug kernel: [  107.120700] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:04 Castor user.warn kernel: [  107.120716] **** touch (765, 487)
+Apr 13 21:35:04 Castor user.debug kernel: [  107.141559] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:04 Castor user.debug kernel: [  107.141598] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:04 Castor user.warn kernel: [  107.141615] **** touch (765, 487)
+Apr 13 21:35:04 Castor user.debug kernel: [  107.270287] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:04 Castor user.debug kernel: [  107.270329] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:04 Castor user.warn kernel: [  107.270347] **** touch (765, 487)
+Apr 13 21:35:04 Castor user.debug kernel: [  107.295589] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:04 Castor user.debug kernel: [  107.295629] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:04 Castor user.warn kernel: [  107.295647] **** touch (765, 487)
+Apr 13 21:35:05 Castor user.debug kernel: [  107.988224] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 477
+Apr 13 21:35:05 Castor user.debug kernel: [  107.988268] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 430
+Apr 13 21:35:05 Castor user.debug kernel: [  107.988294] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:05 Castor user.debug kernel: [  107.988315] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:05 Castor user.warn kernel: [  107.988332] **** touch (477, 430)
+Apr 13 21:35:05 Castor user.debug kernel: [  108.017320] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:05 Castor user.debug kernel: [  108.017363] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:05 Castor user.warn kernel: [  108.017380] **** touch (477, 430)
+Apr 13 21:35:07 Castor user.debug kernel: [  109.810012] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 756
+Apr 13 21:35:07 Castor user.debug kernel: [  109.810057] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 476
+Apr 13 21:35:07 Castor user.debug kernel: [  109.810082] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:07 Castor user.debug kernel: [  109.810104] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:07 Castor user.warn kernel: [  109.810120] **** touch (756, 476)
+Apr 13 21:35:07 Castor user.debug kernel: [  109.829651] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:07 Castor user.debug kernel: [  109.829695] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:07 Castor user.warn kernel: [  109.829712] **** touch (756, 476)
+Apr 13 21:35:07 Castor user.debug kernel: [  109.959674] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 478
+Apr 13 21:35:07 Castor user.debug kernel: [  109.959717] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:07 Castor user.debug kernel: [  109.959741] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:07 Castor user.warn kernel: [  109.959757] **** touch (756, 478)
+Apr 13 21:35:07 Castor user.debug kernel: [  109.984204] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:07 Castor user.debug kernel: [  109.984248] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:07 Castor user.warn kernel: [  109.984265] **** touch (756, 478)
+Apr 13 21:35:07 Castor user.debug kernel: [  110.109519] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 753
+Apr 13 21:35:07 Castor user.debug kernel: [  110.109562] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 482
+Apr 13 21:35:07 Castor user.debug kernel: [  110.109587] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:07 Castor user.debug kernel: [  110.109609] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:07 Castor user.warn kernel: [  110.109627] **** touch (753, 482)
+Apr 13 21:35:07 Castor user.debug kernel: [  110.132521] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:07 Castor user.debug kernel: [  110.132564] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:07 Castor user.warn kernel: [  110.132582] **** touch (753, 482)
+Apr 13 21:35:07 Castor user.debug kernel: [  110.267189] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 754
+Apr 13 21:35:07 Castor user.debug kernel: [  110.267233] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 478
+Apr 13 21:35:07 Castor user.debug kernel: [  110.267258] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:07 Castor user.debug kernel: [  110.267279] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:07 Castor user.warn kernel: [  110.267296] **** touch (754, 478)
+Apr 13 21:35:07 Castor user.debug kernel: [  110.274183] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:07 Castor user.debug kernel: [  110.274227] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:07 Castor user.warn kernel: [  110.274244] **** touch (754, 478)
+Apr 13 21:35:08 Castor user.debug kernel: [  111.155048] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 770
+Apr 13 21:35:08 Castor user.debug kernel: [  111.155091] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 474
+Apr 13 21:35:08 Castor user.debug kernel: [  111.155117] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:08 Castor user.debug kernel: [  111.155138] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:08 Castor user.warn kernel: [  111.155155] **** touch (770, 474)
+Apr 13 21:35:08 Castor user.debug kernel: [  111.222732] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:08 Castor user.debug kernel: [  111.222780] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:08 Castor user.warn kernel: [  111.222798] **** touch (770, 474)
+Apr 13 21:35:08 Castor user.debug kernel: [  111.325576] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 752
+Apr 13 21:35:08 Castor user.debug kernel: [  111.325756] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 108
+Apr 13 21:35:08 Castor user.debug kernel: [  111.325787] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:08 Castor user.debug kernel: [  111.325809] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:08 Castor user.warn kernel: [  111.325826] **** touch (752, 108)
+Apr 13 21:35:08 Castor user.debug kernel: [  111.360658] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:08 Castor user.debug kernel: [  111.360701] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:08 Castor user.warn kernel: [  111.360718] **** touch (752, 108)
+Apr 13 21:35:08 Castor user.debug kernel: [  111.481111] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 745
+Apr 13 21:35:08 Castor user.debug kernel: [  111.481155] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 116
+Apr 13 21:35:08 Castor user.debug kernel: [  111.481181] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:08 Castor user.debug kernel: [  111.481202] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:08 Castor user.warn kernel: [  111.481219] **** touch (745, 116)
+Apr 13 21:35:08 Castor user.debug kernel: [  111.494787] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:08 Castor user.debug kernel: [  111.494830] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:08 Castor user.warn kernel: [  111.494847] **** touch (745, 116)
+Apr 13 21:35:08 Castor user.debug kernel: [  111.613444] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 753
+Apr 13 21:35:08 Castor user.debug kernel: [  111.613491] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 122
+Apr 13 21:35:08 Castor user.debug kernel: [  111.613516] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:08 Castor user.debug kernel: [  111.613537] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:08 Castor user.warn kernel: [  111.613554] **** touch (753, 122)
+Apr 13 21:35:08 Castor user.debug kernel: [  111.622391] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:08 Castor user.debug kernel: [  111.622433] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:08 Castor user.warn kernel: [  111.622451] **** touch (753, 122)
+Apr 13 21:35:09 Castor user.debug kernel: [  111.745392] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 751
+Apr 13 21:35:09 Castor user.debug kernel: [  111.745440] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 127
+Apr 13 21:35:09 Castor user.debug kernel: [  111.745465] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:09 Castor user.debug kernel: [  111.745486] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:09 Castor user.warn kernel: [  111.745503] **** touch (751, 127)
+Apr 13 21:35:09 Castor user.debug kernel: [  111.755170] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:09 Castor user.debug kernel: [  111.755214] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:09 Castor user.warn kernel: [  111.755231] **** touch (751, 127)
+Apr 13 21:35:09 Castor user.debug kernel: [  112.076421] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 766
+Apr 13 21:35:09 Castor user.debug kernel: [  112.076462] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 111
+Apr 13 21:35:09 Castor user.debug kernel: [  112.076487] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:09 Castor user.debug kernel: [  112.076509] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:09 Castor user.warn kernel: [  112.076526] **** touch (766, 111)
+Apr 13 21:35:09 Castor user.debug kernel: [  112.086827] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:09 Castor user.debug kernel: [  112.086874] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:09 Castor user.warn kernel: [  112.086891] **** touch (766, 111)
+Apr 13 21:35:11 Castor user.debug kernel: [  113.767734] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 531
+Apr 13 21:35:11 Castor user.debug kernel: [  113.767779] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 129
+Apr 13 21:35:11 Castor user.debug kernel: [  113.767805] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:11 Castor user.debug kernel: [  113.767826] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:11 Castor user.warn kernel: [  113.767844] **** touch (531, 129)
+Apr 13 21:35:11 Castor user.debug kernel: [  113.865154] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:11 Castor user.debug kernel: [  113.865193] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:11 Castor user.warn kernel: [  113.865210] **** touch (531, 129)
+Apr 13 21:35:12 Castor user.debug kernel: [  114.695335] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 477
+Apr 13 21:35:12 Castor user.debug kernel: [  114.695380] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 120
+Apr 13 21:35:12 Castor user.debug kernel: [  114.695405] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:12 Castor user.debug kernel: [  114.695426] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:12 Castor user.warn kernel: [  114.695444] **** touch (477, 120)
+Apr 13 21:35:12 Castor user.debug kernel: [  114.817325] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:12 Castor user.debug kernel: [  114.817373] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:12 Castor user.warn kernel: [  114.817391] **** touch (477, 120)
+Apr 13 21:35:13 Castor user.debug kernel: [  115.913082] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 757
+Apr 13 21:35:13 Castor user.debug kernel: [  115.913125] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 111
+Apr 13 21:35:13 Castor user.debug kernel: [  115.913151] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:13 Castor user.debug kernel: [  115.913173] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:13 Castor user.warn kernel: [  115.913189] **** touch (757, 111)
+Apr 13 21:35:13 Castor user.debug kernel: [  115.957924] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:13 Castor user.debug kernel: [  115.957967] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:13 Castor user.warn kernel: [  115.957984] **** touch (757, 111)
+Apr 13 21:35:13 Castor user.debug kernel: [  116.102437] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 754
+Apr 13 21:35:13 Castor user.debug kernel: [  116.102481] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 119
+Apr 13 21:35:13 Castor user.debug kernel: [  116.102506] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:13 Castor user.debug kernel: [  116.102528] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:13 Castor user.warn kernel: [  116.102544] **** touch (754, 119)
+Apr 13 21:35:13 Castor user.debug kernel: [  116.140859] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:13 Castor user.debug kernel: [  116.140905] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:13 Castor user.warn kernel: [  116.140923] **** touch (754, 119)
+Apr 13 21:35:13 Castor user.debug kernel: [  116.272100] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 741
+Apr 13 21:35:13 Castor user.debug kernel: [  116.272143] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 131
+Apr 13 21:35:13 Castor user.debug kernel: [  116.272169] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:13 Castor user.debug kernel: [  116.272190] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:13 Castor user.warn kernel: [  116.272207] **** touch (741, 131)
+Apr 13 21:35:13 Castor user.debug kernel: [  116.278029] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:13 Castor user.debug kernel: [  116.278074] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:13 Castor user.warn kernel: [  116.278091] **** touch (741, 131)
+Apr 13 21:35:13 Castor user.debug kernel: [  116.632247] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 733
+Apr 13 21:35:13 Castor user.debug kernel: [  116.632291] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 125
+Apr 13 21:35:13 Castor user.debug kernel: [  116.632316] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:13 Castor user.debug kernel: [  116.632338] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:13 Castor user.warn kernel: [  116.632354] **** touch (733, 125)
+Apr 13 21:35:14 Castor user.debug kernel: [  116.658664] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:14 Castor user.debug kernel: [  116.658707] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:14 Castor user.warn kernel: [  116.658724] **** touch (733, 125)
+Apr 13 21:35:14 Castor user.debug kernel: [  116.767809] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 739
+Apr 13 21:35:14 Castor user.debug kernel: [  116.767852] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 129
+Apr 13 21:35:14 Castor user.debug kernel: [  116.767877] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:14 Castor user.debug kernel: [  116.767899] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:14 Castor user.warn kernel: [  116.767915] **** touch (739, 129)
+Apr 13 21:35:14 Castor user.debug kernel: [  116.797052] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:14 Castor user.debug kernel: [  116.797100] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:14 Castor user.warn kernel: [  116.797117] **** touch (739, 129)
+Apr 13 21:35:14 Castor user.debug kernel: [  116.925756] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 732
+Apr 13 21:35:14 Castor user.debug kernel: [  116.925799] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 124
+Apr 13 21:35:14 Castor user.debug kernel: [  116.925825] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:14 Castor user.debug kernel: [  116.925846] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:14 Castor user.warn kernel: [  116.925863] **** touch (732, 124)
+Apr 13 21:35:14 Castor user.debug kernel: [  116.948671] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:14 Castor user.debug kernel: [  116.948709] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:14 Castor user.warn kernel: [  116.948727] **** touch (732, 124)
+Apr 13 21:35:14 Castor user.debug kernel: [  117.306935] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 750
+Apr 13 21:35:14 Castor user.debug kernel: [  117.306979] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 127
+Apr 13 21:35:14 Castor user.debug kernel: [  117.307004] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:14 Castor user.debug kernel: [  117.307026] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:14 Castor user.warn kernel: [  117.307043] **** touch (750, 127)
+Apr 13 21:35:14 Castor user.debug kernel: [  117.448006] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:14 Castor user.debug kernel: [  117.448044] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:14 Castor user.warn kernel: [  117.448062] **** touch (750, 127)
+Apr 13 21:35:15 Castor user.debug kernel: [  117.720905] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 760
+Apr 13 21:35:15 Castor user.debug kernel: [  117.720948] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 129
+Apr 13 21:35:15 Castor user.debug kernel: [  117.720974] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:15 Castor user.debug kernel: [  117.720995] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:15 Castor user.warn kernel: [  117.721012] **** touch (760, 129)
+Apr 13 21:35:15 Castor user.debug kernel: [  117.807912] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:15 Castor user.debug kernel: [  117.807960] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:15 Castor user.warn kernel: [  117.807978] **** touch (760, 129)
+Apr 13 21:35:15 Castor user.debug kernel: [  117.952357] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 755
+Apr 13 21:35:15 Castor user.debug kernel: [  117.952400] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 128
+Apr 13 21:35:15 Castor user.debug kernel: [  117.952426] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:15 Castor user.debug kernel: [  117.952448] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:15 Castor user.warn kernel: [  117.952464] **** touch (755, 128)
+Apr 13 21:35:15 Castor user.debug kernel: [  118.016741] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:15 Castor user.debug kernel: [  118.016787] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:15 Castor user.warn kernel: [  118.016804] **** touch (755, 128)
+Apr 13 21:35:15 Castor user.debug kernel: [  118.172608] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 759
+Apr 13 21:35:15 Castor user.debug kernel: [  118.172653] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 125
+Apr 13 21:35:15 Castor user.debug kernel: [  118.172678] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:15 Castor user.debug kernel: [  118.172700] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:15 Castor user.warn kernel: [  118.172716] **** touch (759, 125)
+Apr 13 21:35:15 Castor user.debug kernel: [  118.226089] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:15 Castor user.debug kernel: [  118.226133] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:15 Castor user.warn kernel: [  118.226150] **** touch (759, 125)
+Apr 13 21:35:15 Castor user.debug kernel: [  118.374518] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 756
+Apr 13 21:35:15 Castor user.debug kernel: [  118.374564] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:15 Castor user.debug kernel: [  118.374587] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:15 Castor user.warn kernel: [  118.374604] **** touch (756, 125)
+Apr 13 21:35:15 Castor user.debug kernel: [  118.425984] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:15 Castor user.debug kernel: [  118.426027] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:15 Castor user.warn kernel: [  118.426045] **** touch (756, 125)
+Apr 13 21:35:15 Castor user.debug kernel: [  118.581477] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 757
+Apr 13 21:35:15 Castor user.debug kernel: [  118.581520] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 127
+Apr 13 21:35:15 Castor user.debug kernel: [  118.581545] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:15 Castor user.debug kernel: [  118.581567] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:15 Castor user.warn kernel: [  118.581584] **** touch (757, 127)
+Apr 13 21:35:15 Castor user.debug kernel: [  118.637673] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:15 Castor user.debug kernel: [  118.637721] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:15 Castor user.warn kernel: [  118.637739] **** touch (757, 127)
+Apr 13 21:35:17 Castor user.debug kernel: [  120.245406] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 123
+Apr 13 21:35:17 Castor user.debug kernel: [  120.245450] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:17 Castor user.debug kernel: [  120.245473] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:17 Castor user.warn kernel: [  120.245490] **** touch (757, 123)
+Apr 13 21:35:17 Castor user.debug kernel: [  120.298797] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:17 Castor user.debug kernel: [  120.298840] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:17 Castor user.warn kernel: [  120.298857] **** touch (757, 123)
+Apr 13 21:35:17 Castor user.debug kernel: [  120.444221] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 761
+Apr 13 21:35:17 Castor user.debug kernel: [  120.444264] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 130
+Apr 13 21:35:17 Castor user.debug kernel: [  120.444290] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:17 Castor user.debug kernel: [  120.444311] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:17 Castor user.warn kernel: [  120.444329] **** touch (761, 130)
+Apr 13 21:35:17 Castor user.debug kernel: [  120.510501] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:17 Castor user.debug kernel: [  120.510544] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:17 Castor user.warn kernel: [  120.510561] **** touch (761, 130)
+Apr 13 21:35:18 Castor user.debug kernel: [  120.688765] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 757
+Apr 13 21:35:18 Castor user.debug kernel: [  120.688808] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 122
+Apr 13 21:35:18 Castor user.debug kernel: [  120.688834] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:18 Castor user.debug kernel: [  120.688855] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:18 Castor user.warn kernel: [  120.688872] **** touch (757, 122)
+Apr 13 21:35:18 Castor user.debug kernel: [  120.756000] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:18 Castor user.debug kernel: [  120.756043] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:18 Castor user.warn kernel: [  120.756060] **** touch (757, 122)
+Apr 13 21:35:18 Castor user.debug kernel: [  120.914262] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 760
+Apr 13 21:35:18 Castor user.debug kernel: [  120.914305] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 124
+Apr 13 21:35:18 Castor user.debug kernel: [  120.914330] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:18 Castor user.debug kernel: [  120.914352] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:18 Castor user.warn kernel: [  120.914370] **** touch (760, 124)
+Apr 13 21:35:18 Castor user.debug kernel: [  120.975080] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:18 Castor user.debug kernel: [  120.975123] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:18 Castor user.warn kernel: [  120.975141] **** touch (760, 124)
+Apr 13 21:35:18 Castor user.debug kernel: [  121.137602] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 758
+Apr 13 21:35:18 Castor user.debug kernel: [  121.137644] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 122
+Apr 13 21:35:18 Castor user.debug kernel: [  121.137670] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:18 Castor user.debug kernel: [  121.137692] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:18 Castor user.warn kernel: [  121.137708] **** touch (758, 122)
+Apr 13 21:35:18 Castor user.debug kernel: [  121.218223] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:18 Castor user.debug kernel: [  121.218261] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:18 Castor user.warn kernel: [  121.218279] **** touch (758, 122)
+Apr 13 21:35:18 Castor user.debug kernel: [  121.350432] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:18 Castor user.debug kernel: [  121.350474] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:18 Castor user.warn kernel: [  121.350493] **** touch (758, 122)
+Apr 13 21:35:18 Castor user.debug kernel: [  121.413206] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:18 Castor user.debug kernel: [  121.413309] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:18 Castor user.warn kernel: [  121.413333] **** touch (758, 122)
+Apr 13 21:35:18 Castor user.debug kernel: [  121.541165] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 765
+Apr 13 21:35:18 Castor user.debug kernel: [  121.541209] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 128
+Apr 13 21:35:18 Castor user.debug kernel: [  121.541234] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:18 Castor user.debug kernel: [  121.541256] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:18 Castor user.warn kernel: [  121.541274] **** touch (765, 128)
+Apr 13 21:35:18 Castor user.debug kernel: [  121.615697] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:18 Castor user.debug kernel: [  121.615735] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:18 Castor user.warn kernel: [  121.615752] **** touch (765, 128)
+Apr 13 21:35:23 Castor user.debug kernel: [  125.808975] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 757
+Apr 13 21:35:23 Castor user.debug kernel: [  125.809018] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 478
+Apr 13 21:35:23 Castor user.debug kernel: [  125.809043] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:23 Castor user.debug kernel: [  125.809065] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:23 Castor user.warn kernel: [  125.809081] **** touch (757, 478)
+Apr 13 21:35:23 Castor user.debug kernel: [  125.865942] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:23 Castor user.debug kernel: [  125.865985] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:23 Castor user.warn kernel: [  125.866002] **** touch (757, 478)
+Apr 13 21:35:23 Castor user.debug kernel: [  126.176103] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 758
+Apr 13 21:35:23 Castor user.debug kernel: [  126.176146] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 480
+Apr 13 21:35:23 Castor user.debug kernel: [  126.176172] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:23 Castor user.debug kernel: [  126.176193] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:23 Castor user.warn kernel: [  126.176210] **** touch (758, 480)
+Apr 13 21:35:23 Castor user.debug kernel: [  126.226100] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:23 Castor user.debug kernel: [  126.226142] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:23 Castor user.warn kernel: [  126.226160] **** touch (758, 480)
+Apr 13 21:35:25 Castor user.debug kernel: [  128.099668] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 767
+Apr 13 21:35:25 Castor user.debug kernel: [  128.099710] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 483
+Apr 13 21:35:25 Castor user.debug kernel: [  128.099735] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:25 Castor user.debug kernel: [  128.099756] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:25 Castor user.warn kernel: [  128.099773] **** touch (767, 483)
+Apr 13 21:35:25 Castor user.debug kernel: [  128.171947] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:25 Castor user.debug kernel: [  128.171990] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:25 Castor user.warn kernel: [  128.172007] **** touch (767, 483)
+Apr 13 21:35:25 Castor user.debug kernel: [  128.406156] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 769
+Apr 13 21:35:25 Castor user.debug kernel: [  128.406201] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 479
+Apr 13 21:35:25 Castor user.debug kernel: [  128.406226] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:25 Castor user.debug kernel: [  128.406248] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:25 Castor user.warn kernel: [  128.406264] **** touch (769, 479)
+Apr 13 21:35:25 Castor user.debug kernel: [  128.465812] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:25 Castor user.debug kernel: [  128.465855] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:25 Castor user.warn kernel: [  128.465872] **** touch (769, 479)
+Apr 13 21:35:27 Castor user.debug kernel: [  130.296892] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 477
+Apr 13 21:35:27 Castor user.debug kernel: [  130.296936] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:27 Castor user.debug kernel: [  130.296960] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:27 Castor user.warn kernel: [  130.296976] **** touch (769, 477)
+Apr 13 21:35:27 Castor user.debug kernel: [  130.364697] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:27 Castor user.debug kernel: [  130.364740] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:27 Castor user.warn kernel: [  130.364757] **** touch (769, 477)
+Apr 13 21:35:28 Castor user.debug kernel: [  130.797590] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 763
+Apr 13 21:35:28 Castor user.debug kernel: [  130.797638] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 491
+Apr 13 21:35:28 Castor user.debug kernel: [  130.797663] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:28 Castor user.debug kernel: [  130.797685] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:28 Castor user.warn kernel: [  130.797701] **** touch (763, 491)
+Apr 13 21:35:28 Castor user.debug kernel: [  130.852228] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:28 Castor user.debug kernel: [  130.852271] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:28 Castor user.warn kernel: [  130.852289] **** touch (763, 491)
+Apr 13 21:35:28 Castor user.debug kernel: [  131.430225] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 755
+Apr 13 21:35:28 Castor user.debug kernel: [  131.430268] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 492
+Apr 13 21:35:28 Castor user.debug kernel: [  131.430294] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:28 Castor user.debug kernel: [  131.430315] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:28 Castor user.warn kernel: [  131.430332] **** touch (755, 492)
+Apr 13 21:35:28 Castor user.debug kernel: [  131.499984] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:28 Castor user.debug kernel: [  131.500032] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:28 Castor user.warn kernel: [  131.500050] **** touch (755, 492)
+Apr 13 21:35:29 Castor user.debug kernel: [  131.889821] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 758
+Apr 13 21:35:29 Castor user.debug kernel: [  131.889868] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:29 Castor user.debug kernel: [  131.889892] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:29 Castor user.warn kernel: [  131.889908] **** touch (758, 492)
+Apr 13 21:35:29 Castor user.debug kernel: [  131.955024] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:29 Castor user.debug kernel: [  131.955067] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:29 Castor user.warn kernel: [  131.955084] **** touch (758, 492)
+Apr 13 21:35:30 Castor user.debug kernel: [  132.873328] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 475
+Apr 13 21:35:30 Castor user.debug kernel: [  132.873374] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 107
+Apr 13 21:35:30 Castor user.debug kernel: [  132.873400] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:30 Castor user.debug kernel: [  132.873421] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:30 Castor user.warn kernel: [  132.873438] **** touch (475, 107)
+Apr 13 21:35:30 Castor user.debug kernel: [  132.919727] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:30 Castor user.debug kernel: [  132.919770] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:30 Castor user.warn kernel: [  132.919787] **** touch (475, 107)
+Apr 13 21:35:31 Castor user.debug kernel: [  134.352561] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 483
+Apr 13 21:35:31 Castor user.debug kernel: [  134.352605] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 310
+Apr 13 21:35:31 Castor user.debug kernel: [  134.352631] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:31 Castor user.debug kernel: [  134.352653] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:31 Castor user.warn kernel: [  134.352670] **** touch (483, 310)
+Apr 13 21:35:31 Castor user.debug kernel: [  134.378057] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:31 Castor user.debug kernel: [  134.378104] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:31 Castor user.warn kernel: [  134.378122] **** touch (483, 310)
+Apr 13 21:35:33 Castor user.debug kernel: [  135.783727] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 478
+Apr 13 21:35:33 Castor user.debug kernel: [  135.783770] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 315
+Apr 13 21:35:33 Castor user.debug kernel: [  135.783796] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:33 Castor user.debug kernel: [  135.783817] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:33 Castor user.warn kernel: [  135.783834] **** touch (478, 315)
+Apr 13 21:35:33 Castor user.debug kernel: [  135.850291] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:33 Castor user.debug kernel: [  135.850340] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:33 Castor user.warn kernel: [  135.850358] **** touch (478, 315)
+Apr 13 21:35:34 Castor user.debug kernel: [  137.249003] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 543
+Apr 13 21:35:34 Castor user.debug kernel: [  137.249048] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 360
+Apr 13 21:35:34 Castor user.debug kernel: [  137.249073] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:34 Castor user.debug kernel: [  137.249095] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:34 Castor user.warn kernel: [  137.249112] **** touch (543, 360)
+Apr 13 21:35:34 Castor user.debug kernel: [  137.289864] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:34 Castor user.debug kernel: [  137.289907] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:34 Castor user.warn kernel: [  137.289924] **** touch (543, 360)
+Apr 13 21:35:35 Castor user.debug kernel: [  138.365933] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 476
+Apr 13 21:35:35 Castor user.debug kernel: [  138.365977] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 406
+Apr 13 21:35:35 Castor user.debug kernel: [  138.366003] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:35 Castor user.debug kernel: [  138.366025] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:35 Castor user.warn kernel: [  138.366042] **** touch (476, 406)
+Apr 13 21:35:35 Castor user.debug kernel: [  138.411208] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:35 Castor user.debug kernel: [  138.411252] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:35 Castor user.warn kernel: [  138.411269] **** touch (476, 406)
+Apr 13 21:35:36 Castor user.debug kernel: [  139.590351] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 122
+Apr 13 21:35:36 Castor user.debug kernel: [  139.590395] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:36 Castor user.debug kernel: [  139.590419] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:36 Castor user.warn kernel: [  139.590435] **** touch (476, 122)
+Apr 13 21:35:36 Castor user.debug kernel: [  139.636276] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:36 Castor user.debug kernel: [  139.636322] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:36 Castor user.warn kernel: [  139.636341] **** touch (476, 122)
+Apr 13 21:35:39 Castor user.debug kernel: [  142.624310] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 518
+Apr 13 21:35:39 Castor user.debug kernel: [  142.624354] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 455
+Apr 13 21:35:39 Castor user.debug kernel: [  142.624379] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:39 Castor user.debug kernel: [  142.624401] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:39 Castor user.warn kernel: [  142.624417] **** touch (518, 455)
+Apr 13 21:35:40 Castor user.debug kernel: [  142.659182] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:40 Castor user.debug kernel: [  142.659225] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:40 Castor user.warn kernel: [  142.659242] **** touch (518, 455)
+Apr 13 21:35:40 Castor user.debug kernel: [  143.363471] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 407
+Apr 13 21:35:40 Castor user.debug kernel: [  143.363514] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 280
+Apr 13 21:35:40 Castor user.debug kernel: [  143.363539] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:35:40 Castor user.debug kernel: [  143.363561] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:40 Castor user.warn kernel: [  143.363578] **** touch (407, 280)
+Apr 13 21:35:40 Castor user.debug kernel: [  143.377833] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:35:40 Castor user.debug kernel: [  143.377876] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:35:40 Castor user.warn kernel: [  143.377894] **** touch (407, 280)
+Apr 13 21:36:27 Castor user.debug kernel: [  190.520242] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 389
+Apr 13 21:36:27 Castor user.debug kernel: [  190.520285] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 414
+Apr 13 21:36:27 Castor user.debug kernel: [  190.520309] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:36:27 Castor user.debug kernel: [  190.520330] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:36:27 Castor user.warn kernel: [  190.520346] **** touch (389, 414)
+Apr 13 21:36:27 Castor user.debug kernel: [  190.549601] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:36:27 Castor user.debug kernel: [  190.549640] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:36:27 Castor user.warn kernel: [  190.549658] **** touch (389, 414)
+Apr 13 21:36:32 Castor user.debug kernel: [  195.557290] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 540
+Apr 13 21:36:32 Castor user.debug kernel: [  195.557332] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 267
+Apr 13 21:36:32 Castor user.debug kernel: [  195.557356] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:36:32 Castor user.debug kernel: [  195.557377] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:36:32 Castor user.warn kernel: [  195.557393] **** touch (540, 267)
+Apr 13 21:36:32 Castor user.debug kernel: [  195.623612] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:36:32 Castor user.debug kernel: [  195.623655] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:36:32 Castor user.warn kernel: [  195.623673] **** touch (540, 267)
+Apr 13 21:36:33 Castor user.debug kernel: [  196.436671] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 390
+Apr 13 21:36:33 Castor user.debug kernel: [  196.436713] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 279
+Apr 13 21:36:33 Castor user.debug kernel: [  196.436737] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:36:33 Castor user.debug kernel: [  196.436758] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:36:33 Castor user.warn kernel: [  196.436774] **** touch (390, 279)
+Apr 13 21:36:33 Castor user.debug kernel: [  196.476326] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:36:33 Castor user.debug kernel: [  196.476364] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:36:33 Castor user.warn kernel: [  196.476382] **** touch (390, 279)
+Apr 13 21:36:53 Castor user.debug kernel: [  216.309137] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 417
+Apr 13 21:36:53 Castor user.debug kernel: [  216.309257] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 423
+Apr 13 21:36:53 Castor user.debug kernel: [  216.309286] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:36:53 Castor user.debug kernel: [  216.309307] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:36:53 Castor user.warn kernel: [  216.309324] **** touch (417, 423)
+Apr 13 21:36:53 Castor user.debug kernel: [  216.345036] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:36:53 Castor user.debug kernel: [  216.345074] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:36:53 Castor user.warn kernel: [  216.345092] **** touch (417, 423)
+Apr 13 21:36:58 Castor user.debug kernel: [  221.439948] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 555
+Apr 13 21:36:58 Castor user.debug kernel: [  221.439991] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 320
+Apr 13 21:36:58 Castor user.debug kernel: [  221.440015] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:36:58 Castor user.debug kernel: [  221.440036] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:36:58 Castor user.warn kernel: [  221.440052] **** touch (555, 320)
+Apr 13 21:36:58 Castor user.debug kernel: [  221.464261] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:36:58 Castor user.debug kernel: [  221.464305] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:36:58 Castor user.warn kernel: [  221.464323] **** touch (555, 320)
+Apr 13 21:36:59 Castor user.debug kernel: [  222.131159] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 0, Value: 390
+Apr 13 21:36:59 Castor user.debug kernel: [  222.131201] evbug.c: Event. Dev: castor/input0, Type: 3, Code: 1, Value: 281
+Apr 13 21:36:59 Castor user.debug kernel: [  222.131225] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 1
+Apr 13 21:36:59 Castor user.debug kernel: [  222.131245] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:36:59 Castor user.warn kernel: [  222.131263] **** touch (390, 281)
+Apr 13 21:36:59 Castor user.debug kernel: [  222.154634] evbug.c: Event. Dev: castor/input0, Type: 1, Code: 330, Value: 0
+Apr 13 21:36:59 Castor user.debug kernel: [  222.154672] evbug.c: Event. Dev: castor/input0, Type: 0, Code: 0, Value: 0
+Apr 13 21:36:59 Castor user.warn kernel: [  222.154690] **** touch (390, 281)

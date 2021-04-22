@@ -1,0 +1,3 @@
+<configuration name="System">
+    <item name="DeviceDescription" type="string">Connecting...</item>
+</configuration>

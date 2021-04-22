@@ -1,0 +1,82 @@
+<configuration name="plugins_vehicle">
+    <item name="VehicleConfigName" type="string">Vehicle</item>
+    <item name="Light Bars">
+        <item name="active" type="boolean">false</item>
+    </item>
+    <item name="Manual Guidance">
+        <item name="active" type="boolean">true</item>
+        <item name="gps">
+            <item name="port" type="integer">2</item>
+            <item name="selected_receiver_type" type="integer">0</item>
+            <item name="last_connected_receiver_model" type="integer">9</item>
+            <item name="available_correction_types" type="integer">0</item>
+            <item name="selected_correction_type" type="integer">8</item>
+            <item name="Autonomous Settings">
+                <item name="elevation_mask" type="float">5.0000000000</item>
+                <item name="snr_mask" type="float">24.0000000000</item>
+                <item name="frequency" type="float">1557.8149414062</item>
+                <item name="baud_rate" type="integer">2400</item>
+            </item>
+            <item name="pv_filter" type="boolean">false</item>
+            <item name="on_path_filter" type="integer">1</item>
+            <item name="omnistar_autoseed_enabled" type="boolean">false</item>
+            <item name="omnistar_convergence_threshold" type="float">0.1000000015</item>
+            <item name="RTK Settings">
+                <item name="elevation_mask" type="float">10.0000000000</item>
+                <item name="snr_mask" type="float">35.0000000000</item>
+                <item name="frequency" type="float">1557.8149414062</item>
+                <item name="baud_rate" type="integer">2400</item>
+            </item>
+        </item>
+        <item name="Vehicle Type" type="integer">0</item>
+        <item name="Antenna Height" type="float">2.0000000000</item>
+        <item name="Axle To Antenna Offset" type="float">0.0000000000</item>
+        <item name="Wheelbase" type="float">0.0000000000</item>
+        <item name="Sprayer Delay Time" type="float">0.1000000015</item>
+        <item name="Swather Delay Time" type="float">0.1000000015</item>
+    </item>
+    <item name="EZ-Steer">
+        <item name="active" type="boolean">false</item>
+        <item name="gps" />
+    </item>
+    <item name="Autopilot">
+        <item name="active" type="boolean">false</item>
+        <item name="gps">
+            <item name="port" type="integer">2</item>
+            <item name="last_connected_receiver_model" type="integer">9</item>
+            <item name="available_correction_types" type="integer">0</item>
+            <item name="selected_correction_type" type="integer">8</item>
+            <item name="Autonomous Settings">
+                <item name="elevation_mask" type="float">8.0000000000</item>
+                <item name="snr_mask" type="float">40.0000000000</item>
+                <item name="frequency" type="float">1557.8149414062</item>
+                <item name="baud_rate" type="integer">2400</item>
+            </item>
+            <item name="pv_filter" type="boolean">false</item>
+            <item name="on_path_filter" type="integer">1</item>
+            <item name="omnistar_autoseed_enabled" type="boolean">false</item>
+            <item name="omnistar_convergence_threshold" type="float">0.1000000015</item>
+            <item name="selected_receiver_type" type="integer">0</item>
+            <item name="RTK Settings">
+                <item name="elevation_mask" type="float">10.0000000000</item>
+                <item name="snr_mask" type="float">35.0000000000</item>
+                <item name="frequency" type="float">1557.8149414062</item>
+                <item name="baud_rate" type="integer">2400</item>
+            </item>
+            <item name="WAAS Settings">
+                <item name="elevation_mask" type="float">5.0000000000</item>
+                <item name="snr_mask" type="float">24.0000000000</item>
+            </item>
+        </item>
+    </item>
+    <item name="FieldLevel II Survey/Design">
+        <item name="active" type="boolean">false</item>
+    </item>
+    <item name="EZ-Pilot">
+        <item name="active" type="boolean">false</item>
+        <item name="gps" />
+    </item>
+    <item name="WM-Survey">
+        <item name="active" type="boolean">false</item>
+    </item>
+</configuration>

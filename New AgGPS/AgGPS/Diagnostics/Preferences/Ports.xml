@@ -1,0 +1,6 @@
+<configuration name="Ports">
+    <item name="NMEA Baud rate" type="integer">4</item>
+    <item name="NMEA Data bits" type="integer">3</item>
+    <item name="NMEA Parity" type="integer">0</item>
+    <item name="NMEA Stop bits" type="integer">0</item>
+</configuration>

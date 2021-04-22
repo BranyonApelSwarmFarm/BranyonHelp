@@ -1,0 +1,32 @@
+<configuration name="InfoMgmt">
+    <item name="Network Type" type="integer">0</item>
+    <item name="Orginization" type="string"></item>
+    <item name="Username" type="string"></item>
+    <item name="Password" type="string"></item>
+    <item name="FileSpace" type="string"></item>
+    <item name="DeviceName" type="string">FMX_5212548880</item>
+    <item name="ServerCheckFreq" type="integer">0</item>
+    <item name="AutoSendFieldData" type="boolean">true</item>
+    <item name="AutoSendSummaryFiles" type="boolean">true</item>
+    <item name="AutoAckSend" type="boolean">false</item>
+    <item name="AcctSetupPassword" type="string">AIM</item>
+    <item name="OutboundQueue" type="string"></item>
+    <item name="WifiEssid" type="string"></item>
+    <item name="WifiSecurity" type="integer">0</item>
+    <item name="WifiKey" type="string"></item>
+    <item name="UsbModemSimPin" type="string"></item>
+    <item name="UsbModemSetupString" type="string"></item>
+    <item name="UsbModemDialString" type="string"></item>
+    <item name="UsbModemNetworkUsername" type="string"></item>
+    <item name="UsbModemNetworkPassword" type="string"></item>
+    <item name="SerialNetworkPort" type="integer">0</item>
+    <item name="SsoId" type="string"></item>
+    <item name="AutoImportInbox" type="boolean">false</item>
+    <item name="SsoDateTime" type="string"></item>
+    <item name="CFWifiConfigBefore" type="boolean">false</item>
+    <item name="CFWifiSSID" type="string"></item>
+    <item name="CFWifiMode" type="integer">1</item>
+    <item name="CFWifiChannel" type="integer">1</item>
+    <item name="CFWifiEncryptionType" type="integer">0</item>
+    <item name="CFWifiEncriptionKey" type="string"></item>
+</configuration>

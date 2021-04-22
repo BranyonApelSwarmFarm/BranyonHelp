@@ -1,0 +1,8 @@
+<configuration name="Guidance">
+    <item name="FieldSelector" type="boolean">false</item>
+    <item name="FieldSelectionRadius" type="float">1609.3439941406</item>
+    <item name="SmoothedTurnRadius" type="float">10.0000000000</item>
+    <item name="Ag170SwathDensity" type="boolean">false</item>
+    <item name="CurveSmoothing" type="boolean">true</item>
+    <item name="InfillsAlignment" type="integer">0</item>
+</configuration>

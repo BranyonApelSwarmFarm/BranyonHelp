@@ -1,0 +1,3 @@
+<configuration name="Swath">
+    <item name="Width" type="integer">10</item>
+</configuration>

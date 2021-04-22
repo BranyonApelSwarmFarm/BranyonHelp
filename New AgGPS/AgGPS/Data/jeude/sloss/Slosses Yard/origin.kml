@@ -1,0 +1,9 @@
+<kml>
+    <Placemark>
+        <name>Slosses Yard</name>
+        <description>Field Origin</description>
+        <Point>
+            <coordinates>151.369916820,-27.405463034,357.352</coordinates>
+        </Point>
+    </Placemark>
+</kml>

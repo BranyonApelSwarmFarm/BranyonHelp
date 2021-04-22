@@ -1,0 +1,9 @@
+<kml>
+    <Placemark>
+        <name>west boundary</name>
+        <description>Field Origin</description>
+        <Point>
+            <coordinates>151.417790000,-27.375520000,362.107</coordinates>
+        </Point>
+    </Placemark>
+</kml>

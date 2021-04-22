@@ -1,0 +1,7 @@
+<configuration name="Features">
+    <item name="ActiveFeatureId1" type="integer">3000</item>
+    <item name="ActiveFeatureId2" type="integer">3001</item>
+    <item name="ActiveFeatureId3" type="integer">1000</item>
+    <item name="ActiveFeatureId4" type="integer">2000</item>
+    <item name="Record LineFeatureIndex" type="integer">-1</item>
+</configuration>

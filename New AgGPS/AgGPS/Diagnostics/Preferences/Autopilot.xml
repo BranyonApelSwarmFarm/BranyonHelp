@@ -1,0 +1,10 @@
+<configuration name="AutopilotController">
+    <item name="Simulation Mode" type="boolean">false</item>
+    <item name="Vehicle Model" type="string"></item>
+    <item name="End of Row Dist" type="float">50.0000000000</item>
+    <item name="Operator Alert Timeout" type="integer">900</item>
+    <item name="Swath Changeover Point" type="integer">0</item>
+    <item name="Control Coverage Log" type="boolean">true</item>
+    <item name="Steering Aggressiveness" type="float">0.2000000030</item>
+    <item name="Nudge Increment" type="float">0.0500000007</item>
+</configuration>

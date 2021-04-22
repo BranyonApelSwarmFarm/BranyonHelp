@@ -1,0 +1,9 @@
+<kml>
+    <Placemark>
+        <name>Wyeera Yard</name>
+        <description>Field Origin</description>
+        <Point>
+            <coordinates>151.378478145,-27.365238098,357.326</coordinates>
+        </Point>
+    </Placemark>
+</kml>

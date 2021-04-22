@@ -1,0 +1,36 @@
+<configuration name="Map">
+    <item name="IsNorthUp" type="boolean">false</item>
+    <item name="mainViewLayout" type="integer">1</item>
+    <item name="PointFeatures" type="integer">1</item>
+    <item name="LineAndAreaFeatures" type="integer">1</item>
+    <item name="ExpandByForAreaFeatures" type="integer">1</item>
+    <item name="InfoSlot1" type="integer">0</item>
+    <item name="InfoSlot2" type="integer">1</item>
+    <item name="InfoSlot3" type="integer">2</item>
+    <item name="InfoSlot4" type="integer">4</item>
+    <item name="InfoSlot5" type="integer">6</item>
+    <item name="InfoBarSlot1" type="integer">1179655</item>
+    <item name="InfoBarSlot2" type="integer">131088</item>
+    <item name="StatusItemsTimeout" type="integer">30</item>
+    <item name="InfoScreenItems">
+        <item name="0" type="integer">-2</item>
+        <item name="1" type="integer">-2</item>
+        <item name="2" type="integer">-2</item>
+        <item name="3" type="integer">-2</item>
+        <item name="4" type="integer">-2</item>
+        <item name="5" type="integer">-2</item>
+        <item name="6" type="integer">-2</item>
+        <item name="7" type="integer">-2</item>
+        <item name="8" type="integer">-2</item>
+        <item name="9" type="integer">-2</item>
+        <item name="10" type="integer">-2</item>
+        <item name="11" type="integer">-2</item>
+        <item name="12" type="integer">-2</item>
+        <item name="13" type="integer">-2</item>
+        <item name="14" type="integer">-2</item>
+        <item name="15" type="integer">-2</item>
+        <item name="16" type="integer">-2</item>
+        <item name="17" type="integer">-2</item>
+    </item>
+    <item name="fullDataAccess" type="boolean">true</item>
+</configuration>

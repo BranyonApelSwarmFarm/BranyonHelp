@@ -1,0 +1,16 @@
+<configuration name="Display">
+    <item name="QwertyKeyboard" type="boolean">true</item>
+    <item name="SaveSummary" type="boolean">true</item>
+    <item name="Language" type="integer">0</item>
+    <item name="TimeZone" type="integer">-10</item>
+    <item name="Alarm Sound" type="boolean">false</item>
+    <item name="Warning Sound" type="boolean">false</item>
+    <item name="Track Logging Sound" type="boolean">false</item>
+    <item name="Touchscreen Sound" type="integer">0</item>
+    <item name="Alarm SonAlert" type="boolean">true</item>
+    <item name="Warning SonAlert" type="boolean">true</item>
+    <item name="LCDBrightness" type="integer">95</item>
+    <item name="Color Scheme" type="integer">0</item>
+    <item name="SystemInactiveTime" type="integer">15</item>
+    <item name="FMDInactiveTime" type="integer">60</item>
+</configuration>

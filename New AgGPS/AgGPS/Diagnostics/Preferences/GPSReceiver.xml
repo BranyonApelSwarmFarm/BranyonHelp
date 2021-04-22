@@ -1,0 +1,30 @@
+<configuration name="GPSReceiver">
+    <item name="NMEA Message Output #0 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #1 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #2 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #3 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #4 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #5 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #6 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #7 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #8 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #9 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #10 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #11 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #12 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #13 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #14 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #15 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #16 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #17 Enable" type="boolean">false</item>
+    <item name="NMEA Message Output #18 Enable" type="boolean">false</item>
+    <item name="NMEA Output Baud Rate" type="integer">2</item>
+    <item name="NMEA Output Message Rate" type="integer">0</item>
+    <item name="NMEA Output Port" type="integer">2</item>
+    <item name="NMEA Output LatLon DP" type="integer">8</item>
+    <item name="NMEA Output Max Quality" type="integer">0</item>
+    <item name="RecordAgRemoteLogs" type="boolean">false</item>
+    <item name="RadarOutputFrequencyRateEnable" type="boolean">false</item>
+    <item name="RadarOutputFrequencyRateConnector" type="integer">255</item>
+    <item name="RadarOutputFrequencyRate" type="float">17.0000000000</item>
+</configuration>

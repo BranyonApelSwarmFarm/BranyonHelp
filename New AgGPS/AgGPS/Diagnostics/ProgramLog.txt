@@ -1,0 +1,853 @@
+11Apr21 10:04:20.122 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eBreakMode
+11Apr21 10:04:20.186 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eConfigurationMode
+11Apr21 10:04:20.733 - 1 GPS Receiver MachineID = 139 0x8B Product ID = 100 0x64  firmware version 4.00 max ASAP rate 9 0x09
+11Apr21 10:04:20.847 - 1 Receiver options: Beacon = 0, VBS = 1, HP/XP/G2 = 1, SBAS = 1, RTK = 1, Glonass = 0, Secondary GPS = 0
+11Apr21 10:04:20.939 - 1 Desired GPS Quality; 8, RTK
+11Apr21 10:04:20.941 - 1 Desired GPS Quality: 8, RTK
+11Apr21 10:04:20.942 - >>>>>>>>>>>> Changed Radio to CMR mode
+11Apr21 10:04:21.703 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eNormalOperation
+11Apr21 10:04:21.724 - 1 GPS Receiver: Internal<br>      Version:  4.00<br>      Corrections: Unknown
+11Apr21 10:04:21.733 - 1 GPS Quality changed to: 6, RTK Float
+11Apr21 10:04:21.773 - 1 Reported fix quality from TSIP: Float
+11Apr21 10:04:21.775 - 1 Picus version = 4.00.018.4   hwRev:H
+11Apr21 10:04:21.776 - 1 Picus build date = Thu Mar 22 2012
+11Apr21 10:04:21.777 - 1 Picus EXIPRY date = 
+11Apr21 10:04:21.779 - 1 Radio version 82
+11Apr21 10:04:21.882 - 1 RTK Network ID 10
+11Apr21 10:04:24.959 - Internal temperature: 28.50C
+11Apr21 10:05:24.817 - Memory usage logging started; Total Memory 114.8MB)
+11Apr21 10:05:24.818 - Free Memory 84.3MB
+11Apr21 10:05:28.703 - 1 Reported fix quality from TSIP: RTK
+11Apr21 10:05:28.746 - 1 GPS Quality changed to: 2, RTK Fixed
+11Apr21 10:05:28.828 - TextBox: <b>GPS Quality has Changed</b><br><br>Quality is now: R
+11Apr21 10:05:56.562 - Controller Light Bar was called 7257 times; total time = 194ms (average = 0.0ms)
+11Apr21 10:05:56.563 - Controller Button Box was called 7257 times; total time = 128ms (average = 0.0ms)
+11Apr21 10:05:56.564 - Controller TSIPController was called 7257 times; total time = 76ms (average = 0.0ms)
+11Apr21 10:05:56.567 - 1 CGPSReceiver::EndProcessing(void) ----STOP---- 
+11Apr21 10:05:56.579 - 1 CGPSReceiver::~CGPSReceiver(void)
+11Apr21 10:05:58.615 - CGuidanceThread thread 2586 starting
+11Apr21 10:05:58.681 - CNMEAProcessingThread thread 2589 starting
+11Apr21 10:05:58.684 - TSIPController thread 2590 starting
+11Apr21 10:05:58.693 - CControllerManager thread 2591 starting
+11Apr21 10:05:58.694 - Active controllers: Light Bar, Button Box, TSIPController
+11Apr21 10:05:58.708 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eBreakMode
+11Apr21 10:05:58.710 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eBreakMode
+11Apr21 10:05:58.776 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eConfigurationMode
+11Apr21 10:05:59.119 - 1 Reported fix quality from TSIP: RTK
+11Apr21 10:05:59.323 - 1 GPS Receiver MachineID = 139 0x8B Product ID = 100 0x64  firmware version 4.00 max ASAP rate 9 0x09
+11Apr21 10:05:59.417 - 1 Receiver options: Beacon = 0, VBS = 1, HP/XP/G2 = 1, SBAS = 1, RTK = 1, Glonass = 0, Secondary GPS = 0
+11Apr21 10:05:59.533 - 1 Desired GPS Quality; 8, RTK
+11Apr21 10:05:59.534 - 1 Desired GPS Quality: 8, RTK
+11Apr21 10:05:59.535 - >>>>>>>>>>>> Changed Radio to CMR mode
+11Apr21 10:06:00.289 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eNormalOperation
+11Apr21 10:06:00.330 - 1 GPS Quality changed to: 2, RTK Fixed
+11Apr21 10:06:00.361 - 1 Picus version = 4.00.018.4   hwRev:H
+11Apr21 10:06:00.362 - 1 Picus build date = Thu Mar 22 2012
+11Apr21 10:06:00.363 - 1 Picus EXIPRY date = 
+11Apr21 10:06:00.383 - 1 Radio version 82
+11Apr21 10:06:00.412 - 1 GPS Receiver: Internal<br>      Version: 4.00.018.4   hw:H<br>      FW Build date: Thu Mar 22 2012<br>      Corrections: RTK
+11Apr21 10:06:00.449 - 1 RTK Network ID 10
+11Apr21 10:07:43.075 - USB removed
+11Apr21 10:08:04.765 - Button: Shutdown
+11Apr21 10:08:04.791 - closeEvent()
+11Apr21 10:08:04.793 - StateChange: 1 -> 6
+11Apr21 10:08:05.624 - closeEvent()
+11Apr21 10:08:06.083 - Controller Light Bar was called 9595 times; total time = 180ms (average = 0.0ms)
+11Apr21 10:08:06.085 - Controller Button Box was called 9595 times; total time = 242ms (average = 0.0ms)
+11Apr21 10:08:06.089 - Controller TSIPController was called 9595 times; total time = 140ms (average = 0.0ms)
+11Apr21 10:08:06.091 - 1 CGPSReceiver::EndProcessing(void) ----STOP---- 
+11Apr21 10:08:06.106 - 1 CGPSReceiver::~CGPSReceiver(void)
+11Apr21 10:08:06.132 - Signal Thread Ending
+11Apr21 10:08:07.543 - Device Thread exited: power down requested
+11Apr21 10:08:07.588 - =============== UDP socket closed  
+11Apr21 10:08:07.591 - AIM NetController::setNetworkEnable: enabled = 0|
+11Apr21 10:08:07.592 -  **** AIM Controller Stopping, Disabling Network.
+11Apr21 10:08:08.027 - ***** FieldManager Integrated Display exited *****
+
+
+13Apr21 06:04:15.808 - ***** FieldManager Integrated Display started *****
+13Apr21 06:04:15.828 - Version: 6.6 - Build 66270
+13Apr21 06:04:15.830 - Date: May 30 2012 17:40:02
+13Apr21 06:04:15.866 - Base: gemini_abs_0016/FS_0064 HW Ver G
+13Apr21 06:04:15.868 - Serial Number: 5212548880
+13Apr21 06:04:18.920 - [Description];           93110-00 - TRIMBLE FMX 52275
+13Apr21 06:04:18.922 - [Product];           GEMINI
+13Apr21 06:04:18.923 - [Brand];           TRIMBLE
+13Apr21 06:04:18.924 - [PartNumber];           93110-00
+13Apr21 06:04:18.925 - [NameShort];           FMX
+13Apr21 06:04:18.926 - [NameLong];           Trimble-FMX
+13Apr21 06:04:18.927 - [GpsNameShort];           AgG1k
+13Apr21 06:04:18.928 - [GpsNameLong];           AgGPS 1000
+13Apr21 06:04:18.929 - [BrandingImage1];           TrimbleLogo.bmp
+13Apr21 06:04:18.936 - [BrandingImage2];           FMXLogo.png
+13Apr21 06:04:18.937 - [BrandingImage3];           FMX_background_TRMB.png
+13Apr21 06:04:18.938 - [FirmwareFile];           Gemini_0063_Puma_52275_Pollux_3_15_015_4.upg
+13Apr21 06:04:18.939 - [FirmwareFileString];           52275
+13Apr21 06:04:18.940 - [PositioningLevel];           DGPS
+13Apr21 06:04:18.941 - [Glonass];           DISABLED
+13Apr21 06:04:18.943 - [AuxAntennaBitmask];           0
+13Apr21 16:04:19.667 - AgRemote Logging stopped
+13Apr21 16:04:19.702 - CCanManager 1485 starting
+13Apr21 16:04:19.707 - GUI Subscriber thread 1487 starting
+13Apr21 16:04:19.711 - CInfoMgmtNetThread thread 1488 starting
+13Apr21 16:04:19.720 - CAN ERROR FRAME: Can-Controller error data=0x00 0x04 0x00 0x00 0x00
+13Apr21 16:04:19.721 - CAN ERROR FRAME: Can-Controller error data=0x00 0x04 0x00 0x00 0x00
+13Apr21 16:04:19.728 - CInfoMgmtFtpThread thread 1489 starting
+13Apr21 16:04:19.730 - CInfoMgmtTccThread thread 1490 starting
+13Apr21 16:04:19.736 - CAN ERROR FRAME: Can-Controller error data=0x00 0x10 0x00 0x00 0x00
+13Apr21 16:04:19.737 - CAN ERROR FRAME: Can-Controller error data=0x00 0x10 0x00 0x00 0x00
+13Apr21 16:04:19.744 - AIM NetController::setNetworkEnable: enabled = 1|
+13Apr21 16:04:19.746 -  **** AIM Controller Starting, Enabling Network.
+13Apr21 16:04:19.756 - AIM: File Queue Count: 1
+13Apr21 16:04:19.757 - AIM: Raw File: DisplayInfo.xml
+13Apr21 16:04:19.766 - CInfoMgmtCtrThread thread 1491 starting
+13Apr21 16:04:19.768 - === udp socket openned
+13Apr21 16:04:19.771 - CInfoMgmtV2VThread thread 1492 starting
+13Apr21 16:04:23.707 - USB Removed
+13Apr21 16:04:24.348 - Setting m_backlightIsOff to false
+13Apr21 16:04:24.364 - Signal Thread 1517 starting
+13Apr21 16:04:24.378 - USB inserted
+13Apr21 16:04:24.380 - Device Thread 1518 starting
+13Apr21 16:04:24.416 - Set display language to English
+13Apr21 16:04:26.329 - CDispatcher thread 1486 starting
+13Apr21 16:04:37.016 - Shutdown request detected
+13Apr21 16:04:37.018 - Signal Thread Ending
+13Apr21 16:04:39.220 - Device Thread exited: power down requested
+13Apr21 16:04:46.126 - ]]]]] Option available for GPS Upgrade to HP
+13Apr21 16:04:46.127 - ]]]]] Option available for GPS Upgrade HP to RTK
+13Apr21 16:04:46.129 - StateChange: 0 -> 1
+13Apr21 16:04:49.600 - SideBar: Home
+13Apr21 16:04:49.661 - CGuidanceThread thread 1616 starting
+13Apr21 16:04:51.309 - CNMEAProcessingThread thread 1641 starting
+13Apr21 16:04:51.380 - TSIPController thread 1645 starting
+13Apr21 16:04:51.414 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eBreakMode
+13Apr21 16:04:51.469 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eBreakMode
+13Apr21 16:04:51.522 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eConfigurationMode
+13Apr21 16:04:51.563 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eBreakMode
+13Apr21 16:04:51.608 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eConfigurationMode
+13Apr21 16:04:52.849 - CControllerManager thread 1686 starting
+13Apr21 16:04:52.850 - Active controllers: Light Bar, Button Box, TSIPController
+13Apr21 16:04:52.852 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eConfigurationMode
+13Apr21 16:04:53.414 - 1 GPS Receiver MachineID = 139 0x8B Product ID = 100 0x64  firmware version 4.00 max ASAP rate 9 0x09
+13Apr21 16:04:53.528 - 1 Receiver options: Beacon = 0, VBS = 1, HP/XP/G2 = 1, SBAS = 1, RTK = 1, Glonass = 0, Secondary GPS = 0
+13Apr21 16:04:53.620 - 1 Desired GPS Quality; 8, RTK
+13Apr21 16:04:53.645 - 1 Desired GPS Quality: 8, RTK
+13Apr21 16:04:53.648 - >>>>>>>>>>>> Changed Radio to CMR mode
+13Apr21 16:04:54.493 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eNormalOperation
+13Apr21 16:04:54.570 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:04:54.582 - 1 Picus version = 4.00.018.4   hwRev:H
+13Apr21 16:04:54.584 - 1 Picus build date = Thu Mar 22 2012
+13Apr21 16:04:54.585 - 1 Picus EXIPRY date = 
+13Apr21 16:04:54.586 - 1 Radio version 82
+13Apr21 16:04:54.628 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:04:54.657 - 1 RTK Network ID 10
+13Apr21 16:04:54.658 - 1 Setting RTK Network ID = 10
+13Apr21 16:04:54.659 - 1 Resetting Radio
+13Apr21 16:04:55.241 - AIM: CInfoMgmtNetController:: ENABLE: 2|
+13Apr21 16:04:55.242 - AIM NetController: State: 1|
+13Apr21 16:04:55.727 - 1 RTK Network ID 10
+13Apr21 16:04:56.219 - ERROR: DCOL NACK reason: Unsupported Radio Command (subtype invalid)
+13Apr21 16:04:57.134 - CNetworkState(USB Wifi) Starting.
+13Apr21 16:04:57.493 - 1 GPS Receiver: Internal<br>      Version: 4.00.018.4   hw:H<br>      FW Build date: Thu Mar 22 2012<br>      Corrections: RTK
+13Apr21 16:04:58.284 - CDrawThread thread 1809 starting
+
+13Apr21 06:05:55.507 - ***** FieldManager Integrated Display started *****
+13Apr21 06:05:55.525 - Version: 6.6 - Build 66270
+13Apr21 06:05:55.526 - Date: May 30 2012 17:40:02
+13Apr21 06:05:55.557 - Base: gemini_abs_0016/FS_0064 HW Ver G
+13Apr21 06:05:55.559 - Serial Number: 5212548880
+13Apr21 06:05:58.606 - [Description];           93110-00 - TRIMBLE FMX 52275
+13Apr21 06:05:58.607 - [Product];           GEMINI
+13Apr21 06:05:58.608 - [Brand];           TRIMBLE
+13Apr21 06:05:58.609 - [PartNumber];           93110-00
+13Apr21 06:05:58.610 - [NameShort];           FMX
+13Apr21 06:05:58.612 - [NameLong];           Trimble-FMX
+13Apr21 06:05:58.613 - [GpsNameShort];           AgG1k
+13Apr21 06:05:58.614 - [GpsNameLong];           AgGPS 1000
+13Apr21 06:05:58.615 - [BrandingImage1];           TrimbleLogo.bmp
+13Apr21 06:05:58.616 - [BrandingImage2];           FMXLogo.png
+13Apr21 06:05:58.617 - [BrandingImage3];           FMX_background_TRMB.png
+13Apr21 06:05:58.618 - [FirmwareFile];           Gemini_0063_Puma_52275_Pollux_3_15_015_4.upg
+13Apr21 06:05:58.619 - [FirmwareFileString];           52275
+13Apr21 06:05:58.620 - [PositioningLevel];           DGPS
+13Apr21 06:05:58.621 - [Glonass];           DISABLED
+13Apr21 06:05:58.622 - [AuxAntennaBitmask];           0
+13Apr21 16:05:59.201 - AgRemote Logging stopped
+13Apr21 16:05:59.228 - CCanManager 1395 starting
+13Apr21 16:05:59.235 - GUI Subscriber thread 1397 starting
+13Apr21 16:05:59.243 - CAN ERROR FRAME: Can-Controller error data=0x00 0x04 0x00 0x00 0x00
+13Apr21 16:05:59.244 - CAN ERROR FRAME: Can-Controller error data=0x00 0x04 0x00 0x00 0x00
+13Apr21 16:05:59.246 - CInfoMgmtNetThread thread 1398 starting
+13Apr21 16:05:59.248 - CInfoMgmtFtpThread thread 1399 starting
+13Apr21 16:05:59.250 - CInfoMgmtTccThread thread 1400 starting
+13Apr21 16:05:59.257 - CAN ERROR FRAME: Can-Controller error data=0x00 0x10 0x00 0x00 0x00
+13Apr21 16:05:59.258 - CAN ERROR FRAME: Can-Controller error data=0x00 0x10 0x00 0x00 0x00
+13Apr21 16:05:59.264 - AIM NetController::setNetworkEnable: enabled = 1|
+13Apr21 16:05:59.266 -  **** AIM Controller Starting, Enabling Network.
+13Apr21 16:05:59.270 - AIM: File Queue Count: 1
+13Apr21 16:05:59.271 - AIM: Raw File: DisplayInfo.xml
+13Apr21 16:05:59.279 - CInfoMgmtCtrThread thread 1401 starting
+13Apr21 16:05:59.281 - === udp socket openned
+13Apr21 16:05:59.284 - CInfoMgmtV2VThread thread 1402 starting
+13Apr21 16:06:02.606 - USB Removed
+13Apr21 16:06:03.053 - Setting m_backlightIsOff to false
+13Apr21 16:06:03.068 - Signal Thread 1422 starting
+13Apr21 16:06:03.073 - Device Thread 1423 starting
+13Apr21 16:06:03.101 - Set display language to English
+13Apr21 16:06:04.646 - CDispatcher thread 1396 starting
+13Apr21 16:06:04.923 - ]]]]] Option available for GPS Upgrade to HP
+13Apr21 16:06:04.924 - ]]]]] Option available for GPS Upgrade HP to RTK
+13Apr21 16:06:04.925 - StateChange: 0 -> 1
+13Apr21 16:06:05.217 - Battery voltage from last run: 0.000000
+13Apr21 16:06:05.218 - Reading battery voltage.
+13Apr21 16:06:05.632 - SideBar: Home
+13Apr21 16:06:05.680 - CGuidanceThread thread 1449 starting
+13Apr21 16:06:06.439 - CNMEAProcessingThread thread 1457 starting
+13Apr21 16:06:06.441 - TSIPController thread 1458 starting
+13Apr21 16:06:06.466 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eBreakMode
+13Apr21 16:06:06.469 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eBreakMode
+13Apr21 16:06:06.533 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eConfigurationMode
+13Apr21 16:06:07.682 - CControllerManager thread 1462 starting
+13Apr21 16:06:07.683 - Active controllers: Light Bar, Button Box, TSIPController
+13Apr21 16:06:07.694 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eConfigurationMode
+13Apr21 16:06:08.229 - 1 GPS Receiver MachineID = 139 0x8B Product ID = 100 0x64  firmware version 4.00 max ASAP rate 9 0x09
+13Apr21 16:06:08.324 - 1 Receiver options: Beacon = 0, VBS = 1, HP/XP/G2 = 1, SBAS = 1, RTK = 1, Glonass = 0, Secondary GPS = 0
+13Apr21 16:06:08.463 - 1 Desired GPS Quality; 8, RTK
+13Apr21 16:06:08.464 - 1 Desired GPS Quality: 8, RTK
+13Apr21 16:06:08.465 - >>>>>>>>>>>> Changed Radio to CMR mode
+13Apr21 16:06:09.303 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eNormalOperation
+13Apr21 16:06:09.373 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:06:09.376 - 1 Picus version = 4.00.018.4   hwRev:H
+13Apr21 16:06:09.378 - 1 Picus build date = Thu Mar 22 2012
+13Apr21 16:06:09.378 - 1 Picus EXIPRY date = 
+13Apr21 16:06:09.381 - 1 Radio version 82
+13Apr21 16:06:09.460 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:06:09.464 - 1 RTK Network ID 10
+13Apr21 16:06:09.465 - 1 Setting RTK Network ID = 10
+13Apr21 16:06:09.466 - 1 Resetting Radio
+13Apr21 16:06:09.867 - 1 GPS Receiver: Internal<br>      Version: 4.00.018.4   hw:H<br>      FW Build date: Thu Mar 22 2012<br>      Corrections: RTK
+13Apr21 16:06:10.506 - 1 RTK Network ID 10
+13Apr21 16:06:10.598 - CDrawThread thread 1469 starting
+13Apr21 16:06:10.933 - ERROR: DCOL NACK reason: Unsupported Radio Command (subtype invalid)
+13Apr21 16:06:37.829 - TextBox: <b>Please ensure power supply remains uninterrupted and
+13Apr21 16:06:40.935 - USB inserted
+13Apr21 16:07:03.110 - Internal temperature: 31.25C
+13Apr21 16:07:17.739 - TextBox: Preparing File List...
+13Apr21 16:07:17.814 - Copying everything from USB to FmX
+13Apr21 16:07:17.815 - Copying summaries from USB to FmX
+13Apr21 16:07:17.816 - Copying swaths from USB to FmX
+13Apr21 16:07:17.824 - Copying data dictionary from USB to FmX
+13Apr21 16:07:17.830 - Copying prescriptions from USB to FmX
+13Apr21 16:07:17.834 - Copying vehicle info from USB to FmX
+13Apr21 16:07:17.852 - Copying all fields from USB to FmX
+13Apr21 16:07:17.858 - Copying diagnostics from USB to FmX
+13Apr21 16:07:17.859 - Copying configuration from USB to FmX
+13Apr21 16:07:17.861 - Copying preferences from USB to FmX
+13Apr21 16:07:17.871 - Copying sporo from USB to FmX
+13Apr21 16:07:17.877 - Copying Implement archive from USB to FmX
+13Apr21 16:07:17.879 - Copying System archive from USB to FmX
+13Apr21 16:07:17.881 - Copying Vehicle archive from USB to FmX
+13Apr21 16:07:17.882 - Copying Multiplane Designs/ from USB to FmX
+13Apr21 16:07:17.888 - Copying productivity monitoring from USB to FmX
+13Apr21 16:07:17.893 - Copying Support Details from USB to FmX
+13Apr21 16:07:17.895 - Copying task data from USB to FmX
+13Apr21 16:07:18.625 - Removed DCM300 log files
+13Apr21 16:07:19.908 - TextBox: Copy successful.<br><br>Free space left on destination:
+13Apr21 16:07:53.310 - USB removed
+13Apr21 16:08:02.568 - SideBar: Run
+13Apr21 16:08:36.498 - Opening Field jeude \ kaen \ master ab 1m inside frontfence
+13Apr21 16:08:36.540 - Opening Event Survey
+13Apr21 16:08:36.638 - Restoring Field Origin: LLA: -27.39068999999°, 151.41026999997°, 361.00000m
+13Apr21 16:08:36.640 - Vehicle: 
+13Apr21 16:08:36.640 - Implement: 11 metre
+13Apr21 16:08:36.642 - Implement Width: 11m  (11.000m)
+13Apr21 16:08:36.646 - Application Width: 11m  (11.000m)
+13Apr21 16:08:36.680 - TextBox: Opening Field:|| jeude|  kaen|   master ab 1m inside fr
+13Apr21 16:08:37.261 - StateChange: 1 -> 2
+13Apr21 16:08:37.268 - CCoverageLoggingThread thread 2112 starting
+13Apr21 16:08:37.271 - CTrackLoggingThread thread 2113 starting
+13Apr21 16:08:37.308 - Loading swath "Imported - AB Line 2" of 0 points (from /home/Puma/Data/jeude/kaen/master ab 1m inside frontfence/Swaths.shp)
+13Apr21 16:08:37.319 - Initial Field Origin: LLA: -27.39068999999°, 151.41026999997°, 361.00000m
+13Apr21 16:08:37.330 - Restored Field Origin: LLA: -27.39068999999°, 151.41026999997°, 361.00000m
+13Apr21 16:08:37.342 - Loading swath "Imported - AB Line 2" of 2 points (from /home/Puma/Data/jeude/kaen/master ab 1m inside frontfence/Swaths.shp)
+13Apr21 16:08:37.344 - StateChange: 2 -> 3
+13Apr21 16:08:37.373 - CGenerationThread thread 2114 starting
+13Apr21 16:08:37.375 - OPEN TrackLogging SHAPEFILE GROUP /home/Puma/Data/jeude/kaen/master ab 1m inside frontfence/Survey/Track3D_13Apr21_1608
+13Apr21 16:08:39.038 - Log off
+13Apr21 16:08:39.150 - Resizing viewport to: 64,41,414,427
+13Apr21 16:08:39.565 - field Opened
+13Apr21 16:08:55.494 - config.DataReductionLimit= 0.100m
+13Apr21 16:08:55.495 - config.LogDistMin        = 1.000m
+13Apr21 16:08:55.496 - minimum point separation = 5m
+13Apr21 16:08:55.497 - _fpl_InterpolationDist = 2.000m
+13Apr21 16:08:55.498 - _fpl_smoothCurves = 1
+13Apr21 16:09:03.164 - CPU 30.7+25.0% | Qt Thread  11.7% | CInfoMgmtN  1.3% | Controller  1.2% | CGuidanceT  1.2% | CanManager  1.1%
+13Apr21 16:11:03.084 - Memory usage logging started; Total Memory 114.8MB)
+13Apr21 16:11:03.085 - Free Memory 91.2MB
+13Apr21 16:12:41.802 - 1 Reported fix quality from TSIP: Float
+13Apr21 16:12:41.819 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 16:12:41.882 - Message Pop: GPS Quality has ChangedQuality is now: RTK Float.
+13Apr21 16:12:43.809 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:12:43.819 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:12:43.940 - Message Pop: GPS Quality has ChangedQuality is now: RTK Fixed.
+13Apr21 16:13:02.799 - 1 Reported fix quality from TSIP: Float
+13Apr21 16:13:02.803 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 16:13:02.832 - Message Pop: Degraded GPS: RTK Float
+13Apr21 16:13:02.976 - Message Pop: GPS Quality has ChangedQuality is now: RTK Float.
+13Apr21 16:13:13.790 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:13:13.813 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:13:13.900 - Message Pop: GPS Quality has ChangedQuality is now: RTK Fixed.
+13Apr21 16:13:18.795 - 1 Reported fix quality from TSIP: Float
+13Apr21 16:13:18.823 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 16:13:18.852 - Message Pop: Degraded GPS: RTK Float
+13Apr21 16:13:18.998 - Message Pop: GPS Quality has ChangedQuality is now: RTK Float.
+13Apr21 16:14:03.342 - CPU 10.5+ 5.6% | Qt Thread   5.6% | DrawingThr  2.0% | Controller  1.5% | CGuidanceT  1.3% | CInfoMgmtN  1.3%
+13Apr21 16:16:02.080 - Vehicle inter-GPS gap = 299ms (UTC= 0.20s)
+13Apr21 16:16:03.094 - Free Memory 90.9MB
+13Apr21 16:16:09.581 - USB inserted
+13Apr21 16:16:14.943 - SideBar: Home
+13Apr21 16:16:14.971 - TextBox: What would you like to do?||Cancel, returns to the curr
+13Apr21 16:16:17.834 - cf dialog - Yes
+13Apr21 16:16:18.544 - Log off
+13Apr21 16:16:18.547 - runScreen field NULL
+13Apr21 16:16:18.567 - TextBox: Saving Event Summary...|| jeude|  kaen|   master ab 1m 
+13Apr21 16:16:18.587 - preSummary proc events
+13Apr21 16:16:18.844 - preSummary update
+13Apr21 16:16:18.845 - save Summary
+13Apr21 16:16:23.998 - Summary done
+13Apr21 16:16:24.001 - setState closingField
+13Apr21 16:16:24.002 - StateChange: 3 -> 4
+13Apr21 16:16:24.019 - Amount of time for logging: 0.000 minutes
+13Apr21 16:16:24.020 - Amount of time for field open: 7.760 minutes
+13Apr21 16:16:24.021 - (Field Closed) Traveled Distance:47.12 Metres, Max Speed 11.850 km/h
+13Apr21 16:16:24.024 - Time Moving: 0.363 minutes, Time Not Moving: 4.090 minutes, Time W/O GPS:  3.220 minutes
+13Apr21 16:16:26.035 - Field Closed: jeude \ kaen \ master ab 1m inside frontfence \ Survey
+13Apr21 16:16:26.036 - StateChange: 4 -> 1
+13Apr21 16:16:26.038 - setState closingField done
+13Apr21 16:16:26.042 - field Closed
+13Apr21 16:16:26.124 - Log off
+13Apr21 16:16:26.639 - Vehicle inter-GPS gap = 439ms (UTC= 0.20s)
+13Apr21 16:16:29.147 - TextBox: <b>Please ensure power supply remains uninterrupted and
+13Apr21 16:16:36.043 - TextBox: Preparing File List...
+13Apr21 16:16:36.129 - Copying all fields from USB to FmX
+13Apr21 16:16:56.776 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:16:56.789 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:16:57.411 - TextBox: <b>GPS Quality has Changed</b><br><br>Quality is now: R
+13Apr21 16:16:58.307 - Vehicle inter-GPS gap = 307ms (UTC= 0.20s)
+13Apr21 16:16:58.667 - CRxThread_2 long proc (96)
+13Apr21 16:16:58.849 - Light Bar controller took 74+48ms!!
+13Apr21 16:16:58.853 - Controller loop longer than realtime, took 276ms (37+239)!!
+13Apr21 16:16:58.883 - Vehicle inter-GPS gap = 467ms (UTC= 0.20s)
+13Apr21 16:17:22.141 - Vehicle inter-GPS gap = 277ms (UTC= 0.20s)
+13Apr21 16:17:23.462 - ERROR: [1457] Lock stalled for 56ms (CDispatcher::Publish)
+13Apr21 16:17:34.350 - Vehicle inter-GPS gap = 359ms (UTC= 0.20s)
+13Apr21 16:17:34.650 - Vehicle inter-GPS gap = 275ms (UTC= 0.20s)
+13Apr21 16:17:34.905 - ERROR: [1396] Too long inside Dispatch lock (110)
+13Apr21 16:17:35.191 - CRxThread_2 long proc (180)
+13Apr21 16:17:35.190 - Light Bar controller took 40+81ms!!
+13Apr21 16:17:35.215 - Controller loop longer than realtime, took 293ms (56+237)!!
+13Apr21 16:17:35.215 - Vehicle inter-GPS gap = 534ms (UTC= 0.20s)
+13Apr21 16:17:39.573 - Vehicle inter-GPS gap = 334ms (UTC= 0.20s)
+13Apr21 16:17:40.290 - Vehicle inter-GPS gap = 305ms (UTC= 0.20s)
+13Apr21 16:18:02.677 - Light Bar controller took 45+60ms!!
+13Apr21 16:18:02.791 - Vehicle inter-GPS gap = 329ms (UTC= 0.20s)
+13Apr21 16:18:03.349 - Light Bar controller took 283+38ms!!
+13Apr21 16:18:03.350 - Controller loop longer than realtime, took 568ms (63+505)!!
+13Apr21 16:18:03.351 - CRxThread_2 long proc (115)
+13Apr21 16:18:03.367 - Vehicle inter-GPS gap = 504ms (UTC= 0.20s)
+13Apr21 16:18:49.103 - Vehicle inter-GPS gap = 512ms (UTC= 0.20s)
+13Apr21 16:19:03.479 - CPU 36.8+26.7% | Qt Thread  19.1% | Controller  1.8% | CInfoMgmtN  1.7% | CGuidanceT  1.5% | CanManager  1.4%
+13Apr21 16:19:15.001 - Removed DCM300 log files
+13Apr21 16:19:18.232 - TextBox: Copy successful.<br><br>Free space left on destination:
+13Apr21 16:19:33.194 - SideBar: Run
+13Apr21 16:20:55.802 - Opening Field jeude \ baroona \ east boundary
+13Apr21 16:20:55.858 - Opening Event Survey
+13Apr21 16:20:55.885 - Restoring Field Origin: LLA: -27.39500999999°, 151.42940999997°, 361.00000m
+13Apr21 16:20:55.887 - Vehicle: 
+13Apr21 16:20:55.887 - Implement: 11 metre
+13Apr21 16:20:55.889 - Implement Width: 11m  (11.000m)
+13Apr21 16:20:55.890 - Application Width: 11m  (11.000m)
+13Apr21 16:20:55.922 - TextBox: Opening Field:|| jeude|  baroona|   east boundary|    S
+13Apr21 16:20:56.478 - StateChange: 1 -> 2
+13Apr21 16:20:56.480 - CTrackLoggingThread thread 5408 starting
+13Apr21 16:20:56.521 - Initial Field Origin: LLA: -27.39500999999°, 151.42940999997°, 361.00000m
+13Apr21 16:20:56.536 - Restored Field Origin: LLA: -27.39500999999°, 151.42940999997°, 361.00000m
+13Apr21 16:20:56.573 - Loading swath "East Boundary A-B Line" of 0 points (from /home/Puma/Data/jeude/baroona/east boundary/Swaths.shp)
+13Apr21 16:20:56.581 - Loading swath "East Boundary A-B Line" of 2 points (from /home/Puma/Data/jeude/baroona/east boundary/Swaths.shp)
+13Apr21 16:20:56.586 - StateChange: 2 -> 3
+13Apr21 16:20:56.615 - CGenerationThread thread 5409 starting
+13Apr21 16:20:56.650 - Loaded Area Feature with 5 points
+13Apr21 16:20:56.665 - OPEN TrackLogging SHAPEFILE GROUP /home/Puma/Data/jeude/baroona/east boundary/Survey/Track3D_13Apr21_1620
+13Apr21 16:20:58.232 - Log off
+13Apr21 16:20:58.738 - field Opened
+13Apr21 16:20:58.229 - ASSERT FAILED: File source/libs/Scene3D/Scene3D.cpp, line 171 - "addObject: Scene active while adding!"
+13Apr21 16:20:59.371 - ASSERT FAILED: File source/libs/Scene3D/Scene3D.cpp, line 171 - "addObject: Scene active while adding!"
+13Apr21 16:20:59.414 - ASSERT FAILED: File source/libs/Scene3D/Scene3D.cpp, line 171 - "addObject: Scene active while adding!"
+13Apr21 16:20:59.579 - Resizing viewport to: 64,41,414,427
+13Apr21 16:21:03.117 - Free Memory 84.4MB, sudden decrease of 6.5MB
+13Apr21 16:21:23.333 - Loading swath "East Boundary A-B Line, Shifted 5.5mL" of 2 points (from /home/Puma/Data/jeude/baroona/east boundary/Swaths.shp)
+13Apr21 16:21:23.843 - config.DataReductionLimit= 0.100m
+13Apr21 16:21:23.844 - config.LogDistMin        = 1.000m
+13Apr21 16:21:23.845 - minimum point separation = 5m
+13Apr21 16:21:23.846 - _fpl_InterpolationDist = 2.000m
+13Apr21 16:21:23.847 - _fpl_smoothCurves = 1
+13Apr21 16:21:37.957 - SideBar: Config
+13Apr21 16:21:48.130 - >>> Entered Admin mode
+13Apr21 16:24:03.661 - CPU 20.1+ 9.3% | Qt Thread  12.3% | CInfoMgmtN  1.8% | DrawingThr  1.7% | Controller  1.5% | CGuidanceT  1.3%
+13Apr21 16:25:11.136 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:25:11.156 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:25:11.189 - Message Pop: Degraded GPS: DGPS
+13Apr21 16:25:11.374 - Message Pop: GPS Quality has ChangedQuality is now: DGPS.
+13Apr21 16:25:14.922 - 1 Reported fix quality from TSIP: Float
+13Apr21 16:25:14.933 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 16:25:14.982 - Message Pop: GPS Quality has ChangedQuality is now: RTK Float.
+13Apr21 16:25:17.722 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:25:17.726 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:25:17.898 - Message Pop: GPS Quality has ChangedQuality is now: RTK Fixed.
+13Apr21 16:26:03.127 - Free Memory 84.1MB
+13Apr21 16:29:03.777 - CPU 13.4+ 5.9% | Qt Thread   5.9% | DrawingThr  3.4% | CInfoMgmtN  1.9% | Controller  1.5% | CGuidanceT  1.3%
+13Apr21 16:32:26.672 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:32:26.676 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:32:26.709 - Message Pop: Degraded GPS: DGPS
+13Apr21 16:32:26.940 - Message Pop: GPS Quality has ChangedQuality is now: DGPS.
+13Apr21 16:32:30.869 - 1 Reported fix quality from TSIP: Float
+13Apr21 16:32:30.882 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 16:32:31.007 - Message Pop: GPS Quality has ChangedQuality is now: RTK Float.
+13Apr21 16:32:32.672 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:32:32.692 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:32:32.848 - Message Pop: GPS Quality has ChangedQuality is now: RTK Fixed.
+13Apr21 16:32:39.262 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:32:39.276 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:32:39.308 - Message Pop: Degraded GPS: DGPS
+13Apr21 16:32:39.460 - Message Pop: GPS Quality has ChangedQuality is now: DGPS.
+13Apr21 16:32:42.882 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:32:42.889 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:33:11.662 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:33:11.679 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:33:11.718 - TextBox: <b>Degraded GPS: DGPS</b>
+13Apr21 16:33:13.872 - 1 Reported fix quality from TSIP: Float
+13Apr21 16:33:13.876 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 16:33:15.656 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:33:15.687 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:33:15.989 - TextBox: <b>GPS Quality has Changed</b><br><br>Quality is now: R
+13Apr21 16:34:03.901 - CPU 16.0+ 5.8% | Qt Thread   7.2% | DrawingThr  3.8% | CInfoMgmtN  1.9% | Controller  1.4% | CGuidanceT  1.3%
+13Apr21 16:38:17.839 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:38:17.849 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:38:17.882 - Message Pop: Degraded GPS: DGPS
+13Apr21 16:38:17.976 - Message Pop: GPS Quality has ChangedQuality is now: DGPS.
+13Apr21 16:38:20.836 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:38:20.862 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:39:04.001 - CPU 14.9+ 6.7% | Qt Thread   5.5% | DrawingThr  5.4% | CInfoMgmtN  1.8% | Controller  1.4% | CGuidanceT  1.3%
+13Apr21 16:44:04.096 - CPU 12.8+ 6.6% | Qt Thread   5.1% | DrawingThr  4.2% | CInfoMgmtN  1.8% | Controller  1.5% | CGuidanceT  1.3%
+13Apr21 16:44:12.789 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:44:12.813 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:44:12.849 - Message Pop: Degraded GPS: DGPS
+13Apr21 16:44:13.001 - Message Pop: GPS Quality has ChangedQuality is now: DGPS.
+13Apr21 16:44:14.796 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:44:14.821 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:44:32.999 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:44:33.006 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:44:33.053 - Message Pop: Degraded GPS: DGPS
+13Apr21 16:44:33.206 - Message Pop: GPS Quality has ChangedQuality is now: DGPS.
+13Apr21 16:44:34.186 - 1 Reported fix quality from TSIP: Autonomous
+13Apr21 16:44:34.196 - 1 GPS Quality changed to: 11, No Corrections
+13Apr21 16:44:34.340 - Message Pop: GPS Quality has ChangedQuality is now: No Corrections.
+13Apr21 16:44:35.186 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:44:35.209 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:44:38.786 - 1 Reported fix quality from TSIP: Float
+13Apr21 16:44:38.809 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 16:44:38.941 - Message Pop: GPS Quality has ChangedQuality is now: RTK Float.
+13Apr21 16:44:42.592 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:44:42.596 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:44:42.760 - Message Pop: GPS Quality has ChangedQuality is now: RTK Fixed.
+13Apr21 16:45:23.586 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:45:23.596 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:45:23.638 - TextBox: <b>GPS Quality has Changed</b><br><br>Quality is now: R
+13Apr21 16:45:26.776 - 1 Reported fix quality from TSIP: Float
+13Apr21 16:45:26.816 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 16:45:31.582 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:45:31.592 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:45:31.937 - TextBox: <b>GPS Quality has Changed</b><br><br>Quality is now: R
+13Apr21 16:46:03.217 - Free Memory 83.9MB
+13Apr21 16:47:32.972 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:47:33.012 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:47:33.035 - Message Pop: Degraded GPS: DGPS
+13Apr21 16:47:33.159 - Message Pop: GPS Quality has ChangedQuality is now: DGPS.
+13Apr21 16:47:38.773 - 1 Reported fix quality from TSIP: Float
+13Apr21 16:47:38.793 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 16:47:38.828 - Message Pop: GPS Quality has ChangedQuality is now: RTK Float.
+13Apr21 16:47:43.579 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:47:43.602 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:47:43.709 - Message Pop: GPS Quality has ChangedQuality is now: RTK Fixed.
+13Apr21 16:47:47.976 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:47:47.992 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:47:48.021 - Message Pop: Degraded GPS: DGPS
+13Apr21 16:47:48.181 - Message Pop: GPS Quality has ChangedQuality is now: DGPS.
+13Apr21 16:47:48.357 - 1 Reported fix quality from TSIP: Autonomous
+13Apr21 16:47:48.402 - 1 GPS Quality changed to: 11, No Corrections
+13Apr21 16:47:48.444 - Message Pop: GPS Quality has ChangedQuality is now: No Corrections.
+13Apr21 16:47:48.979 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:47:48.999 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:47:49.166 - 1 Reported fix quality from TSIP: Autonomous
+13Apr21 16:47:49.190 - 1 GPS Quality changed to: 11, No Corrections
+13Apr21 16:47:49.298 - Message Pop: GPS Quality has ChangedQuality is now: No Corrections.
+13Apr21 16:47:49.566 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:47:49.596 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:47:56.769 - 1 Reported fix quality from TSIP: Float
+13Apr21 16:47:56.779 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 16:47:56.830 - Message Pop: GPS Quality has ChangedQuality is now: RTK Float.
+13Apr21 16:47:57.559 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:47:57.627 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:47:57.798 - Message Pop: GPS Quality has ChangedQuality is now: RTK Fixed.
+13Apr21 16:48:25.572 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:48:25.592 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:48:25.632 - TextBox: <b>GPS Quality has Changed</b><br><br>Quality is now: R
+13Apr21 16:48:31.756 - 1 Reported fix quality from TSIP: Float
+13Apr21 16:48:31.789 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 16:48:34.576 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:48:34.603 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:48:34.974 - TextBox: <b>GPS Quality has Changed</b><br><br>Quality is now: R
+13Apr21 16:49:04.208 - CPU 17.5+ 6.2% | Qt Thread   9.6% | DrawingThr  3.1% | CInfoMgmtN  1.9% | Controller  1.4% | CGuidanceT  1.3%
+13Apr21 16:53:24.946 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:53:24.956 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:53:24.992 - Message Pop: Degraded GPS: DGPS
+13Apr21 16:53:25.082 - Message Pop: GPS Quality has ChangedQuality is now: DGPS.
+13Apr21 16:53:29.739 - 1 Reported fix quality from TSIP: Float
+13Apr21 16:53:29.749 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 16:53:29.789 - Message Pop: GPS Quality has ChangedQuality is now: RTK Float.
+13Apr21 16:53:34.546 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:53:34.552 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:53:34.724 - Message Pop: GPS Quality has ChangedQuality is now: RTK Fixed.
+13Apr21 16:53:38.722 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:53:38.769 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:53:38.802 - Message Pop: Degraded GPS: DGPS
+13Apr21 16:53:38.899 - Message Pop: GPS Quality has ChangedQuality is now: DGPS.
+13Apr21 16:53:40.726 - 1 Reported fix quality from TSIP: Float
+13Apr21 16:53:40.752 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 16:53:40.846 - Message Pop: GPS Quality has ChangedQuality is now: RTK Float.
+13Apr21 16:53:41.529 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:53:41.539 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:53:41.696 - Message Pop: GPS Quality has ChangedQuality is now: RTK Fixed.
+13Apr21 16:53:51.532 - 1 Reported fix quality from TSIP: Autonomous
+13Apr21 16:53:51.549 - 1 GPS Quality changed to: 12, No Position
+13Apr21 16:53:51.580 - Message Pop: Degraded GPS: No Position
+13Apr21 16:53:51.672 - Message Pop: GPS Quality has ChangedQuality is now: No Position.
+13Apr21 16:53:51.942 - 1 GPS Quality changed to: 11, No Corrections
+13Apr21 16:53:52.336 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 16:53:52.340 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 16:53:55.739 - 1 Reported fix quality from TSIP: Float
+13Apr21 16:53:55.765 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 16:53:55.869 - Message Pop: GPS Quality has ChangedQuality is now: RTK Float.
+13Apr21 16:53:58.539 - 1 Reported fix quality from TSIP: RTK
+13Apr21 16:53:58.552 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 16:53:58.657 - Message Pop: GPS Quality has ChangedQuality is now: RTK Fixed.
+13Apr21 16:54:04.291 - CPU 13.1+ 6.3% | Qt Thread   5.9% | DrawingThr  3.2% | CInfoMgmtN  1.9% | Controller  1.5% | CGuidanceT  1.3%
+13Apr21 16:59:04.356 - CPU 16.2+ 6.1% | DrawingThr  6.2% | Qt Thread   5.7% | CInfoMgmtN  1.9% | Controller  1.5% | CGuidanceT  1.3%
+13Apr21 17:04:04.417 - CPU 11.5+ 5.9% | DrawingThr  4.7% | Qt Thread   2.9% | CInfoMgmtN  1.9% | Controller  1.5% | CGuidanceT  1.3%
+13Apr21 17:09:04.525 - CPU 10.7+ 5.9% | DrawingThr  3.8% | Qt Thread   3.0% | CInfoMgmtN  1.8% | Controller  1.4% | CGuidanceT  1.3%
+13Apr21 17:10:47.308 - Resizing viewport to: 294,49,180,135
+13Apr21 17:10:53.673 - Resizing viewport to: 64,41,414,427
+13Apr21 17:13:55.636 - Loading swath "East Boundary A-B Line, Shifted 5.5mL" of 2 points (from /home/Puma/Data/jeude/baroona/east boundary/Swaths.shp)
+13Apr21 17:13:56.133 - config.DataReductionLimit= 0.100m
+13Apr21 17:13:56.134 - config.LogDistMin        = 1.000m
+13Apr21 17:13:56.136 - minimum point separation = 5m
+13Apr21 17:13:56.137 - _fpl_InterpolationDist = 2.000m
+13Apr21 17:13:56.137 - _fpl_smoothCurves = 1
+13Apr21 17:14:04.594 - CPU 12.7+ 5.9% | Qt Thread   4.6% | DrawingThr  3.6% | CInfoMgmtN  1.9% | Controller  1.5% | CGuidanceT  1.3%
+13Apr21 17:19:04.684 - CPU  8.4+ 6.5% | Qt Thread   2.9% | DrawingThr  2.4% | CInfoMgmtN  1.8% | Controller  1.4% | CGuidanceT  1.3%
+13Apr21 17:20:57.803 - (Hourly) Traveled Distance:8113.42 Metres, Max Speed 36.560 km/h
+13Apr21 17:20:57.804 - Time Moving: 38.013 minutes, Time Not Moving: 20.457 minutes, Time W/O GPS:  1.524 minutes
+13Apr21 17:24:04.823 - CPU  9.0+ 6.0% | Qt Thread   3.0% | DrawingThr  2.3% | CInfoMgmtN  1.8% | Controller  1.4% | CGuidanceT  1.3%
+13Apr21 17:28:07.019 - SideBar: Config
+13Apr21 17:28:19.718 - ERROR: [1396] Too long inside Run1 lock (204)
+13Apr21 17:28:19.639 - CRxThread_2 long proc (89)
+13Apr21 17:28:19.731 - ERROR: [1457] Lock stalled for 130ms (CDispatcher::Publish)
+13Apr21 17:28:20.229 - Vehicle inter-GPS gap = 880ms (UTC= 0.20s)
+13Apr21 17:28:20.075 - Light Bar controller took 20+54ms!!
+13Apr21 17:28:20.245 - Controller loop longer than realtime, took 458ms (64+394)!!
+13Apr21 17:28:44.161 - SideBar: Home
+13Apr21 17:28:44.177 - TextBox: What would you like to do?||Cancel, returns to the curr
+13Apr21 17:28:51.444 - cf dialog - Yes
+13Apr21 17:28:52.229 - Log off
+13Apr21 17:28:52.232 - runScreen field NULL
+13Apr21 17:28:52.247 - TextBox: Saving Event Summary...|| jeude|  baroona|   east bound
+13Apr21 17:28:52.261 - preSummary proc events
+13Apr21 17:28:52.454 - preSummary update
+13Apr21 17:28:52.457 - save Summary
+13Apr21 17:28:57.705 - Summary done
+13Apr21 17:28:57.707 - setState closingField
+13Apr21 17:28:57.708 - StateChange: 3 -> 4
+13Apr21 17:28:57.726 - Amount of time for logging: 0.000 minutes
+13Apr21 17:28:57.727 - Amount of time for field open: 68.001 minutes
+13Apr21 17:28:57.728 - (Field Closed) Traveled Distance:1174.79 Metres, Max Speed 18.400 km/h
+13Apr21 17:28:57.729 - Time Moving: 6.202 minutes, Time Not Moving: 1.708 minutes, Time W/O GPS:  0.000 minutes
+13Apr21 17:28:59.741 - Field Closed: jeude \ baroona \ east boundary \ Survey
+13Apr21 17:28:59.745 - StateChange: 4 -> 1
+13Apr21 17:28:59.746 - setState closingField done
+13Apr21 17:28:59.751 - field Closed
+13Apr21 17:28:59.841 - Log off
+13Apr21 17:29:00.444 - Vehicle inter-GPS gap = 531ms (UTC= 0.20s)
+13Apr21 17:29:03.207 - SideBar: Run
+13Apr21 17:29:04.940 - CPU 12.8+ 6.5% | Qt Thread   5.9% | DrawingThr  2.4% | CInfoMgmtN  1.9% | Controller  1.5% | CGuidanceT  1.3%
+13Apr21 17:29:11.476 - SideBar: Run
+13Apr21 17:29:20.355 - TextBox: <b>Please ensure power supply remains uninterrupted and
+13Apr21 17:29:40.627 - SideBar: Run
+13Apr21 17:30:29.533 - Vehicle inter-GPS gap = 420ms (UTC= 0.20s)
+13Apr21 17:34:05.011 - CPU  7.1+ 6.2% | Qt Thread   3.6% | CInfoMgmtN  1.8% | Controller  1.5% | CGuidanceT  1.3% | CanManager  1.2%
+13Apr21 17:37:59.265 - Opening Field jeude \ baroona \ east boundary
+13Apr21 17:37:59.313 - Opening Event Survey
+13Apr21 17:37:59.331 - Event History has older field count
+13Apr21 17:37:59.336 - Restoring Field Origin: LLA: -27.39500999999°, 151.42940999997°, 361.00000m
+13Apr21 17:37:59.337 - Vehicle: 
+13Apr21 17:37:59.338 - Implement: 11 metre
+13Apr21 17:37:59.339 - Implement Width: 11m  (11.000m)
+13Apr21 17:37:59.340 - Application Width: 11m  (11.000m)
+13Apr21 17:37:59.373 - TextBox: Opening Field:|| jeude|  baroona|   east boundary|    S
+13Apr21 17:37:59.926 - StateChange: 1 -> 2
+13Apr21 17:37:59.929 - CTrackLoggingThread thread 18749 starting
+13Apr21 17:37:59.970 - Initial Field Origin: LLA: -27.39500999999°, 151.42940999997°, 361.00000m
+13Apr21 17:37:59.971 - Restored Field Origin: LLA: -27.39500999999°, 151.42940999997°, 361.00000m
+13Apr21 17:38:00.004 - Loading swath "Baroona East Boundary FenceShft" of 2 points (from /home/Puma/Data/jeude/baroona/east boundary/Swaths.shp)
+13Apr21 17:38:00.011 - Loading swath "Baroona East Boundary FenceShft" of 2 points (from /home/Puma/Data/jeude/baroona/east boundary/Swaths.shp)
+13Apr21 17:38:00.016 - StateChange: 2 -> 3
+13Apr21 17:38:00.035 - CGenerationThread thread 18750 starting
+13Apr21 17:38:00.068 - Loaded Area Feature with 5 points
+13Apr21 17:38:00.080 - OPEN TrackLogging SHAPEFILE GROUP /home/Puma/Data/jeude/baroona/east boundary/Survey/Track3D_13Apr21_1738
+13Apr21 17:38:01.597 - ASSERT FAILED: File source/libs/Scene3D/Scene3D.cpp, line 171 - "addObject: Scene active while adding!"
+13Apr21 17:38:01.601 - Log off
+13Apr21 17:38:02.108 - field Opened
+13Apr21 17:38:02.749 - ASSERT FAILED: File source/libs/Scene3D/Scene3D.cpp, line 171 - "addObject: Scene active while adding!"
+13Apr21 17:38:02.750 - ASSERT FAILED: File source/libs/Scene3D/Scene3D.cpp, line 171 - "addObject: Scene active while adding!"
+13Apr21 17:38:02.919 - Resizing viewport to: 64,41,414,427
+13Apr21 17:38:11.511 - Resizing viewport to: 294,49,180,135
+13Apr21 17:38:16.690 - Resizing viewport to: 64,41,414,427
+13Apr21 17:38:36.191 - Snapshot UI time: 943ms = 1+0+942
+13Apr21 17:38:36.553 - Recording screenshot_03.png
+13Apr21 17:38:38.576 - Snapshot save time: 2383ms = 51+1+0+308+2023
+13Apr21 17:38:39.494 - Resizing viewport to: 64,41,669,427
+13Apr21 17:38:40.009 - Resizing viewport to: 64,41,414,427
+13Apr21 17:38:41.785 - Snapshot UI time: 398ms = 0+0+398
+13Apr21 17:38:42.201 - Recording screenshot_04.png
+13Apr21 17:38:44.427 - Snapshot save time: 2640ms = 149+0+2+264+2225
+13Apr21 17:38:48.804 - SideBar: Config
+13Apr21 17:39:05.147 - CPU  8.4+ 5.9% | Qt Thread   3.4% | CInfoMgmtN  1.8% | DrawingThr  1.6% | Controller  1.5% | CGuidanceT  1.3%
+13Apr21 17:39:14.177 - SideBar: Home
+13Apr21 17:39:14.191 - TextBox: What would you like to do?||Cancel, returns to the curr
+13Apr21 17:39:16.378 - cf dialog - Yes
+13Apr21 17:39:17.116 - Log off
+13Apr21 17:39:17.120 - runScreen field NULL
+13Apr21 17:39:17.134 - TextBox: Saving Event Summary...|| jeude|  baroona|   east bound
+13Apr21 17:39:17.149 - preSummary proc events
+13Apr21 17:39:17.400 - preSummary update
+13Apr21 17:39:17.401 - save Summary
+13Apr21 17:39:22.546 - Summary done
+13Apr21 17:39:22.548 - setState closingField
+13Apr21 17:39:22.549 - StateChange: 3 -> 4
+13Apr21 17:39:22.567 - Amount of time for logging: 0.000 minutes
+13Apr21 17:39:22.568 - Amount of time for field open: 1.359 minutes
+13Apr21 17:39:22.570 - (Field Closed) Traveled Distance:369.28 Metres, Max Speed 28.490 km/h
+13Apr21 17:39:22.571 - Time Moving: 0.929 minutes, Time Not Moving: 0.343 minutes, Time W/O GPS:  0.000 minutes
+13Apr21 17:39:24.584 - Field Closed: jeude \ baroona \ east boundary \ Survey
+13Apr21 17:39:24.587 - StateChange: 4 -> 1
+13Apr21 17:39:24.588 - setState closingField done
+13Apr21 17:39:24.594 - field Closed
+13Apr21 17:39:24.633 - SideBar: Run
+13Apr21 17:39:25.186 - Log off
+13Apr21 17:39:25.650 - Vehicle inter-GPS gap = 383ms (UTC= 0.20s)
+13Apr21 17:40:32.447 - Opening Field jeude \ baroona \ east boundary
+13Apr21 17:40:32.488 - Opening Event ab line
+13Apr21 17:40:32.510 - Restoring Field Origin: LLA: -27.39500999999°, 151.42940999997°, 361.00000m
+13Apr21 17:40:32.511 - Vehicle: 
+13Apr21 17:40:32.512 - Implement: 11 metre
+13Apr21 17:40:32.513 - Implement Width: 11m  (11.000m)
+13Apr21 17:40:32.514 - Application Width: 11m  (11.000m)
+13Apr21 17:40:32.546 - TextBox: Opening Field:|| jeude|  baroona|   east boundary|    a
+13Apr21 17:40:33.136 - StateChange: 1 -> 2
+13Apr21 17:40:33.138 - CTrackLoggingThread thread 19191 starting
+13Apr21 17:40:33.182 - Initial Field Origin: LLA: -27.39500999999°, 151.42940999997°, 361.00000m
+13Apr21 17:40:33.185 - Restored Field Origin: LLA: -27.39500999999°, 151.42940999997°, 361.00000m
+13Apr21 17:40:33.217 - Loading swath "Baroona East Boundary FenceShft" of 2 points (from /home/Puma/Data/jeude/baroona/east boundary/Swaths.shp)
+13Apr21 17:40:33.241 - Loading swath "Baroona East Boundary FenceShft" of 2 points (from /home/Puma/Data/jeude/baroona/east boundary/Swaths.shp)
+13Apr21 17:40:33.243 - StateChange: 2 -> 3
+13Apr21 17:40:33.282 - CGenerationThread thread 19192 starting
+13Apr21 17:40:33.284 - Loaded Area Feature with 5 points
+13Apr21 17:40:33.296 - OPEN TrackLogging SHAPEFILE GROUP /home/Puma/Data/jeude/baroona/east boundary/ab line/Track3D_13Apr21_1740
+13Apr21 17:40:35.891 - ASSERT FAILED: File source/libs/Scene3D/Scene3D.cpp, line 171 - "addObject: Scene active while adding!"
+13Apr21 17:40:35.895 - Log off
+13Apr21 17:40:35.934 - ASSERT FAILED: File source/libs/Scene3D/Scene3D.cpp, line 171 - "addObject: Scene active while adding!"
+13Apr21 17:40:35.943 - field Opened
+13Apr21 17:40:36.617 - ASSERT FAILED: File source/libs/Scene3D/Scene3D.cpp, line 171 - "addObject: Scene active while adding!"
+13Apr21 17:41:03.530 - Free Memory 82.9MB
+13Apr21 17:41:05.832 - Internal temperature: 29.00C
+13Apr21 17:41:11.586 - config.DataReductionLimit= 0.100m
+13Apr21 17:41:11.587 - config.LogDistMin        = 1.000m
+13Apr21 17:41:11.588 - minimum point separation = 5m
+13Apr21 17:41:11.589 - _fpl_InterpolationDist = 2.000m
+13Apr21 17:41:11.590 - _fpl_smoothCurves = 1
+13Apr21 17:41:11.702 - Message Pop: Loading guidance lines...
+13Apr21 17:41:44.010 - Loading swath "East Boundary A-B Line, Shifted 5.5mL" of 2 points (from /home/Puma/Data/jeude/baroona/east boundary/Swaths.shp)
+13Apr21 17:41:44.657 - config.DataReductionLimit= 0.100m
+13Apr21 17:41:44.657 - config.LogDistMin        = 1.000m
+13Apr21 17:41:44.658 - minimum point separation = 5m
+13Apr21 17:41:44.665 - _fpl_InterpolationDist = 2.000m
+13Apr21 17:41:44.666 - _fpl_smoothCurves = 1
+13Apr21 17:42:13.983 - SideBar: Home
+13Apr21 17:42:14.002 - TextBox: What would you like to do?||Cancel, returns to the curr
+13Apr21 17:42:17.623 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 17:42:17.643 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 17:42:17.684 - TextBox: <b>Degraded GPS: DGPS</b>
+13Apr21 17:42:18.419 - 1 Reported fix quality from TSIP: Float
+13Apr21 17:42:18.442 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 17:42:18.622 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 17:42:18.632 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 17:42:26.563 - cf dialog - Yes
+13Apr21 17:42:27.283 - Log off
+13Apr21 17:42:27.286 - runScreen field NULL
+13Apr21 17:42:27.300 - TextBox: Saving Event Summary...|| jeude|  baroona|   east bound
+13Apr21 17:42:27.315 - preSummary proc events
+13Apr21 17:42:27.561 - preSummary update
+13Apr21 17:42:27.570 - save Summary
+13Apr21 17:42:29.422 - 1 Reported fix quality from TSIP: Float
+13Apr21 17:42:29.425 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 17:42:30.609 - 1 Reported fix quality from TSIP: DGPS Ext
+13Apr21 17:42:30.649 - 1 GPS Quality changed to: 5, DGPS
+13Apr21 17:42:31.416 - 1 Reported fix quality from TSIP: Float
+13Apr21 17:42:31.436 - 1 GPS Quality changed to: 6, RTK Float
+13Apr21 17:42:32.726 - Summary done
+13Apr21 17:42:32.728 - setState closingField
+13Apr21 17:42:32.730 - StateChange: 3 -> 4
+13Apr21 17:42:32.746 - Amount of time for logging: 0.000 minutes
+13Apr21 17:42:32.747 - Amount of time for field open: 1.974 minutes
+13Apr21 17:42:32.748 - (Field Closed) Traveled Distance:578.60 Metres, Max Speed 27.970 km/h
+13Apr21 17:42:32.749 - Time Moving: 1.718 minutes, Time Not Moving: 0.000 minutes, Time W/O GPS:  0.169 minutes
+13Apr21 17:42:34.761 - Field Closed: jeude \ baroona \ east boundary \ ab line
+13Apr21 17:42:34.764 - StateChange: 4 -> 1
+13Apr21 17:42:34.765 - setState closingField done
+13Apr21 17:42:34.771 - field Closed
+13Apr21 17:42:34.868 - Log off
+13Apr21 17:42:35.699 - TextBox: <b>GPS Quality has Changed</b><br><br>Quality is now: R
+13Apr21 17:42:37.199 - 1 Reported fix quality from TSIP: RTK
+13Apr21 17:42:37.236 - 1 GPS Quality changed to: 2, RTK Fixed
+13Apr21 17:42:37.631 - TextBox: <b>GPS Quality has Changed</b><br><br>Quality is now: R
+13Apr21 17:42:41.588 - Button: Shutdown
+13Apr21 17:42:41.619 - closeEvent()
+13Apr21 17:42:41.620 - StateChange: 1 -> 6
+13Apr21 17:42:42.042 - closeEvent()
+13Apr21 17:42:42.389 - Controller Light Bar was called 426594 times; total time = 10115ms (average = 0.0ms)
+13Apr21 17:42:42.390 - Controller Button Box was called 426594 times; total time = 8169ms (average = 0.0ms)
+13Apr21 17:42:42.391 - Controller TSIPController was called 426594 times; total time = 7165ms (average = 0.0ms)
+13Apr21 17:42:42.404 - 1 CGPSReceiver::EndProcessing(void) ----STOP---- 
+13Apr21 17:42:42.420 - 1 CGPSReceiver::~CGPSReceiver(void)
+13Apr21 17:42:42.451 - Signal Thread Ending
+13Apr21 17:42:43.795 - Device Thread exited: power down requested
+13Apr21 17:42:43.827 - =============== UDP socket closed  
+13Apr21 17:42:43.873 - AIM NetController::setNetworkEnable: enabled = 0|
+13Apr21 17:42:43.874 -  **** AIM Controller Stopping, Disabling Network.
+13Apr21 17:42:44.651 - ***** FieldManager Integrated Display exited *****
+
+
+13Apr21 21:33:51.141 - ***** FieldManager Integrated Display started *****
+13Apr21 21:33:51.159 - Version: 6.6 - Build 66270
+13Apr21 21:33:51.160 - Date: May 30 2012 17:40:02
+13Apr21 21:33:51.192 - Base: gemini_abs_0016/FS_0064 HW Ver G
+13Apr21 21:33:51.194 - Serial Number: 5212548880
+13Apr21 21:33:54.363 - [Description];           93110-00 - TRIMBLE FMX 52275
+13Apr21 21:33:54.364 - [Product];           GEMINI
+13Apr21 21:33:54.365 - [Brand];           TRIMBLE
+13Apr21 21:33:54.367 - [PartNumber];           93110-00
+13Apr21 21:33:54.368 - [NameShort];           FMX
+13Apr21 21:33:54.369 - [NameLong];           Trimble-FMX
+13Apr21 21:33:54.370 - [GpsNameShort];           AgG1k
+13Apr21 21:33:54.371 - [GpsNameLong];           AgGPS 1000
+13Apr21 21:33:54.372 - [BrandingImage1];           TrimbleLogo.bmp
+13Apr21 21:33:54.373 - [BrandingImage2];           FMXLogo.png
+13Apr21 21:33:54.379 - [BrandingImage3];           FMX_background_TRMB.png
+13Apr21 21:33:54.381 - [FirmwareFile];           Gemini_0063_Puma_52275_Pollux_3_15_015_4.upg
+13Apr21 21:33:54.382 - [FirmwareFileString];           52275
+13Apr21 21:33:54.383 - [PositioningLevel];           DGPS
+13Apr21 21:33:54.384 - [Glonass];           DISABLED
+13Apr21 21:33:54.385 - [AuxAntennaBitmask];           0
+14Apr21 07:33:55.104 - AgRemote Logging stopped
+14Apr21 07:33:55.137 - CCanManager 1473 starting
+14Apr21 07:33:55.150 - GUI Subscriber thread 1475 starting
+14Apr21 07:33:55.154 - CAN ERROR FRAME: Can-Controller error data=0x00 0x04 0x00 0x00 0x00
+14Apr21 07:33:55.155 - CAN ERROR FRAME: Can-Controller error data=0x00 0x04 0x00 0x00 0x00
+14Apr21 07:33:55.156 - CInfoMgmtNetThread thread 1476 starting
+14Apr21 07:33:55.158 - CInfoMgmtFtpThread thread 1477 starting
+14Apr21 07:33:55.161 - CInfoMgmtTccThread thread 1478 starting
+14Apr21 07:33:55.167 - CAN ERROR FRAME: Can-Controller error data=0x00 0x10 0x00 0x00 0x00
+14Apr21 07:33:55.168 - CAN ERROR FRAME: Can-Controller error data=0x00 0x10 0x00 0x00 0x00
+14Apr21 07:33:55.180 - AIM NetController::setNetworkEnable: enabled = 1|
+14Apr21 07:33:55.182 -  **** AIM Controller Starting, Enabling Network.
+14Apr21 07:33:55.186 - AIM: File Queue Count: 1
+14Apr21 07:33:55.187 - AIM: Raw File: DisplayInfo.xml
+14Apr21 07:33:55.201 - CInfoMgmtCtrThread thread 1479 starting
+14Apr21 07:33:55.203 - === udp socket openned
+14Apr21 07:33:55.206 - CInfoMgmtV2VThread thread 1480 starting
+14Apr21 07:33:59.596 - USB Removed
+14Apr21 07:34:00.314 - Setting m_backlightIsOff to false
+14Apr21 07:34:00.345 - Signal Thread 1514 starting
+14Apr21 07:34:00.374 - USB inserted
+14Apr21 07:34:00.377 - Device Thread 1516 starting
+14Apr21 07:34:00.414 - Set display language to English
+14Apr21 07:34:02.490 - CDispatcher thread 1474 starting
+14Apr21 07:34:03.374 - ]]]]] Option available for GPS Upgrade to HP
+14Apr21 07:34:03.375 - ]]]]] Option available for GPS Upgrade HP to RTK
+14Apr21 07:34:03.377 - StateChange: 0 -> 1
+14Apr21 07:34:03.628 - Battery voltage from last run: 0.000000
+14Apr21 07:34:03.630 - Reading battery voltage.
+14Apr21 07:34:08.127 - SideBar: Home
+14Apr21 07:34:08.235 - CGuidanceThread thread 1563 starting
+14Apr21 07:34:08.958 - CNMEAProcessingThread thread 1568 starting
+14Apr21 07:34:08.965 - TSIPController thread 1569 starting
+14Apr21 07:34:08.990 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eBreakMode
+14Apr21 07:34:09.014 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eBreakMode
+14Apr21 07:34:09.044 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eConfigurationMode
+14Apr21 07:34:09.830 - CControllerManager thread 1573 starting
+14Apr21 07:34:09.831 - Active controllers: Light Bar, Button Box, TSIPController
+14Apr21 07:34:09.841 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eConfigurationMode
+14Apr21 07:34:10.536 - 1 GPS Receiver MachineID = 139 0x8B Product ID = 100 0x64  firmware version 4.00 max ASAP rate 9 0x09
+14Apr21 07:34:10.635 - 1 Receiver options: Beacon = 0, VBS = 1, HP/XP/G2 = 1, SBAS = 1, RTK = 1, Glonass = 0, Secondary GPS = 0
+14Apr21 07:34:10.775 - 1 Desired GPS Quality; 8, RTK
+14Apr21 07:34:10.781 - 1 Desired GPS Quality: 8, RTK
+14Apr21 07:34:10.782 - >>>>>>>>>>>> Changed Radio to CMR mode
+14Apr21 07:34:11.624 - 1 CGPSReceiver::ChangeReceiverMode() Mode changed to: eNormalOperation
+14Apr21 07:34:11.669 - 1 Reported fix quality from TSIP: RTK
+14Apr21 07:34:11.673 - 1 Picus version = 4.00.018.4   hwRev:H
+14Apr21 07:34:11.674 - 1 Picus build date = Thu Mar 22 2012
+14Apr21 07:34:11.675 - 1 Picus EXIPRY date = 
+14Apr21 07:34:11.691 - 1 Radio version 82
+14Apr21 07:34:11.693 - 1 GPS Quality changed to: 2, RTK Fixed
+14Apr21 07:34:11.783 - 1 RTK Network ID 10
+14Apr21 07:34:11.784 - 1 Setting RTK Network ID = 10
+14Apr21 07:34:11.785 - 1 Resetting Radio
+14Apr21 07:34:12.635 - 1 GPS Receiver: Internal<br>      Version: 4.00.018.4   hw:H<br>      FW Build date: Thu Mar 22 2012<br>      Corrections: RTK
+14Apr21 07:34:12.809 - 1 RTK Network ID 10
+14Apr21 07:34:13.323 - ERROR: DCOL NACK reason: Unsupported Radio Command (subtype invalid)
+14Apr21 07:34:14.071 - CDrawThread thread 1586 starting
+14Apr21 07:34:20.535 - SideBar: Config
+14Apr21 07:34:39.438 - TextBox: <b>Please ensure power supply remains uninterrupted and
+14Apr21 07:34:51.937 - TextBox: Preparing File List...
+14Apr21 07:34:52.012 - Copying data dictionary from FmX to USB
+14Apr21 07:34:52.582 - Removed DCM300 log files
+14Apr21 07:34:53.831 - TextBox: Copy successful.<br><br>Free space left on destination:
+14Apr21 07:35:00.409 - Internal temperature: 18.50C
+14Apr21 07:35:41.118 - TextBox: Preparing File List...
+14Apr21 07:35:41.177 - Copying vehicle info from FmX to USB
+14Apr21 07:36:08.137 - Vehicle inter-GPS gap = 274ms (UTC= 0.20s)
+14Apr21 07:36:21.815 - Removed DCM300 log files
+14Apr21 07:36:26.412 - TextBox: Copy successful.<br><br>Free space left on destination:
+14Apr21 07:36:34.212 - TextBox: Preparing File List...
+14Apr21 07:36:34.281 - Copying configuration from FmX to USB
+14Apr21 07:36:34.282 - Copying preferences from FmX to USB
+14Apr21 07:36:34.368 - Copying sporo from FmX to USB
+14Apr21 07:36:34.372 - Copying Implement archive from FmX to USB
+14Apr21 07:36:34.531 - Copying System archive from FmX to USB
+14Apr21 07:36:34.552 - Copying Vehicle archive from FmX to USB
+14Apr21 07:36:35.737 - Vehicle inter-GPS gap = 271ms (UTC= 0.20s)
+14Apr21 07:36:49.234 - Removed DCM300 log files
+14Apr21 07:36:52.216 - TextBox: Copy successful.<br><br>Free space left on destination:
+14Apr21 07:36:59.972 - TextBox: Preparing File List...
+14Apr21 07:37:00.455 - CPU 35.8+30.4% | Qt Thread  21.4% | CInfoMgmtN  1.5% | Controller  1.3% | CGuidanceT  1.2% | CanManager  1.1%
+14Apr21 07:37:26.924 - Vehicle inter-GPS gap = 273ms (UTC= 0.20s)
+14Apr21 07:37:42.077 - Copying diagnostics from FmX to USB

@@ -1,0 +1,9 @@
+<kml>
+    <Placemark>
+        <name>Earls Yard West Side</name>
+        <description>Field Origin</description>
+        <Point>
+            <coordinates>151.411556282,-27.351320234,359.318</coordinates>
+        </Point>
+    </Placemark>
+</kml>
