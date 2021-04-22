@@ -1,0 +1,55 @@
+AgGPS FieldManager V6.01.01 Application Report
+
+Client Name,                 	jeude
+Farm Name,                   	eves
+Field Name,                  	master ab eves track west side
+Event Name,                  	renovator2
+Operator,                    	
+Material,                    	
+Crop,                        	
+Weather,                     	
+Notes,                       	
+
+Start Date,                  	14-Sep-2004
+Start Time,                  	10:14:16
+Last Date,                   	05-Sep-2013
+Last Time,                   	14:57:35
+Field latitude,              	27° 23' 23" S
+Field longitude,             	151° 22' 46" E
+Field Area,                  	0.0000
+Productive Area,             	0.0000
+Area Units,                  	ha
+Perimeter,                   	0.0000
+A-B Length,                  	749.5576
+Distance Units,              	m
+Speed Units,                 	kph
+Serial Number,               	4429B36385
+
+Pattern,                     	A-B Line
+Number of Headlands,         	0002
+Swath Width,                 	11.0000
+Application Width,           	11.0000
+Average Offline,             	0.0640
+Standard Dev. Offline,       	1.4458
+Total Time,                  	000:14:31.25
+Total Distance,              	2018.7027
+Application Area,            	2.2206
+Area Remaining,              	0.0000
+Percent Complete,            	0.0000
+Area/Hour,                   	9.1754
+Completed,                   	Yes
+
+Logging Start Date,          	05-Sep-2013
+Logging Start Time,          	14:43:21
+Total Quantity Applied,      	0.0000
+Default Rate,                	0.0000
+Average Rate,                	0.0000
+Last Swath,                  	-0001
+Swath Direction,             	Auto
+Work Towards,                	Point C
+Generate Access Paths,       	No
+Number of Skips,             	0002
+Access Path Width,           	0.0000
+Swaths in First Group,       	0001
+Swaths in Subsequent Groups,	0002
+Guide to,                    	Swaths

@@ -1,0 +1,55 @@
+AgGPS FieldManager V6.25 Application Report
+
+Client Name,                 	jeude
+Farm Name,                   	eves
+Field Name,                  	master ab west side long runs
+Event Name,                  	wheat gas 11
+Operator,                    	
+Material,                    	nitrogen fertilizer
+Crop,                        	wheat
+Weather,                     	
+Notes,                       	
+
+Start Date,                  	14-Sep-2004
+Start Time,                  	09:37:41
+Last Date,                   	21-May-2011
+Last Time,                   	17:01:35
+Field latitude,              	27° 23' 21" S
+Field longitude,             	151° 22' 31" E
+Field Area,                  	0.0000
+Productive Area,             	0.0000
+Area Units,                  	ha
+Perimeter,                   	0.0000
+AB Length,                   	865.7177
+Distance Units,              	m
+Speed Units,                 	kph
+Serial Number,               	4429B36385
+
+Pattern,                     	AB Line
+Number of Headlands,         	0002
+Swath Width,                 	11.0000
+Application Width,           	11.0000
+Average Offline,             	0.0002
+Standard Dev. Offline,       	0.0111
+Total Time,                  	002:13:24.67
+Total Distance,              	9500.7100
+Application Area,            	10.4508
+Area Remaining,              	0.0000
+Percent Complete,            	0.0000
+Area/Hour,                   	4.7001
+Completed,                   	Yes
+
+Logging Start Date,          	21-May-2011
+Logging Start Time,          	05:31:56
+Total Quantity Applied,      	0.0000
+Default Rate,                	0.0000
+Average Rate,                	0.0000
+Last Swath,                  	0036
+Swath Direction,             	Auto
+Work Towards,                	Point C
+Generate Access Paths,       	No
+Number of Skips,             	0002
+Access Path Width,           	0.0000
+Swaths in First Group,       	0001
+Swaths in Subsequent Groups,	0002
+Guide to,                    	Swaths

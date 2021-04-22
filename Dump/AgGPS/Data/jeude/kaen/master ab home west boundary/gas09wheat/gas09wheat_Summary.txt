@@ -1,0 +1,55 @@
+AgGPS FieldManager V6.01.01 Application Report
+
+Client Name,                 	jeude
+Farm Name,                   	kaen
+Field Name,                  	master ab home west boundary
+Event Name,                  	gas09wheat
+Operator,                    	
+Material,                    	gas
+Crop,                        	wheat
+Weather,                     	
+Notes,                       	
+
+Start Date,                  	14-Sep-2004
+Start Time,                  	08:52:24
+Last Date,                   	22-Jul-2009
+Last Time,                   	07:36:49
+Field latitude,              	27° 22' 23" S
+Field longitude,             	151° 22' 45" E
+Field Area,                  	0.0000
+Productive Area,             	0.0000
+Area Units,                  	ha
+Perimeter,                   	0.0000
+A-B Length,                  	1356.7847
+Distance Units,              	m
+Speed Units,                 	kph
+Serial Number,               	4429B36385
+
+Pattern,                     	A-B Line
+Number of Headlands,         	0002
+Swath Width,                 	11.0000
+Application Width,           	11.0000
+Average Offline,             	-0.0015
+Standard Dev. Offline,       	0.0436
+Total Time,                  	006:25:51.28
+Total Distance,              	53643.6359
+Application Area,            	59.0080
+Area Remaining,              	0.0000
+Percent Complete,            	0.0000
+Area/Hour,                   	9.1757
+Completed,                   	Yes
+
+Logging Start Date,          	20-Jul-2009
+Logging Start Time,          	12:21:01
+Total Quantity Applied,      	0.0000
+Default Rate,                	0.0000
+Average Rate,                	0.0000
+Last Swath,                  	-0034
+Swath Direction,             	Auto
+Work Towards,                	Point C
+Generate Access Paths,       	No
+Number of Skips,             	0002
+Access Path Width,           	0.0000
+Swaths in First Group,       	0001
+Swaths in Subsequent Groups,	0002
+Guide to,                    	Swaths

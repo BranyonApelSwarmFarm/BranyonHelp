@@ -1,0 +1,55 @@
+AgGPS FieldManager V6.01.01 Application Report
+
+Client Name,                 	jeude
+Farm Name,                   	sloss
+Field Name,                  	north boundary short runs
+Event Name,                  	shield spray08
+Operator,                    	
+Material,                    	rup
+Crop,                        	sorghum
+Weather,                     	
+Notes,                       	
+
+Start Date,                  	14-Sep-2004
+Start Time,                  	11:17:54
+Last Date,                   	29-Oct-2008
+Last Time,                   	07:25:38
+Field latitude,              	27° 24' 04" S
+Field longitude,             	151° 22' 36" E
+Field Area,                  	0.0000
+Productive Area,             	0.0000
+Area Units,                  	ha
+Perimeter,                   	0.0000
+A-B Length,                  	1063.5985
+Distance Units,              	m
+Speed Units,                 	kph
+Serial Number,               	4429B36385
+
+Pattern,                     	A-B Line
+Number of Headlands,         	0002
+Swath Width,                 	12.0000
+Application Width,           	12.0000
+Average Offline,             	-0.0091
+Standard Dev. Offline,       	0.0223
+Total Time,                  	000:01:43.77
+Total Distance,              	55.5408
+Application Area,            	0.0666
+Area Remaining,              	0.0000
+Percent Complete,            	0.0000
+Area/Hour,                   	2.3122
+Completed,                   	Yes
+
+Logging Start Date,          	29-Oct-2008
+Logging Start Time,          	07:24:23
+Total Quantity Applied,      	0.0000
+Default Rate,                	0.0000
+Average Rate,                	0.0000
+Last Swath,                  	0000
+Swath Direction,             	Auto
+Work Towards,                	Point C
+Generate Access Paths,       	No
+Number of Skips,             	0002
+Access Path Width,           	0.0000
+Swaths in First Group,       	0001
+Swaths in Subsequent Groups,	0002
+Guide to,                    	Swaths

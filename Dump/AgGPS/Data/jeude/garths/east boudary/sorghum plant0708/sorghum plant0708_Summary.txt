@@ -1,0 +1,55 @@
+AgGPS FieldManager V6.01.01 Application Report
+
+Client Name,                 	jeude
+Farm Name,                   	garths
+Field Name,                  	east boudary
+Event Name,                  	sorghum plant0708
+Operator,                    	
+Material,                    	stz
+Crop,                        	sorghum
+Weather,                     	
+Notes,                       	
+
+Start Date,                  	14-Jul-2005
+Start Time,                  	07:10:13
+Last Date,                   	21-Sep-2007
+Last Time,                   	08:05:12
+Field latitude,              	27° 21' 01" S
+Field longitude,             	151° 22' 29" E
+Field Area,                  	0.0000
+Productive Area,             	0.0000
+Area Units,                  	ha
+Perimeter,                   	0.0000
+A-B Length,                  	1559.2213
+Distance Units,              	m
+Speed Units,                 	kph
+Serial Number,               	4429B36385
+
+Pattern,                     	A-B Line
+Number of Headlands,         	0002
+Swath Width,                 	12.0000
+Application Width,           	12.0000
+Average Offline,             	0.0399
+Standard Dev. Offline,       	0.3829
+Total Time,                  	015:06:00.94
+Total Distance,              	101545.2843
+Application Area,            	121.8544
+Area Remaining,              	0.0000
+Percent Complete,            	0.0000
+Area/Hour,                   	8.0697
+Completed,                   	Yes
+
+Logging Start Date,          	20-Sep-2007
+Logging Start Time,          	16:36:28
+Total Quantity Applied,      	0.0000
+Default Rate,                	0.0000
+Average Rate,                	0.0000
+Last Swath,                  	-0057
+Swath Direction,             	Auto
+Work Towards,                	Point C
+Generate Access Paths,       	No
+Number of Skips,             	0002
+Access Path Width,           	0.0000
+Swaths in First Group,       	0001
+Swaths in Subsequent Groups,	0002
+Guide to,                    	Swaths

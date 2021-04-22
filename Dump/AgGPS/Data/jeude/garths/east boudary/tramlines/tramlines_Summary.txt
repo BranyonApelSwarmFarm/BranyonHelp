@@ -1,0 +1,55 @@
+AgGPS FieldManager V6.01.01 Application Report
+
+Client Name,                 	jeude
+Farm Name,                   	garths
+Field Name,                  	east boudary
+Event Name,                  	tramlines
+Operator,                    	
+Material,                    	
+Crop,                        	
+Weather,                     	
+Notes,                       	
+
+Start Date,                  	14-Jul-2005
+Start Time,                  	07:10:13
+Last Date,                   	02-Jun-2016
+Last Time,                   	02:17:04
+Field latitude,              	27° 21' 01" S
+Field longitude,             	151° 22' 29" E
+Field Area,                  	0.0000
+Productive Area,             	0.0000
+Area Units,                  	ha
+Perimeter,                   	0.0000
+A-B Length,                  	1559.2213
+Distance Units,              	m
+Speed Units,                 	kph
+Serial Number,               	4429B36385
+
+Pattern,                     	A-B Line
+Number of Headlands,         	0002
+Swath Width,                 	11.0000
+Application Width,           	11.0000
+Average Offline,             	0.0106
+Standard Dev. Offline,       	0.1738
+Total Time,                  	014:06:14.75
+Total Distance,              	103384.9425
+Application Area,            	113.7234
+Area Remaining,              	0.0000
+Percent Complete,            	0.0000
+Area/Hour,                   	8.0631
+Completed,                   	No
+
+Logging Start Date,          	01-Jun-2016
+Logging Start Time,          	15:09:12
+Total Quantity Applied,      	0.0000
+Default Rate,                	0.0000
+Average Rate,                	0.0000
+Last Swath,                  	-0062
+Swath Direction,             	Auto
+Work Towards,                	Point C
+Generate Access Paths,       	No
+Number of Skips,             	0002
+Access Path Width,           	0.0000
+Swaths in First Group,       	0001
+Swaths in Subsequent Groups,	0002
+Guide to,                    	Swaths

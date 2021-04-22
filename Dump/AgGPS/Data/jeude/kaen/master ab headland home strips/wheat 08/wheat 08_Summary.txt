@@ -1,0 +1,55 @@
+AgGPS FieldManager V6.01.01 Application Report
+
+Client Name,                 	jeude
+Farm Name,                   	kaen
+Field Name,                  	master ab headland home strips
+Event Name,                  	wheat 08
+Operator,                    	
+Material,                    	stz
+Crop,                        	wheat
+Weather,                     	
+Notes,                       	
+
+Start Date,                  	14-Sep-2004
+Start Time,                  	08:26:50
+Last Date,                   	04-Jul-2008
+Last Time,                   	21:50:56
+Field latitude,              	27° 22' 10" S
+Field longitude,             	151° 23' 59" E
+Field Area,                  	0.0000
+Productive Area,             	0.0000
+Area Units,                  	ha
+Perimeter,                   	0.0000
+A-B Length,                  	3901.7546
+Distance Units,              	m
+Speed Units,                 	kph
+Serial Number,               	4429B36385
+
+Pattern,                     	A-B Line
+Number of Headlands,         	0002
+Swath Width,                 	12.0000
+Application Width,           	12.0000
+Average Offline,             	-0.0169
+Standard Dev. Offline,       	0.0971
+Total Time,                  	000:10:03.54
+Total Distance,              	947.6715
+Application Area,            	1.1372
+Area Remaining,              	0.0000
+Percent Complete,            	0.0000
+Area/Hour,                   	6.7834
+Completed,                   	Yes
+
+Logging Start Date,          	16-Jun-2008
+Logging Start Time,          	18:44:57
+Total Quantity Applied,      	0.0000
+Default Rate,                	0.0000
+Average Rate,                	0.0000
+Last Swath,                  	0000
+Swath Direction,             	Auto
+Work Towards,                	Point C
+Generate Access Paths,       	No
+Number of Skips,             	0002
+Access Path Width,           	0.0000
+Swaths in First Group,       	0001
+Swaths in Subsequent Groups,	0002
+Guide to,                    	Swaths

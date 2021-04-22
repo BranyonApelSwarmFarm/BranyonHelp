@@ -1,0 +1,55 @@
+AgGPS FieldManager V6.01.01 Application Report
+
+Client Name,                 	jeude
+Farm Name,                   	kaen
+Field Name,                  	master ab 1m inside frontfence
+Event Name,                  	shield spray10
+Operator,                    	
+Material,                    	rup
+Crop,                        	sorghum
+Weather,                     	
+Notes,                       	
+
+Start Date,                  	14-Sep-2004
+Start Time,                  	07:26:08
+Last Date,                   	03-Nov-2009
+Last Time,                   	09:52:56
+Field latitude,              	27° 22' 10" S
+Field longitude,             	151° 25' 13" E
+Field Area,                  	0.0000
+Productive Area,             	0.0000
+Area Units,                  	ha
+Perimeter,                   	0.0000
+A-B Length,                  	5113.5205
+Distance Units,              	m
+Speed Units,                 	kph
+Serial Number,               	4429B36385
+
+Pattern,                     	A-B Line
+Number of Headlands,         	0002
+Swath Width,                 	11.0000
+Application Width,           	11.0000
+Average Offline,             	0.0599
+Standard Dev. Offline,       	0.5420
+Total Time,                  	013:37:54.62
+Total Distance,              	15466.0808
+Application Area,            	17.0127
+Area Remaining,              	0.0000
+Percent Complete,            	0.0000
+Area/Hour,                   	1.2480
+Completed,                   	Yes
+
+Logging Start Date,          	25-Oct-2009
+Logging Start Time,          	04:59:29
+Total Quantity Applied,      	0.0000
+Default Rate,                	0.0000
+Average Rate,                	0.0000
+Last Swath,                  	-0025
+Swath Direction,             	Auto
+Work Towards,                	Point C
+Generate Access Paths,       	No
+Number of Skips,             	0002
+Access Path Width,           	0.0000
+Swaths in First Group,       	0001
+Swaths in Subsequent Groups,	0002
+Guide to,                    	Swaths

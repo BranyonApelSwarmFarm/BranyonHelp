@@ -1,0 +1,55 @@
+AgGPS FieldManager V6.01.01 Application Report
+
+Client Name,                 	jeude
+Farm Name,                   	kaen
+Field Name,                  	master ab 1m inside frontfence
+Event Name,                  	weedit bar1
+Operator,                    	
+Material,                    	
+Crop,                        	
+Weather,                     	
+Notes,                       	
+
+Start Date,                  	14-Sep-2004
+Start Time,                  	07:26:08
+Last Date,                   	18-Mar-2020
+Last Time,                   	20:15:54
+Field latitude,              	27° 22' 10" S
+Field longitude,             	151° 25' 13" E
+Field Area,                  	0.0000
+Productive Area,             	0.0000
+Area Units,                  	ha
+Perimeter,                   	0.0000
+A-B Length,                  	5113.5207
+Distance Units,              	m
+Speed Units,                 	kph
+Serial Number,               	4429B36385
+
+Pattern,                     	A-B Line
+Number of Headlands,         	0002
+Swath Width,                 	11.0000
+Application Width,           	11.0000
+Average Offline,             	-0.2522
+Standard Dev. Offline,       	1.6859
+Total Time,                  	002:09:25.02
+Total Distance,              	21125.0621
+Application Area,            	23.2376
+Area Remaining,              	0.0000
+Percent Complete,            	0.0000
+Area/Hour,                   	10.7733
+Completed,                   	Yes
+
+Logging Start Date,          	18-Mar-2020
+Logging Start Time,          	18:14:03
+Total Quantity Applied,      	0.0000
+Default Rate,                	0.0000
+Average Rate,                	0.0000
+Last Swath,                  	-0289
+Swath Direction,             	Auto
+Work Towards,                	Point C
+Generate Access Paths,       	No
+Number of Skips,             	0002
+Access Path Width,           	0.0000
+Swaths in First Group,       	0001
+Swaths in Subsequent Groups,	0002
+Guide to,                    	Swaths

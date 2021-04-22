@@ -1,0 +1,55 @@
+AgGPS FieldManager V6.01.01 Application Report
+
+Client Name,                 	jeude
+Farm Name,                   	kaen
+Field Name,                  	master ab earls west boundary
+Event Name,                  	urea summer
+Operator,                    	
+Material,                    	urea
+Crop,                        	
+Weather,                     	
+Notes,                       	
+
+Start Date,                  	14-Sep-2004
+Start Time,                  	08:07:19
+Last Date,                   	31-Jul-2007
+Last Time,                   	21:11:30
+Field latitude,              	27° 21' 40" S
+Field longitude,             	151° 23' 58" E
+Field Area,                  	0.0000
+Productive Area,             	0.0000
+Area Units,                  	ha
+Perimeter,                   	0.0000
+A-B Length,                  	1805.4015
+Distance Units,              	m
+Speed Units,                 	kph
+Serial Number,               	4429B36385
+
+Pattern,                     	A-B Line
+Number of Headlands,         	0002
+Swath Width,                 	12.0000
+Application Width,           	12.0000
+Average Offline,             	-0.0369
+Standard Dev. Offline,       	0.1730
+Total Time,                  	000:22:24.69
+Total Distance,              	1278.0157
+Application Area,            	1.5336
+Area Remaining,              	0.0000
+Percent Complete,            	0.0000
+Area/Hour,                   	4.1058
+Completed,                   	Yes
+
+Logging Start Date,          	30-Jul-2007
+Logging Start Time,          	15:31:10
+Total Quantity Applied,      	0.0000
+Default Rate,                	0.0000
+Average Rate,                	0.0000
+Last Swath,                  	0000
+Swath Direction,             	Auto
+Work Towards,                	Point C
+Generate Access Paths,       	No
+Number of Skips,             	0002
+Access Path Width,           	0.0000
+Swaths in First Group,       	0001
+Swaths in Subsequent Groups,	0002
+Guide to,                    	Swaths

@@ -1,0 +1,55 @@
+AgGPS FieldManager V6.01.01 Application Report
+
+Client Name,                 	jeude
+Farm Name,                   	ladd
+Field Name,                  	mickleborough rd
+Event Name,                  	ss12
+Operator,                    	
+Material,                    	
+Crop,                        	
+Weather,                     	
+Notes,                       	
+
+Start Date,                  	24-May-2012
+Start Time,                  	12:22:38
+Last Date,                   	08-Jun-2013
+Last Time,                   	20:52:23
+Field latitude,              	27° 24' 16" S
+Field longitude,             	151° 22' 54" E
+Field Area,                  	0.0000
+Productive Area,             	0.0000
+Area Units,                  	ha
+Perimeter,                   	0.0000
+A-B Length,                  	2401.2008
+Distance Units,              	m
+Speed Units,                 	kph
+Serial Number,               	4429B36385
+
+Pattern,                     	A-B Line
+Number of Headlands,         	0002
+Swath Width,                 	11.0000
+Application Width,           	11.0000
+Average Offline,             	0.0407
+Standard Dev. Offline,       	1.8876
+Total Time,                  	028:47:52.29
+Total Distance,              	106398.2459
+Application Area,            	117.0381
+Area Remaining,              	0.0000
+Percent Complete,            	0.0000
+Area/Hour,                   	4.0641
+Completed,                   	Yes
+
+Logging Start Date,          	24-Dec-2012
+Logging Start Time,          	04:51:55
+Total Quantity Applied,      	0.0000
+Default Rate,                	0.0000
+Average Rate,                	0.0000
+Last Swath,                  	0002
+Swath Direction,             	Auto
+Work Towards,                	Point C
+Generate Access Paths,       	No
+Number of Skips,             	0002
+Access Path Width,           	0.0000
+Swaths in First Group,       	0001
+Swaths in Subsequent Groups,	0002
+Guide to,                    	Swaths

@@ -1,0 +1,35 @@
+<Mapwin name="MapWindow GIS *" type="projectfile" version="4.3.2654" ConfigurationPath="C:\Program Files\MapWindow\default.mwcfg" ProjectProjection="+proj=utm +zone=56 +south +ellps=WGS84 +datum=WGS84 +units=m +no_defs " MapUnits="Meters" ShowFloatingScaleBar="False" FloatingScaleBarPosition="LowerRight" FloatingScaleBarUnit="" FloatingScaleBarForecolor="-16777216" FloatingScaleBarBackcolor="-1" MapResizeBehavior="0" ShowStatusBarCoords_Projected="True" ShowStatusBarCoords_Alternate="Lat/Long">
+  <Plugins>
+    <Plugin SettingsString="" Key="GISTools_mwGISTools" />
+  </Plugins>
+  <ApplicationPlugins PluginDir="ApplicationPlugins">
+    <Plugin SettingsString="" Key="Database_OpenHydroPluginClass" />
+    <Plugin SettingsString="" Key="mwLabeler_mwLabeler" />
+    <Plugin SettingsString="Editable=False" Key="mwIdentifier_mwIdentPlugin" />
+    <Plugin SettingsString="" Key="mwTableEditor_mwTableEditorClass" />
+  </ApplicationPlugins>
+  <Extents xMax="341124.606245446" yMax="6970206.84789464" xMin="339828.608430718" yMin="6968954.25670529" />
+  <Groups>
+    <Group Name="Data Layers" Expanded="True" Position="0">
+      <Image Type="">
+      </Image>
+      <Layers>
+        <Layer Name="plant eve3 6_Coverage_Reprojected" Type="3" Path="plant eve3 6_Coverage_Reprojected.shp" Tag="" LegendPicture="" Visible="True" LabelsVisible="True" Expanded="False">
+          <Image Type="">
+          </Image>
+          <ShapeFileProperties Color="12472590" DrawFill="True" TransparencyPercent="1" FillStipple="0" LineOrPointSize="1" LineStipple="0" OutLineColor="9179711" PointType="0" CustomLineStipple="0" UseTransparency="False" TransparencyColor="0">
+            <CustomPointType>
+              <Image Type="">
+              </Image>
+            </CustomPointType>
+          </ShapeFileProperties>
+          <DynamicVisibility UseDynamicVisibility="False" xMin="0" yMin="0" xMax="0" yMax="0" />
+        </Layer>
+      </Layers>
+    </Group>
+  </Groups>
+  <PreviewMap dx="0" dy="0" xllcenter="0" yllcenter="0">
+    <Image Type="">
+    </Image>
+  </PreviewMap>
+</Mapwin>
