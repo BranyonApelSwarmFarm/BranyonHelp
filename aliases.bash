@@ -3,6 +3,9 @@
 ### Name processing
 export sf_usr="branyon.apel"
 
+### Check robot notifiers
+alias bWait='systemctl --user | grep wait-for-robot'
+
 ### Folder shortcuts
 alias bPad='cd ~/swarmbotCommon/PaddockDefinitions/'
 
