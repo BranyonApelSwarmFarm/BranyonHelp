@@ -6,6 +6,14 @@ export sf_usr="branyon.apel"
 ### Check robot notifiers
 alias bWait='systemctl --user | grep wait-for-robot'
 
+### Checkout client paddocks
+alias bJeude='git checkout dev-Jeude'
+alias bViridas='git checkout dev-Viradas'
+alias bBendee='git checkout dev-bendee-base_change'
+
+### Run paddock tester
+alias bpt='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rosrun job_maintainer paddock_tester /home/branyon.apel/swarmbotCommon/PaddockDefinitions'
+
 ### Folder shortcuts
 alias bPad='cd ~/swarmbotCommon/PaddockDefinitions/'
 
