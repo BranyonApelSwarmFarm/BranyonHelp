@@ -1,8 +1,5 @@
 #!/bin/bash/sh
 
-### Name processing
-export sf_usr="branyon.apel"
-
 ### Check robot notifiers
 alias bWait='systemctl --user | grep wait-for-robot'
 
@@ -19,9 +16,17 @@ alias bpt='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rosrun job_maintainer
 
 ### Folder shortcuts
 alias bPad='cd ~/swarmbotCommon/PaddockDefinitions/'
+alias bHELP='cd ~/BranyonHelp/'
 
 ### Git shortcuts
 alias bWIP='git add .; git commit -m "WIP"'
+
+### To get an auth token
+# curl https://authentication.swarmfarm.com/authenticate -u branyon.apel
+
+### To get coverage data
+#curl -H "Authorization: Bearer $TOKEN" https://v-romeo.swarmfarm.com:15434/v4/jobData/coverageMap?downloaderId=e91fab47-51a5-4d41-aa50-db63b3926f42 > ~/dump.txt
+
 
 check_for_ssh_add(){
 	local mykey=($(cat ~/.ssh/id_ed25519.pub))
