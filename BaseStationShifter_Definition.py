@@ -34,6 +34,18 @@ json_file = load_json(sys.argv[1])
 
 print("Moving objects in definition")
 
+if bool(sys.argv[5]) == True:
+    if "ab" in json_file["paddock"]:
+        json_file["paddock"]["ab"]["start"]["lat"] = json_file["paddock"]["ab"]["start"]["lat"]+float(sys.argv[3])
+        json_file["paddock"]["ab"]["start"]["lon"] = json_file["paddock"]["ab"]["start"]["lon"]+float(sys.argv[4])
+        json_file["paddock"]["ab"]["end"]["lat"] = json_file["paddock"]["ab"]["end"]["lat"]+float(sys.argv[3])
+        json_file["paddock"]["ab"]["end"]["lon"] = json_file["paddock"]["ab"]["end"]["lon"]+float(sys.argv[4])
+        print(bcolors.OKGREEN + "Moved the AB line")
+    else:
+        print(bcolors.WARNING + "--- WARNING: No AB line found in definition")
+else:
+    print(bcolors.OKGREEN + "Did not move the AB line")
+
 if "obstacles" in json_file["paddock"]:
     found_obstacles = 0
     for elem in json_file["paddock"]["obstacles"]:
