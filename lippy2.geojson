@@ -1,0 +1,7 @@
+MongoDB shell version v4.4.4
+connecting to: mongodb://127.0.0.1:27017/swarmbot?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("ebdf973e-6325-4d33-8883-3576d4f79078") }
+MongoDB server version: 4.4.4
+uncaught exception: ReferenceError: quiet is not defined :
+@(shell eval):1:1
+exiting with code -4

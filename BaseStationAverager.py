@@ -16,7 +16,7 @@ for row in reader:
         total_alt = total_alt + float(row[9])
         points = points + 1;
 
-print(total_lat / float(points))
-print(total_lon / float(points))
+print((((total_lat / float(points)) % 100) / 60) + float(int((total_lat / float(points)) / 100)))
+print((((total_lon / float(points)) % 100) / 60) + float(int((total_lon / float(points)) / 100)))
 print(total_alt / float(points))
 print("Averaged over " + str(points) + " points")

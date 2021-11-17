@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+
+elems=(juliet lima mike zulu bravo2 charlie2 delta2 echo2 foxtrot2 golf2 hotel2)
+
+for elem in "${elems[@]}"; do
+    # echo "$elem"
+   curl 'https://authentication-db.swarmfarm.com/api/set-permissions' \
+       -H 'Pragma: no-cache' \
+       -H 'Cache-Control: no-cache' \
+       -H 'Content-Type: application/json' \
+       -H 'Accept: */*' \
+       --data-raw "{\"username\":\"Shayne.Dunbar\",\"robot\":\"$elem\",\"isAllowed\":true}"
+done

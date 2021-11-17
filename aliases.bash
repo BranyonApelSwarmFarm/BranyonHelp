@@ -10,14 +10,22 @@ alias bBendee='git checkout dev-bendee'
 
 ### ros access client
 alias bRos='source /etc/profile.d/swarmfarm-ros-access-client.sh;ros-access-client mike -f 172.20.60.6'
+
 ### Steering tuning
 alias bSteer='rqt_plot /SwarmbotPlcController/hardware_responses/articulation_angle /SwarmbotPlcController/steering_command'
+
 ### Drive tuning
 alias bDrive='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotPlcController/drive_velocity_command /SwarmbotPlcController/hardware_responses/wheel_linear_vel_average /SwarmbotLocalisation/gps/fix/velocities/ground'
+
 ### Velocity tuning
 alias bVel='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotPlcController/hardware_responses/wheel_linear_vel_average /SwarmbotLocalisation/gps/fix/velocities/ground'
+
 ### Run paddock tester
 alias bpt='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rosrun job_maintainer paddock_tester /home/branyon.apel/swarmbotCommon/PaddockDefinitions'
+alias bpt2='rosrun job_maintainer work_zone_simplifier 56J . definition.txt "" 0.0 0'
+
+### Visualise point clouds
+alias bVis='source ~/swarmbot4/swarmbot_ws/devel/setup.sh;roslaunch safety visualisation.launch'
 
 ### Folder shortcuts
 alias bPad='cd ~/swarmbotCommon/PaddockDefinitions/'
