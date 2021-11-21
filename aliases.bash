@@ -1,5 +1,8 @@
 #!/bin/bash/sh
 
+###
+# awk -F "," '$1 == 296 && $9 >= 36' log
+
 ### Check robot notifiers
 alias bWait='systemctl --user | grep wait-for-robot'
 
@@ -7,6 +10,9 @@ alias bWait='systemctl --user | grep wait-for-robot'
 alias bJeude='git checkout dev-Jeude'
 alias bViridas='git checkout dev-Viradas'
 alias bBendee='git checkout dev-bendee'
+
+### Mount Monash Puppet folder
+alias bMon='sshfs configmaster.swarmfarm.com:/etc/puppetlabs/code/environments/branyon/ /home/branyon.apel/Monash/Puppet/ && cd ~/Monash/Puppet'
 
 ### ros access client
 alias bRos='source /etc/profile.d/swarmfarm-ros-access-client.sh;ros-access-client mike -f 172.20.60.6'

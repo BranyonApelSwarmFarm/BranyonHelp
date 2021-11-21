@@ -1,6 +1,7 @@
 import csv, sys
 
-# use like python3 BaseStationAverager.py IN
+# Use like python3 BaseStationAverager.py IN
+# Takes a document of serial output from a GPS, extracts the GPGGA strings and averages them
 
 reader = csv.reader(open(sys.argv[1]))
 
