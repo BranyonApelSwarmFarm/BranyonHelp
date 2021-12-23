@@ -11,11 +11,23 @@ alias bJeude='git checkout dev-Jeude'
 alias bViridas='git checkout dev-Viradas'
 alias bBendee='git checkout dev-bendee'
 
+### Conda / QGIS shortcuts
+alias bQGIS='conda activate qgis_stable;qgis'
+
 ### Mount Monash Puppet folder
-alias bMon='sshfs configmaster.swarmfarm.com:/etc/puppetlabs/code/environments/branyon/ /home/branyon.apel/Monash/Puppet/ && cd ~/Monash/Puppet'
+alias bMon='sshfs configmaster.swarmfarm.com:/etc/puppetlabs/code/environments/branyon/ /home/branyon.apel/Monash/Puppet/ && cd ~/Monash/Puppet && code .'
 
 ### ros access client
 alias bRos='source /etc/profile.d/swarmfarm-ros-access-client.sh;ros-access-client mike -f 172.20.60.6'
+
+### Axle Tracking
+alias bSpeeds='rqt_plot /SwarmbotPlcController/hardware_responses/wheel_linear_vel_front_left /SwarmbotPlcController/hardware_responses/wheel_linear_vel_front_right /SwarmbotPlcController/hardware_responses/wheel_linear_vel_rear_left /SwarmbotPlcController/hardware_responses/wheel_linear_vel_rear_right'
+
+### Axle Tracking
+alias bPress='rqt_plot /SwarmbotPlcController/hardware_responses/front_mobility_pump_pressure /SwarmbotPlcController/hardware_responses/rear_mobility_pump_pressure'
+
+### Spray tuning
+alias bSpray='rqt_plot /SwarmbotAttachments/sprayer_v1/spray_pressure /SwarmbotAttachments/sprayer_v1/spray_pressure_reference'
 
 ### Steering tuning
 alias bSteer='rqt_plot /SwarmbotPlcController/hardware_responses/articulation_angle /SwarmbotPlcController/steering_command'
