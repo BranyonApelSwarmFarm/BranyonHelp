@@ -19,12 +19,16 @@ reader = csv.reader(open(sys.argv[1]))
 lats = []
 lons = []
 alts = []
+PoorPoints = 0
 
 for row in reader:
     if row[0] == "$GPGGA":
-        lats.append(float(row[2]))
-        lons.append(float(row[4]))
-        alts.append(float(row[9]))
+        if row[6] == "4":
+            lats.append(float(row[2]))
+            lons.append(float(row[4]))
+            alts.append(float(row[9]))
+        else:
+            PoorPoints += 1
        
 print()
 
@@ -49,5 +53,10 @@ elif (len(alts) > 10):
 	print(bcolors.WARNING + "Number of points is low")
 else:
 	print(bcolors.FAIL + "Not enough points")
+
+if (PoorPoints == 0):
+	print(bcolors.OKGREEN + "No poor points")
+else:
+	print(bcolors.WARNING + str(PoorPoints) + " poor points")
 	
 print()
