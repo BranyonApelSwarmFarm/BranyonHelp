@@ -34,7 +34,7 @@ json_file = load_json(sys.argv[1])
 
 print("Moving objects in definition")
 
-if bool(sys.argv[5]) == True:
+if bool(sys.argv[5]) == "1":
     if "ab" in json_file["paddock"]:
         json_file["paddock"]["ab"]["start"]["lat"] = json_file["paddock"]["ab"]["start"]["lat"]+float(sys.argv[3])
         json_file["paddock"]["ab"]["start"]["lon"] = json_file["paddock"]["ab"]["start"]["lon"]+float(sys.argv[4])
