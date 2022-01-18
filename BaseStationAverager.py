@@ -23,7 +23,7 @@ PoorPoints = 0
 
 for row in reader:
     if row[0] == "$GPGGA":
-        if row[6] == "4":
+        if row[6] >= sys.argv[1]:
             lats.append(float(row[2]))
             lons.append(float(row[4]))
             alts.append(float(row[9]))
@@ -32,9 +32,12 @@ for row in reader:
        
 print()
 
+lat = statistics.mean(lats)
+lon = statistics.mean(lons)
+
 # This is just beautiful maths, all because GGA strings encode their data as dddmm.mmmmmm which is just stupid
-print(str(((statistics.mean(lats) % 100) / 60) + int(statistics.mean(lats) / 100)) + "\t" + str(statistics.stdev(lats)))
-print(str(((statistics.mean(lons) % 100) / 60) + int(statistics.mean(lons) / 100)) + "\t" + str(statistics.stdev(lons)))
+print(str(((lat % 100) / 60) + int(lat / 100)) + "\t" + str(int(lat / 100)) + "\u00b0 " + str(int(lat % 100)) + "\" " + str((lat % 1) * 60) + "\' " + "\t" + str(statistics.stdev(lats)))
+print(str(((lon % 100) / 60) + int(lon / 100)) + "\t" + str(int(lon / 100)) + "\u00b0 " + str(int(lon % 100)) + "\" " + str((lon % 1) * 60) + "\' " + "\t" + str(statistics.stdev(lons)))
 print(str(statistics.mean(alts)) + "\t" + str(statistics.stdev(alts)))
 print("Averaged over " + str(len(alts)) + " points")
 
