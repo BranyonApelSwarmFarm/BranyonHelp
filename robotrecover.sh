@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-elems=(juliet kilo lima mike november oscar papa quebec romeo sierra tango uniform victor whiskey xray yankee zulu alpha2 beta2 charlie2)
+elems=(juliet kilo lima mike november oscar papa quebec romeo sierra tango uniform victor whiskey xray yankee zulu alpha2 beta2 charlie2 delta2 echo2 foxtrot2)
 
 for elem in "${elems[@]}"; do
     # echo "$elem"
