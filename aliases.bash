@@ -23,26 +23,25 @@ alias bMon='sshfs configmaster.swarmfarm.com:/etc/puppetlabs/code/environments/b
 ### ros access client
 alias bRos='source /etc/profile.d/swarmfarm-ros-access-client.sh;ros-access-client mike -f 172.20.60.6'
 
+alias bHead='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotLocalisation/gps/fix/heading_track_over_ground /SwarmbotLocalisation/gps/fix/dual_antenna_heading /SwarmbotLocalisation/gps/fix/heading/data'
+
 ### Spray pressure
-alias bSpray='rqt_plot /SwarmbotAttachments/sprayer_v1/spray_pressure /SwarmbotAttachments/sprayer_v1/spray_pressure_reference'
+alias bSpray='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotAttachments/sprayer_v1/spray_pressure /SwarmbotAttachments/sprayer_v1/spray_pressure_reference'
 
 ### Axle Tracking
-alias bSpeeds='rqt_plot /SwarmbotPlcController/hardware_responses/wheel_linear_vel_front_left /SwarmbotPlcController/hardware_responses/wheel_linear_vel_front_right /SwarmbotPlcController/hardware_responses/wheel_linear_vel_rear_left /SwarmbotPlcController/hardware_responses/wheel_linear_vel_rear_right'
+alias bSpeeds='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotPlcController/hardware_responses/wheel_linear_vel_front_left /SwarmbotPlcController/hardware_responses/wheel_linear_vel_front_right /SwarmbotPlcController/hardware_responses/wheel_linear_vel_rear_left /SwarmbotPlcController/hardware_responses/wheel_linear_vel_rear_right'
 
 ### Pressure plotting
-alias bPress='rqt_plot /SwarmbotPlcController/hardware_responses/front_mobility_pump_pressure /SwarmbotPlcController/hardware_responses/rear_mobility_pump_pressure'
+alias bPress='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotPlcController/hardware_responses/front_mobility_pump_pressure /SwarmbotPlcController/hardware_responses/rear_mobility_pump_pressure'
 
 ### Spray tuning
-alias bSpray='rqt_plot /SwarmbotAttachments/sprayer_v1/spray_pressure /SwarmbotAttachments/sprayer_v1/spray_pressure_reference'
+alias bSpray='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotAttachments/sprayer_v1/spray_pressure /SwarmbotAttachments/sprayer_v1/spray_pressure_reference'
 
 ### Steering tuning
-alias bSteer='rqt_plot /SwarmbotPlcController/hardware_responses/articulation_angle /SwarmbotPlcController/steering_command /SwarmbotPlatformController/distance_to_path/current'
+alias bSteer='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotPlcController/hardware_responses/articulation_angle /SwarmbotPlcController/steering_command /SwarmbotPlatformController/distance_to_path/current'
 
 ### Drive tuning
 alias bDrive='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotPlcController/drive_velocity_command /SwarmbotPlcController/hardware_responses/wheel_linear_vel_average /SwarmbotLocalisation/gps/fix/velocities/ground'
-
-### Velocity tuning
-alias bVel='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotPlcController/hardware_responses/wheel_linear_vel_average /SwarmbotLocalisation/gps/fix/velocities/ground'
 
 ### Run paddock tester
 alias bpt='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rosrun job_maintainer paddock_tester /home/branyon.apel/swarmbotCommon/PaddockDefinitions'
