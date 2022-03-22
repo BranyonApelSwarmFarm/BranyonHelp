@@ -1,5 +1,7 @@
 #!/bin/bash/sh
 
+source /opt/ros/noetic/setup.bash
+
 ###
 # awk -F "," '$1 == 296 && $9 >= 36' log
 
@@ -89,7 +91,7 @@ bbootstrap(){
 
 ### SSH simplifier
 bs(){
-	sshbot $(getrobotname $1) -u $sf_usr
+	sshbot $(getrobotname $1)
 }
 
 copy() {
