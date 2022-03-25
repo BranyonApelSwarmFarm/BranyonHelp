@@ -1,9 +1,0 @@
-1000, fence, 0, 0.000000
-1001, stream, 0, 0.000000
-1002, road, 0, 0.000000
-900, border, 0, 0.000000
-901, MP Section Line, 9, 0.000000
-902, MP Hinge Line, 10, 0.000000
-907, Planned Line, 15, 0.000000
-906, As Applied Line, 15, 0.000000
-908, Crop Row Line, 15, 0.000000

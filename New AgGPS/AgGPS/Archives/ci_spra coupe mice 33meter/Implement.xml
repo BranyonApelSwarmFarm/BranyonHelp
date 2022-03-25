@@ -1,6 +1,0 @@
-<configuration name="Implement">
-    <item name="FileIndex" type="integer">0</item>
-    <item name="Remote Logging Connector" type="integer">1</item>
-    <item name="Logging Level" type="integer">0</item>
-    <item name="OnlineSpringiness" type="float">0.1000000015</item>
-</configuration>

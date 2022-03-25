@@ -1,9 +1,0 @@
-<kml>
-    <Placemark>
-        <name>north boundary</name>
-        <description>Field Origin</description>
-        <Point>
-            <coordinates>151.432140000,-27.377230000,362.389</coordinates>
-        </Point>
-    </Placemark>
-</kml>

@@ -1,4 +1,0 @@
-<configuration name="V2V">
-    <item name="StaticIP" type="string">172.17.38.115</item>
-    <item name="Channel" type="integer">4</item>
-</configuration>

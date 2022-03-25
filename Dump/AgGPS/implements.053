@@ -1,8 +1,0 @@
-;implements file
-;units=m meters c centimeters, f feet, i inches
-units=m
-;implement name,number of rows, row width,offset (negative to the left of centre),application width
-
-john deere maxmerge, 11,  1.0000,  0.0000, 11.0000
-milne plantner, 11,  1.0000,  0.0000, 11.0000
-shield sprayer , 11,  1.0000,  0.0000, 11.0000

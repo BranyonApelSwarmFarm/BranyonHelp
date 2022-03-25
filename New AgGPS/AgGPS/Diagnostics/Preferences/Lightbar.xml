@@ -1,8 +1,0 @@
-<configuration name="Lightbar">
-    <item name="Look ahead time" type="float">0.0000000000</item>
-    <item name="Inner LED Spacing" type="float">0.0253999997</item>
-    <item name="Correction Mode" type="integer">0</item>
-    <item name="LED Brightness" type="integer">5</item>
-    <item name="Text Message" type="integer">0</item>
-    <item name="Mount Mode" type="integer">0</item>
-</configuration>

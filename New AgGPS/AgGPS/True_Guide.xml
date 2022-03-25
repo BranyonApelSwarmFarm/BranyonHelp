@@ -1,6 +1,0 @@
-<configuration name="TrueGuide">
-    <item name="HitchPointToVehicleRearAxle" type="float">0.0000000000</item>
-    <item name="RollCompensation" type="boolean">true</item>
-    <item name="Aggressiveness" type="float">100.0000000000</item>
-    <item name="CurveGuide" type="integer">0</item>
-</configuration>

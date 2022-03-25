@@ -1,9 +1,0 @@
-<configuration name="Field">
-    <item name="Pattern" type="integer">0</item>
-    <item name="A+ Heading" type="float">8.0695524216</item>
-    <item name="Headlands" type="integer">1</item>
-    <item name="RecordFreeForm" type="boolean">false</item>
-    <item name="AutoDetectUTurn" type="boolean">true</item>
-    <item name="TightTurnAngle" type="float">90.0000000000</item>
-    <item name="TightTurnLookAheadTime" type="float">5.0000000000</item>
-</configuration>

@@ -1,9 +1,0 @@
-<kml>
-    <Placemark>
-        <name>west boundary short run</name>
-        <description>Field Origin</description>
-        <Point>
-            <coordinates>151.410600000,-27.390640000,362.765</coordinates>
-        </Point>
-    </Placemark>
-</kml>

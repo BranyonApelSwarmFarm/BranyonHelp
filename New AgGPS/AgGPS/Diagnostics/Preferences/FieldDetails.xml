@@ -1,6 +1,0 @@
-<configuration name="FieldDetails">
-    <item name="Client" type="string">jeude</item>
-    <item name="Farm" type="string">baroona</item>
-    <item name="Field" type="string">east boundary</item>
-    <item name="Event" type="string">ab line</item>
-</configuration>

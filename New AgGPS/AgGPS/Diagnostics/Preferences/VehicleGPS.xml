@@ -1,5 +1,0 @@
-<configuration name="VehicleGPS">
-    <item name="Autopilot" type="boolean">false</item>
-    <item name="VechicleIcon" type="integer">0</item>
-    <item name="VechicleColour" type="integer">0</item>
-</configuration>

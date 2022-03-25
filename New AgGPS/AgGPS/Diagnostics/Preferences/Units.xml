@@ -1,5 +1,0 @@
-<configuration name="Units">
-    <item name="SpeedUnitsAreKnots" type="boolean">false</item>
-    <item name="GlobalSettingsUnits" type="integer">0</item>
-    <item name="GlobalAnhydrousType" type="integer">2</item>
-</configuration>

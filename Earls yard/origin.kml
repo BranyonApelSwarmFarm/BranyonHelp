@@ -1,9 +1,0 @@
-<kml>
-    <Placemark>
-        <name>Earls yard</name>
-        <description>Field Origin</description>
-        <Point>
-            <coordinates>151.412685758,-27.351140200,359.601</coordinates>
-        </Point>
-    </Placemark>
-</kml>
