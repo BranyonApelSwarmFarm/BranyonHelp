@@ -10,5 +10,5 @@ for elem in "${elems[@]}"; do
        -H 'Cache-Control: no-cache' \
        -H 'Content-Type: application/json' \
        -H 'Accept: */*' \
-       --data-raw "{\"username\":\"dean.matthews\",\"robot\":\"$elem\",\"isAllowed\":true}"
+       --data-raw "{\"username\":\"ben.conway\",\"robot\":\"$elem\",\"isAllowed\":true}"
 done

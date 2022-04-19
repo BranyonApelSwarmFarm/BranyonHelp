@@ -34,7 +34,7 @@ alias bSpray='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /Swarmbot
 alias bSpeeds='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotPlcController/hardware_responses/wheel_linear_vel_front_left /SwarmbotPlcController/hardware_responses/wheel_linear_vel_front_right /SwarmbotPlcController/hardware_responses/wheel_linear_vel_rear_left /SwarmbotPlcController/hardware_responses/wheel_linear_vel_rear_right'
 
 ### Pressure plotting
-alias bPress='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotPlcController/hardware_responses/front_mobility_pump_pressure /SwarmbotPlcController/hardware_responses/rear_mobility_pump_pressure'
+alias bPress='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotPlcController/hardware_responses/front_mobility_pump_pressure /SwarmbotPlcController/hardware_responses/rear_mobility_pump_pressure /SwarmbotPlcController/hardware_responses/lift_tower_pressure /SwarmbotPlcController/hardware_responses/mower_pump_pressure /SwarmbotPlcController/hardware_responses/steer_pump_pressure'
 
 ### Spray tuning
 alias bSpray='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotAttachments/sprayer_v1/spray_pressure /SwarmbotAttachments/sprayer_v1/spray_pressure_reference'

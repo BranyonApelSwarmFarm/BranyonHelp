@@ -57,6 +57,7 @@ json_file = load_json(sys.argv[2])
 
 # Set / Change cal data in YAML
 print(yaml_file)
+print(json_file)
 yaml_file['swarmfarm::swarmbot::tf_frame_mods'] = json_file
 
 # Save changes
