@@ -46,7 +46,7 @@ alias bSteer='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /Swarmbot
 alias bDrive='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotPlcController/drive_velocity_command /SwarmbotPlcController/hardware_responses/wheel_linear_vel_average /SwarmbotLocalisation/gps/fix/velocities/ground'
 
 ### Run paddock tester
-alias bpt='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rosrun job_maintainer paddock_tester /home/branyon.apel/swarmbotCommon/PaddockDefinitions'
+alias bpt='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rosrun job_maintainer job_maintainer_paddock_tester_node /home/branyon.apel/swarmbotCommon/PaddockDefinitions'
 alias bpt2='rosrun job_maintainer work_zone_simplifier 56J . definition.txt "" 0.0 0'
 
 ### Visualise point clouds
