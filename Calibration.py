@@ -3,8 +3,8 @@ import json
 import sys
 
 # use like:
-# python3 test.py IN.yaml IN.json OUT.yaml
-# python3 test.py Puppet/data/robots/yankee_slave.yaml perception_data_sanitation_tf_frame_mods.json Puppet/data/robots/yankee_slave.yaml 
+# python3 Calibration.py IN.yaml IN.json OUT.yaml
+# python3 Calibration.py Puppet/data/robots/yankee_slave.yaml perception_data_sanitation_tf_frame_mods.json Puppet/data/robots/yankee_slave.yaml 
 
 #Load a yaml config into a dictionary
 def load_yaml(string):

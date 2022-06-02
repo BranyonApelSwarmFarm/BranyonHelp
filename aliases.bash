@@ -40,7 +40,7 @@ alias bPress='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /Swarmbot
 alias bSpray='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotAttachments/sprayer_v1/spray_pressure /SwarmbotAttachments/sprayer_v1/spray_pressure_reference'
 
 ### Steering tuning
-alias bSteer='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotPlcController/hardware_responses/articulation_angle /SwarmbotPlcController/steering_command /SwarmbotPlatformController/distance_to_path/current'
+alias bSteer='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotPlcController/hardware_responses/articulation_angle /SwarmbotPlcController/steering_command /SwarmbotPlatformController/distance_to_path/current/front /SwarmbotPlatformController/distance_to_path/current/rear'
 
 ### Drive tuning
 alias bDrive='source ~/swarmbot4/swarmbot_ws/devel/setup.bash;rqt_plot /SwarmbotPlcController/drive_velocity_command /SwarmbotPlcController/hardware_responses/wheel_linear_vel_average /SwarmbotLocalisation/gps/fix/velocities/ground'
